@@ -1,0 +1,25 @@
+{
+  "run_at": "2026-09-06T21:36:40.026856",
+  "topic": "presight.project.events",
+  "total_messages_consumed": 8333,
+  "event_counts": {
+    "task_created": 983,
+    "logout": 1623,
+    "escalation_resolved": 158,
+    "milestone_reached": 16,
+    "project_status_change": 648,
+    "document_uploaded": 524,
+    "meeting_scheduled": 333,
+    "task_completed": 849,
+    "escalation_raised": 178,
+    "approval_requested": 161,
+    "login": 2121,
+    "comment_added": 325,
+    "budget_updated": 252,
+    "approval_granted": 136,
+    "approval_rejected": 26
+  },
+  "critical_escalations_forwarded": 14,
+  "elapsed_seconds": 14.28,
+  "throughput_messages_per_second": 583.65
+}

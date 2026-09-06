@@ -1,0 +1,1827 @@
+employee_id,previous_salary,new_salary,previous_role,new_role,previous_level,new_level,effective_date,change_type,change_reason
+EMP0866,,30416,,Brand Manager,,Mid,2012-06-15,Hire,Initial appointment
+EMP0866,30416,32584,Brand Manager,Brand Manager,Mid,Mid,2017-05-27,Annual Raise,Project completion bonus integration
+EMP0866,32584,49176,Brand Manager,Brand Manager,Mid,Lead,2023-10-10,Promotion,Cost of living adjustment
+EMP0519,,11490,,Senior Data Engineer,,Mid,2024-03-15,Hire,Initial appointment
+EMP0519,11490,15968,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2025-04-09,Promotion,Promoted following review
+EMP0935,,15010,,Finance Manager,,Junior,2020-06-14,Hire,Initial appointment
+EMP0935,15010,25202,Finance Manager,Finance Manager,Junior,Senior,2023-08-25,Promotion,Annual performance increase
+EMP0117,,17733,,Data Analyst,,Junior,2014-09-28,Hire,Initial appointment
+EMP0117,17733,29059,Data Analyst,Data Analyst,Junior,Senior,2022-11-07,Promotion,Market correction adjustment
+EMP0308,,9069,,Supply Chain Analyst,,Mid,2024-03-08,Hire,Initial appointment
+EMP0308,9069,12156,Supply Chain Analyst,Supply Chain Analyst,Mid,Junior,2024-11-29,Promotion,Project completion bonus integration
+EMP0786,,12813,,DevOps Engineer,,Junior,2024-08-07,Hire,Initial appointment
+EMP0786,12813,15294,DevOps Engineer,DevOps Engineer,Junior,Junior,2025-03-12,Annual Raise,Annual performance increase
+EMP0786,15294,19158,DevOps Engineer,DevOps Engineer,Junior,Mid,2025-06-10,Promotion,Promoted following review
+EMP0938,,10036,,Operations Analyst,,Mid,2024-06-11,Hire,Initial appointment
+EMP0938,10036,10968,Operations Analyst,Operations Analyst,Mid,Mid,2025-05-10,Annual Raise,Market correction adjustment
+EMP0938,10968,13509,Operations Analyst,Operations Analyst,Mid,Junior,2025-06-13,Promotion,Cost of living adjustment
+EMP0009,,12521,,Compliance Analyst,,Junior,2020-01-26,Hire,Initial appointment
+EMP0009,12521,21174,Compliance Analyst,Compliance Analyst,Junior,Mid,2021-09-16,Promotion,Promoted following review
+EMP0453,,16624,,Finance Manager,,Junior,2020-03-17,Hire,Initial appointment
+EMP0453,16624,18671,Finance Manager,Finance Manager,Junior,Junior,2024-01-05,Annual Raise,Cost of living adjustment
+EMP0453,18671,28401,Finance Manager,Finance Manager,Junior,Senior,2024-03-16,Promotion,Promoted following review
+EMP0761,,28013,,Operations Analyst,,Mid,2010-04-06,Hire,Initial appointment
+EMP0761,28013,31007,Operations Analyst,Operations Analyst,Mid,Mid,2011-07-13,Annual Raise,Cost of living adjustment
+EMP0761,31007,40960,Operations Analyst,Operations Analyst,Mid,Lead,2015-05-01,Promotion,Market correction adjustment
+EMP0724,,14777,,Procurement Analyst,,Junior,2022-08-06,Hire,Initial appointment
+EMP0724,14777,22911,Procurement Analyst,Procurement Analyst,Junior,Mid,2023-09-09,Promotion,Promoted following review
+EMP0167,,15145,,HR Analyst,,Junior,2024-04-28,Hire,Initial appointment
+EMP0167,15145,16623,HR Analyst,HR Analyst,Junior,Junior,2024-11-26,Annual Raise,Cost of living adjustment
+EMP0167,16623,19113,HR Analyst,HR Analyst,Junior,Junior,2025-01-17,Annual Raise,Market correction adjustment
+EMP0167,19113,23297,HR Analyst,HR Analyst,Junior,Mid,2025-04-17,Promotion,Project completion bonus integration
+EMP0972,,12072,,Compliance Analyst,,Junior,2022-04-14,Hire,Initial appointment
+EMP0972,12072,13679,Compliance Analyst,Compliance Analyst,Junior,Junior,2023-11-17,Annual Raise,Project completion bonus integration
+EMP0972,13679,19475,Compliance Analyst,Compliance Analyst,Junior,Mid,2024-04-03,Promotion,Project completion bonus integration
+EMP0342,,9646,,Data Analyst,,Mid,2024-02-03,Hire,Initial appointment
+EMP0342,9646,10852,Data Analyst,Data Analyst,Mid,Mid,2025-01-29,Annual Raise,Promoted following review
+EMP0342,10852,13371,Data Analyst,Data Analyst,Mid,Junior,2025-05-23,Promotion,Cost of living adjustment
+EMP0460,,12371,,Financial Analyst,,Junior,2023-06-15,Hire,Initial appointment
+EMP0460,12371,19521,Financial Analyst,Financial Analyst,Junior,Mid,2024-09-08,Promotion,Market correction adjustment
+EMP0506,,11226,,DevOps Engineer,,Mid,2024-07-18,Hire,Initial appointment
+EMP0506,11226,16857,DevOps Engineer,DevOps Engineer,Mid,Junior,2025-06-17,Promotion,Promoted following review
+EMP0290,,15688,,Finance Director,,Junior,2020-04-09,Hire,Initial appointment
+EMP0290,15688,18413,Finance Director,Finance Director,Junior,Junior,2021-02-27,Annual Raise,Cost of living adjustment
+EMP0290,18413,19785,Finance Director,Finance Director,Junior,Junior,2023-03-20,Annual Raise,Promoted following review
+EMP0290,19785,20819,Finance Director,Finance Director,Junior,Junior,2023-08-06,Annual Raise,Market correction adjustment
+EMP0290,20819,27222,Finance Director,Finance Director,Junior,Senior,2024-08-02,Promotion,Cost of living adjustment
+EMP0605,,18519,,IT Manager,,Junior,2013-08-17,Hire,Initial appointment
+EMP0605,18519,26900,IT Manager,IT Manager,Junior,Senior,2014-02-23,Promotion,Annual performance increase
+EMP0129,,8843,,Budget Analyst,,Mid,2022-02-26,Hire,Initial appointment
+EMP0129,8843,9441,Budget Analyst,Budget Analyst,Mid,Mid,2023-04-26,Annual Raise,Annual performance increase
+EMP0129,9441,15439,Budget Analyst,Budget Analyst,Mid,Junior,2023-08-08,Promotion,Promoted following review
+EMP0498,,7218,,Sales Analyst,,Mid,2024-04-04,Hire,Initial appointment
+EMP0498,7218,12707,Sales Analyst,Sales Analyst,Mid,Junior,2025-02-23,Promotion,Market correction adjustment
+EMP0135,,18194,,ML Engineer,,Junior,2014-06-25,Hire,Initial appointment
+EMP0135,18194,19287,ML Engineer,ML Engineer,Junior,Junior,2015-09-26,Annual Raise,Promoted following review
+EMP0135,19287,20791,ML Engineer,ML Engineer,Junior,Junior,2016-12-15,Annual Raise,Retention adjustment
+EMP0135,20791,22404,ML Engineer,ML Engineer,Junior,Junior,2023-04-29,Annual Raise,Annual performance increase
+EMP0135,22404,31553,ML Engineer,ML Engineer,Junior,Senior,2025-01-14,Promotion,Cost of living adjustment
+EMP0090,,9776,,DevOps Engineer,,Mid,2022-02-19,Hire,Initial appointment
+EMP0090,9776,10711,DevOps Engineer,DevOps Engineer,Mid,Mid,2022-12-30,Annual Raise,Retention adjustment
+EMP0090,10711,12504,DevOps Engineer,DevOps Engineer,Mid,Mid,2024-03-17,Annual Raise,Project completion bonus integration
+EMP0090,12504,14493,DevOps Engineer,DevOps Engineer,Mid,Junior,2024-07-23,Promotion,Retention adjustment
+EMP0260,,8017,,Network Engineer,,Mid,2024-01-26,Hire,Initial appointment
+EMP0260,8017,13003,Network Engineer,Network Engineer,Mid,Junior,2025-06-04,Promotion,Project completion bonus integration
+EMP0012,,18770,,Data Analyst,,Junior,2020-09-29,Hire,Initial appointment
+EMP0012,18770,21896,Data Analyst,Data Analyst,Junior,Junior,2024-05-06,Annual Raise,Market correction adjustment
+EMP0012,21896,24214,Data Analyst,Data Analyst,Junior,Junior,2024-06-27,Annual Raise,Cost of living adjustment
+EMP0012,24214,31126,Data Analyst,Data Analyst,Junior,Senior,2025-02-01,Promotion,Cost of living adjustment
+EMP0869,,14488,,Data Analyst,,Junior,2024-06-09,Hire,Initial appointment
+EMP0869,14488,15928,Data Analyst,Data Analyst,Junior,Junior,2025-02-04,Annual Raise,Promoted following review
+EMP0869,15928,16803,Data Analyst,Data Analyst,Junior,Junior,2025-02-12,Annual Raise,Retention adjustment
+EMP0869,16803,19591,Data Analyst,Data Analyst,Junior,Junior,2025-03-08,Annual Raise,Market correction adjustment
+EMP0869,19591,20279,Data Analyst,Data Analyst,Junior,Mid,2025-04-25,Promotion,Market correction adjustment
+EMP0654,,10749,,Sustainability Analyst,,Junior,2023-03-28,Hire,Initial appointment
+EMP0654,10749,12343,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2024-02-11,Annual Raise,Project completion bonus integration
+EMP0654,12343,17745,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2024-03-31,Promotion,Cost of living adjustment
+EMP0547,,24689,,Finance Director,,Mid,2009-05-31,Hire,Initial appointment
+EMP0547,24689,26918,Finance Director,Finance Director,Mid,Mid,2015-07-13,Annual Raise,Market correction adjustment
+EMP0547,26918,31873,Finance Director,Finance Director,Mid,Mid,2016-08-19,Annual Raise,Project completion bonus integration
+EMP0547,31873,40034,Finance Director,Finance Director,Mid,Lead,2017-06-18,Promotion,Promoted following review
+EMP0240,,10467,,Legal Analyst,,Mid,2024-01-07,Hire,Initial appointment
+EMP0240,10467,16865,Legal Analyst,Legal Analyst,Mid,Junior,2024-10-31,Promotion,Promoted following review
+EMP0828,,16677,,Senior Data Engineer,,Junior,2020-09-22,Hire,Initial appointment
+EMP0828,16677,17531,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-11-22,Annual Raise,Annual performance increase
+EMP0828,17531,27307,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2025-06-09,Promotion,Retention adjustment
+EMP0618,,32372,,Vendor Manager,,Mid,2009-01-13,Hire,Initial appointment
+EMP0618,32372,34531,Vendor Manager,Vendor Manager,Mid,Mid,2011-12-01,Annual Raise,Market correction adjustment
+EMP0618,34531,53484,Vendor Manager,Vendor Manager,Mid,Director,2018-06-21,Promotion,Project completion bonus integration
+EMP0931,,31987,,Platform Engineer,,Mid,2017-04-17,Hire,Initial appointment
+EMP0931,31987,35204,Platform Engineer,Platform Engineer,Mid,Mid,2020-04-05,Annual Raise,Cost of living adjustment
+EMP0931,35204,39073,Platform Engineer,Platform Engineer,Mid,Mid,2021-12-25,Annual Raise,Market correction adjustment
+EMP0931,39073,45274,Platform Engineer,Platform Engineer,Mid,Lead,2022-06-24,Promotion,Promoted following review
+EMP0975,,12829,,Financial Analyst,,Junior,2019-04-18,Hire,Initial appointment
+EMP0975,12829,17781,Financial Analyst,Financial Analyst,Junior,Mid,2025-06-22,Promotion,Retention adjustment
+EMP0531,,12957,,Vendor Manager,,Junior,2020-02-04,Hire,Initial appointment
+EMP0531,12957,14740,Vendor Manager,Vendor Manager,Junior,Junior,2020-11-25,Annual Raise,Promoted following review
+EMP0531,14740,20702,Vendor Manager,Vendor Manager,Junior,Mid,2023-04-04,Promotion,Promoted following review
+EMP0570,,19444,,Senior Data Engineer,,Junior,2014-03-24,Hire,Initial appointment
+EMP0570,19444,21732,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2023-01-14,Annual Raise,Annual performance increase
+EMP0570,21732,34375,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2024-07-26,Promotion,Market correction adjustment
+EMP0448,,12474,,Legal Analyst,,Junior,2023-04-14,Hire,Initial appointment
+EMP0448,12474,14201,Legal Analyst,Legal Analyst,Junior,Junior,2023-10-16,Annual Raise,Retention adjustment
+EMP0448,14201,15766,Legal Analyst,Legal Analyst,Junior,Junior,2023-12-05,Annual Raise,Cost of living adjustment
+EMP0448,15766,17204,Legal Analyst,Legal Analyst,Junior,Mid,2024-11-07,Promotion,Project completion bonus integration
+EMP0957,,13389,,Compliance Analyst,,Junior,2023-03-01,Hire,Initial appointment
+EMP0957,13389,14887,Compliance Analyst,Compliance Analyst,Junior,Junior,2024-11-08,Annual Raise,Retention adjustment
+EMP0957,14887,18120,Compliance Analyst,Compliance Analyst,Junior,Mid,2025-05-30,Promotion,Annual performance increase
+EMP0777,,14390,,Senior Data Analyst,,Junior,2021-08-05,Hire,Initial appointment
+EMP0777,14390,21208,Senior Data Analyst,Senior Data Analyst,Junior,Mid,2024-01-05,Promotion,Promoted following review
+EMP0304,,8208,,Lead Data Engineer,,Mid,2024-03-22,Hire,Initial appointment
+EMP0304,8208,9276,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2024-09-27,Annual Raise,Cost of living adjustment
+EMP0304,9276,10175,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-02-25,Annual Raise,Retention adjustment
+EMP0304,10175,13715,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2025-05-09,Promotion,Project completion bonus integration
+EMP0530,,16974,,Vendor Manager,,Junior,2018-08-06,Hire,Initial appointment
+EMP0530,16974,19146,Vendor Manager,Vendor Manager,Junior,Junior,2019-05-17,Annual Raise,Retention adjustment
+EMP0530,19146,22475,Vendor Manager,Vendor Manager,Junior,Junior,2019-12-31,Annual Raise,Cost of living adjustment
+EMP0530,22475,30778,Vendor Manager,Vendor Manager,Junior,Senior,2021-01-17,Promotion,Retention adjustment
+EMP0581,,22700,,BI Developer,,Junior,2017-03-25,Hire,Initial appointment
+EMP0581,22700,24016,BI Developer,BI Developer,Junior,Junior,2018-05-14,Annual Raise,Retention adjustment
+EMP0581,24016,31757,BI Developer,BI Developer,Junior,Senior,2020-09-21,Promotion,Annual performance increase
+EMP0701,,10881,,Data Engineer,,Mid,2023-04-30,Hire,Initial appointment
+EMP0701,10881,12539,Data Engineer,Data Engineer,Mid,Mid,2024-04-30,Annual Raise,Market correction adjustment
+EMP0701,12539,14447,Data Engineer,Data Engineer,Mid,Mid,2024-07-20,Annual Raise,Market correction adjustment
+EMP0701,14447,15262,Data Engineer,Data Engineer,Mid,Mid,2024-08-13,Annual Raise,Market correction adjustment
+EMP0701,15262,15161,Data Engineer,Data Engineer,Mid,Junior,2025-03-18,Promotion,Annual performance increase
+EMP0628,,10796,,Operations Analyst,,Junior,2022-07-02,Hire,Initial appointment
+EMP0628,10796,11788,Operations Analyst,Operations Analyst,Junior,Junior,2023-05-07,Annual Raise,Annual performance increase
+EMP0628,11788,12519,Operations Analyst,Operations Analyst,Junior,Junior,2025-01-18,Annual Raise,Project completion bonus integration
+EMP0628,12519,17148,Operations Analyst,Operations Analyst,Junior,Mid,2025-05-24,Promotion,Market correction adjustment
+EMP0420,,12832,,Vendor Manager,,Junior,2020-01-19,Hire,Initial appointment
+EMP0420,12832,14112,Vendor Manager,Vendor Manager,Junior,Junior,2020-08-02,Annual Raise,Cost of living adjustment
+EMP0420,14112,15784,Vendor Manager,Vendor Manager,Junior,Junior,2021-12-04,Annual Raise,Cost of living adjustment
+EMP0420,15784,16585,Vendor Manager,Vendor Manager,Junior,Junior,2023-03-11,Annual Raise,Project completion bonus integration
+EMP0420,16585,20665,Vendor Manager,Vendor Manager,Junior,Mid,2024-03-26,Promotion,Project completion bonus integration
+EMP0285,,18657,,Brand Manager,,Junior,2014-03-19,Hire,Initial appointment
+EMP0285,18657,26843,Brand Manager,Brand Manager,Junior,Senior,2021-01-23,Promotion,Promoted following review
+EMP0462,,25960,,Compliance Analyst,,Mid,2015-06-13,Hire,Initial appointment
+EMP0462,25960,30518,Compliance Analyst,Compliance Analyst,Mid,Mid,2015-12-31,Annual Raise,Project completion bonus integration
+EMP0462,30518,32080,Compliance Analyst,Compliance Analyst,Mid,Mid,2017-12-01,Annual Raise,Project completion bonus integration
+EMP0462,32080,46537,Compliance Analyst,Compliance Analyst,Mid,Lead,2021-08-28,Promotion,Retention adjustment
+EMP0694,,14198,,Senior Data Engineer,,Junior,2022-05-21,Hire,Initial appointment
+EMP0694,14198,19697,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2023-04-08,Promotion,Market correction adjustment
+EMP0152,,23485,,Legal Analyst,,Mid,2016-06-11,Hire,Initial appointment
+EMP0152,23485,27450,Legal Analyst,Legal Analyst,Mid,Mid,2017-01-10,Annual Raise,Annual performance increase
+EMP0152,27450,32006,Legal Analyst,Legal Analyst,Mid,Mid,2022-08-27,Annual Raise,Cost of living adjustment
+EMP0152,32006,42067,Legal Analyst,Legal Analyst,Mid,Lead,2025-01-05,Promotion,Market correction adjustment
+EMP0083,,20304,,Lead Data Engineer,,Junior,2022-07-22,Hire,Initial appointment
+EMP0083,20304,29837,Lead Data Engineer,Lead Data Engineer,Junior,Senior,2023-06-10,Promotion,Promoted following review
+EMP0565,,11889,,Legal Analyst,,Junior,2020-03-17,Hire,Initial appointment
+EMP0565,11889,12632,Legal Analyst,Legal Analyst,Junior,Junior,2020-12-30,Annual Raise,Retention adjustment
+EMP0565,12632,20969,Legal Analyst,Legal Analyst,Junior,Mid,2023-08-20,Promotion,Market correction adjustment
+EMP0812,,28081,,Senior Data Engineer,,Mid,2016-03-18,Hire,Initial appointment
+EMP0812,28081,30363,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2018-01-06,Annual Raise,Annual performance increase
+EMP0812,30363,48745,Senior Data Engineer,Senior Data Engineer,Mid,Lead,2024-07-24,Promotion,Project completion bonus integration
+EMP0288,,16400,,Finance Director,,Junior,2023-03-10,Hire,Initial appointment
+EMP0288,16400,22703,Finance Director,Finance Director,Junior,Mid,2024-02-28,Promotion,Market correction adjustment
+EMP0919,,25108,,Vendor Manager,,Mid,2007-01-21,Hire,Initial appointment
+EMP0919,25108,29287,Vendor Manager,Vendor Manager,Mid,Mid,2013-07-23,Annual Raise,Annual performance increase
+EMP0919,29287,42309,Vendor Manager,Vendor Manager,Mid,Lead,2018-08-09,Promotion,Annual performance increase
+EMP0266,,8277,,Data Engineer,,Mid,2024-01-15,Hire,Initial appointment
+EMP0266,8277,14605,Data Engineer,Data Engineer,Mid,Junior,2025-02-26,Promotion,Cost of living adjustment
+EMP0485,,12694,,Sustainability Analyst,,Junior,2024-09-04,Hire,Initial appointment
+EMP0485,12694,13880,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2025-05-24,Annual Raise,Promoted following review
+EMP0485,13880,17274,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-06-01,Promotion,Retention adjustment
+EMP0142,,36220,,Account Manager,,Mid,2014-02-05,Hire,Initial appointment
+EMP0142,36220,48941,Account Manager,Account Manager,Mid,Lead,2021-05-15,Promotion,Annual performance increase
+EMP0255,,10651,,UX Designer,,Junior,2024-02-25,Hire,Initial appointment
+EMP0255,10651,18660,UX Designer,UX Designer,Junior,Mid,2025-06-12,Promotion,Promoted following review
+EMP0128,,15162,,UX Designer,,Junior,2016-03-19,Hire,Initial appointment
+EMP0128,15162,17690,UX Designer,UX Designer,Junior,Junior,2022-10-09,Annual Raise,Cost of living adjustment
+EMP0128,17690,25311,UX Designer,UX Designer,Junior,Senior,2023-08-22,Promotion,Market correction adjustment
+EMP0486,,19576,,Vendor Manager,,Junior,2021-02-15,Hire,Initial appointment
+EMP0486,19576,20832,Vendor Manager,Vendor Manager,Junior,Junior,2023-07-05,Annual Raise,Market correction adjustment
+EMP0486,20832,23824,Vendor Manager,Vendor Manager,Junior,Junior,2024-05-23,Annual Raise,Project completion bonus integration
+EMP0486,23824,32617,Vendor Manager,Vendor Manager,Junior,Senior,2024-06-19,Promotion,Cost of living adjustment
+EMP0355,,14414,,UX Designer,,Junior,2023-01-06,Hire,Initial appointment
+EMP0355,14414,16421,UX Designer,UX Designer,Junior,Junior,2024-05-18,Annual Raise,Annual performance increase
+EMP0355,16421,20250,UX Designer,UX Designer,Junior,Mid,2025-03-16,Promotion,Cost of living adjustment
+EMP0233,,37168,,Operations Analyst,,Mid,2012-02-20,Hire,Initial appointment
+EMP0233,37168,44568,Operations Analyst,Operations Analyst,Mid,Mid,2016-01-14,Annual Raise,Promoted following review
+EMP0233,44568,59891,Operations Analyst,Operations Analyst,Mid,Director,2021-11-09,Promotion,Cost of living adjustment
+EMP0800,,27602,,Legal Analyst,,Mid,2019-01-07,Hire,Initial appointment
+EMP0800,27602,43318,Legal Analyst,Legal Analyst,Mid,Lead,2020-07-21,Promotion,Retention adjustment
+EMP0592,,23915,,Brand Manager,,Junior,2020-04-05,Hire,Initial appointment
+EMP0592,23915,28220,Brand Manager,Brand Manager,Junior,Junior,2021-02-12,Annual Raise,Annual performance increase
+EMP0592,28220,31746,Brand Manager,Brand Manager,Junior,Junior,2025-04-03,Annual Raise,Project completion bonus integration
+EMP0592,31746,32426,Brand Manager,Brand Manager,Junior,Senior,2025-04-13,Promotion,Promoted following review
+EMP0689,,14523,,Product Manager,,Junior,2023-09-05,Hire,Initial appointment
+EMP0689,14523,16425,Product Manager,Product Manager,Junior,Junior,2024-04-06,Annual Raise,Annual performance increase
+EMP0689,16425,19636,Product Manager,Product Manager,Junior,Mid,2024-10-05,Promotion,Market correction adjustment
+EMP0284,,27125,,HR Analyst,,Mid,2013-07-25,Hire,Initial appointment
+EMP0284,27125,39425,HR Analyst,HR Analyst,Mid,Lead,2024-03-02,Promotion,Retention adjustment
+EMP0277,,16477,,Data Analyst,,Junior,2019-07-22,Hire,Initial appointment
+EMP0277,16477,17441,Data Analyst,Data Analyst,Junior,Junior,2021-02-24,Annual Raise,Retention adjustment
+EMP0277,17441,28891,Data Analyst,Data Analyst,Junior,Senior,2022-11-30,Promotion,Annual performance increase
+EMP0898,,9019,,Legal Analyst,,Mid,2024-06-30,Hire,Initial appointment
+EMP0898,9019,10220,Legal Analyst,Legal Analyst,Mid,Mid,2025-03-23,Annual Raise,Project completion bonus integration
+EMP0898,10220,14566,Legal Analyst,Legal Analyst,Mid,Junior,2025-05-26,Promotion,Retention adjustment
+EMP0109,,18233,,Sustainability Analyst,,Junior,2016-01-24,Hire,Initial appointment
+EMP0109,18233,26180,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2017-02-21,Promotion,Project completion bonus integration
+EMP0788,,8806,,Operations Analyst,,Mid,2024-06-05,Hire,Initial appointment
+EMP0788,8806,15115,Operations Analyst,Operations Analyst,Mid,Junior,2025-04-23,Promotion,Promoted following review
+EMP0844,,21785,,Content Strategist,,Junior,2015-07-02,Hire,Initial appointment
+EMP0844,21785,31783,Content Strategist,Content Strategist,Junior,Senior,2020-11-26,Promotion,Cost of living adjustment
+EMP0222,,31607,,Data Engineer,,Mid,2015-07-18,Hire,Initial appointment
+EMP0222,31607,45939,Data Engineer,Data Engineer,Mid,Lead,2022-10-10,Promotion,Market correction adjustment
+EMP0933,,16896,,BI Specialist,,Junior,2014-09-25,Hire,Initial appointment
+EMP0933,16896,18315,BI Specialist,BI Specialist,Junior,Junior,2020-10-18,Annual Raise,Annual performance increase
+EMP0933,18315,29709,BI Specialist,BI Specialist,Junior,Senior,2022-12-05,Promotion,Project completion bonus integration
+EMP0251,,26369,,Procurement Analyst,,Mid,2018-01-14,Hire,Initial appointment
+EMP0251,26369,30683,Procurement Analyst,Procurement Analyst,Mid,Mid,2022-01-18,Annual Raise,Retention adjustment
+EMP0251,30683,36729,Procurement Analyst,Procurement Analyst,Mid,Mid,2023-10-18,Annual Raise,Market correction adjustment
+EMP0251,36729,40466,Procurement Analyst,Procurement Analyst,Mid,Lead,2024-01-06,Promotion,Project completion bonus integration
+EMP0896,,24974,,Compliance Analyst,,Mid,2015-06-11,Hire,Initial appointment
+EMP0896,24974,27014,Compliance Analyst,Compliance Analyst,Mid,Mid,2017-06-19,Annual Raise,Promoted following review
+EMP0896,27014,29335,Compliance Analyst,Compliance Analyst,Mid,Mid,2023-06-05,Annual Raise,Market correction adjustment
+EMP0896,29335,42280,Compliance Analyst,Compliance Analyst,Mid,Lead,2024-06-19,Promotion,Promoted following review
+EMP0362,,6906,,Data Analyst,,Mid,2024-04-02,Hire,Initial appointment
+EMP0362,6906,8101,Data Analyst,Data Analyst,Mid,Mid,2025-02-24,Annual Raise,Retention adjustment
+EMP0362,8101,9356,Data Analyst,Data Analyst,Mid,Mid,2025-03-21,Annual Raise,Project completion bonus integration
+EMP0362,9356,12458,Data Analyst,Data Analyst,Mid,Junior,2025-05-13,Promotion,Promoted following review
+EMP0880,,11169,,Lead Data Engineer,,Mid,2022-05-31,Hire,Initial appointment
+EMP0880,11169,11852,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2022-12-10,Annual Raise,Market correction adjustment
+EMP0880,11852,15133,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2023-05-03,Promotion,Promoted following review
+EMP0364,,13192,,Sales Analyst,,Junior,2022-02-05,Hire,Initial appointment
+EMP0364,13192,22932,Sales Analyst,Sales Analyst,Junior,Mid,2023-07-22,Promotion,Cost of living adjustment
+EMP0451,,20865,,Finance Director,,Junior,2018-03-10,Hire,Initial appointment
+EMP0451,20865,24980,Finance Director,Finance Director,Junior,Junior,2018-11-15,Annual Raise,Promoted following review
+EMP0451,24980,27385,Finance Director,Finance Director,Junior,Junior,2018-11-28,Annual Raise,Annual performance increase
+EMP0451,27385,31082,Finance Director,Finance Director,Junior,Junior,2022-01-07,Annual Raise,Cost of living adjustment
+EMP0451,31082,29731,Finance Director,Finance Director,Junior,Senior,2023-07-16,Promotion,Cost of living adjustment
+EMP0918,,9978,,HR Analyst,,Mid,2024-05-03,Hire,Initial appointment
+EMP0918,9978,10767,HR Analyst,HR Analyst,Mid,Mid,2025-01-06,Annual Raise,Market correction adjustment
+EMP0918,10767,14359,HR Analyst,HR Analyst,Mid,Junior,2025-06-16,Promotion,Cost of living adjustment
+EMP0227,,13168,,Brand Manager,,Junior,2022-05-17,Hire,Initial appointment
+EMP0227,13168,22767,Brand Manager,Brand Manager,Junior,Mid,2023-11-07,Promotion,Project completion bonus integration
+EMP0900,,48860,,Compliance Analyst,,Mid,2022-02-13,Hire,Initial appointment
+EMP0900,48860,56773,Compliance Analyst,Compliance Analyst,Mid,Mid,2022-12-14,Annual Raise,Annual performance increase
+EMP0900,56773,64294,Compliance Analyst,Compliance Analyst,Mid,Mid,2023-02-12,Annual Raise,Project completion bonus integration
+EMP0900,64294,71212,Compliance Analyst,Compliance Analyst,Mid,Junior,2024-05-19,Promotion,Cost of living adjustment
+EMP0796,,24580,,Vendor Manager,,Junior,2019-08-14,Hire,Initial appointment
+EMP0796,24580,27326,Vendor Manager,Vendor Manager,Junior,Junior,2021-01-29,Annual Raise,Promoted following review
+EMP0796,27326,33723,Vendor Manager,Vendor Manager,Junior,Senior,2024-12-22,Promotion,Promoted following review
+EMP0943,,21551,,Senior Data Engineer,,Junior,2016-03-05,Hire,Initial appointment
+EMP0943,21551,35327,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2024-03-14,Promotion,Promoted following review
+EMP0885,,11857,,UX Designer,,Junior,2021-03-29,Hire,Initial appointment
+EMP0885,11857,18454,UX Designer,UX Designer,Junior,Mid,2024-07-17,Promotion,Retention adjustment
+EMP0906,,13581,,Account Manager,,Junior,2024-08-01,Hire,Initial appointment
+EMP0906,13581,15996,Account Manager,Account Manager,Junior,Junior,2025-03-24,Annual Raise,Project completion bonus integration
+EMP0906,15996,22715,Account Manager,Account Manager,Junior,Mid,2025-03-29,Promotion,Annual performance increase
+EMP0245,,15984,,Sustainability Analyst,,Junior,2015-05-20,Hire,Initial appointment
+EMP0245,15984,18268,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2018-10-10,Annual Raise,Project completion bonus integration
+EMP0245,18268,27735,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2019-09-08,Promotion,Retention adjustment
+EMP0231,,16754,,Legal Analyst,,Junior,2023-05-18,Hire,Initial appointment
+EMP0231,16754,19369,Legal Analyst,Legal Analyst,Junior,Junior,2024-03-13,Annual Raise,Retention adjustment
+EMP0231,19369,22783,Legal Analyst,Legal Analyst,Junior,Junior,2024-03-17,Annual Raise,Promoted following review
+EMP0231,22783,23757,Legal Analyst,Legal Analyst,Junior,Mid,2024-07-03,Promotion,Promoted following review
+EMP0769,,9616,,Senior Data Engineer,,Mid,2024-03-30,Hire,Initial appointment
+EMP0769,9616,11326,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2025-03-16,Annual Raise,Project completion bonus integration
+EMP0769,11326,15101,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2025-05-04,Promotion,Retention adjustment
+EMP0235,,15570,,Sales Analyst,,Junior,2021-08-05,Hire,Initial appointment
+EMP0235,15570,18317,Sales Analyst,Sales Analyst,Junior,Junior,2022-11-09,Annual Raise,Promoted following review
+EMP0235,18317,22698,Sales Analyst,Sales Analyst,Junior,Mid,2024-06-18,Promotion,Retention adjustment
+EMP0563,,18813,,Data Analyst,,Junior,2019-07-26,Hire,Initial appointment
+EMP0563,18813,26953,Data Analyst,Data Analyst,Junior,Senior,2025-06-28,Promotion,Cost of living adjustment
+EMP0890,,29591,,BI Specialist,,Mid,2010-09-30,Hire,Initial appointment
+EMP0890,29591,49121,BI Specialist,BI Specialist,Mid,Lead,2022-05-01,Promotion,Cost of living adjustment
+EMP0408,,26219,,Data Scientist,,Junior,2020-07-02,Hire,Initial appointment
+EMP0408,26219,30393,Data Scientist,Data Scientist,Junior,Junior,2022-04-11,Annual Raise,Promoted following review
+EMP0408,30393,35242,Data Scientist,Data Scientist,Junior,Senior,2024-08-06,Promotion,Market correction adjustment
+EMP0359,,15046,,Supply Chain Analyst,,Junior,2022-09-04,Hire,Initial appointment
+EMP0359,15046,15834,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2023-05-26,Annual Raise,Annual performance increase
+EMP0359,15834,18527,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2023-10-26,Annual Raise,Annual performance increase
+EMP0359,18527,20895,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2023-11-18,Annual Raise,Project completion bonus integration
+EMP0359,20895,23694,Supply Chain Analyst,Supply Chain Analyst,Junior,Mid,2024-06-03,Promotion,Project completion bonus integration
+EMP0668,,7512,,Cloud Architect,,Mid,2024-04-26,Hire,Initial appointment
+EMP0668,7512,12532,Cloud Architect,Cloud Architect,Mid,Junior,2024-11-16,Promotion,Project completion bonus integration
+EMP0113,,9632,,BI Developer,,Mid,2024-08-17,Hire,Initial appointment
+EMP0113,9632,10571,BI Developer,BI Developer,Mid,Mid,2025-02-18,Annual Raise,Market correction adjustment
+EMP0113,10571,16047,BI Developer,BI Developer,Mid,Junior,2025-02-27,Promotion,Market correction adjustment
+EMP0198,,30845,,Data Analyst,,Mid,2016-09-02,Hire,Initial appointment
+EMP0198,30845,41764,Data Analyst,Data Analyst,Mid,Lead,2024-07-17,Promotion,Annual performance increase
+EMP0561,,10225,,Vendor Manager,,Mid,2024-05-25,Hire,Initial appointment
+EMP0561,10225,12131,Vendor Manager,Vendor Manager,Mid,Mid,2024-11-23,Annual Raise,Annual performance increase
+EMP0561,12131,16044,Vendor Manager,Vendor Manager,Mid,Junior,2025-01-27,Promotion,Promoted following review
+EMP0287,,7849,,Legal Analyst,,Mid,2023-05-02,Hire,Initial appointment
+EMP0287,7849,8529,Legal Analyst,Legal Analyst,Mid,Mid,2024-11-15,Annual Raise,Promoted following review
+EMP0287,8529,12317,Legal Analyst,Legal Analyst,Mid,Junior,2024-11-26,Promotion,Retention adjustment
+EMP0206,,20563,,Digital Analyst,,Junior,2019-09-12,Hire,Initial appointment
+EMP0206,20563,29123,Digital Analyst,Digital Analyst,Junior,Senior,2021-01-26,Promotion,Annual performance increase
+EMP0824,,11685,,Data Analyst,,Mid,2024-04-06,Hire,Initial appointment
+EMP0824,11685,12818,Data Analyst,Data Analyst,Mid,Mid,2025-03-28,Annual Raise,Cost of living adjustment
+EMP0824,12818,16891,Data Analyst,Data Analyst,Mid,Junior,2025-04-01,Promotion,Promoted following review
+EMP0773,,12909,,Finance Director,,Junior,2023-02-14,Hire,Initial appointment
+EMP0773,12909,21264,Finance Director,Finance Director,Junior,Mid,2024-04-20,Promotion,Annual performance increase
+EMP0523,,13524,,HR Analyst,,Junior,2024-01-03,Hire,Initial appointment
+EMP0523,13524,14534,HR Analyst,HR Analyst,Junior,Junior,2024-09-10,Annual Raise,Project completion bonus integration
+EMP0523,14534,21847,HR Analyst,HR Analyst,Junior,Mid,2025-01-01,Promotion,Project completion bonus integration
+EMP0455,,10933,,Sustainability Analyst,,Mid,2023-02-17,Hire,Initial appointment
+EMP0455,10933,16742,Sustainability Analyst,Sustainability Analyst,Mid,Junior,2024-09-02,Promotion,Cost of living adjustment
+EMP0754,,15870,,Budget Analyst,,Junior,2023-09-05,Hire,Initial appointment
+EMP0754,15870,17808,Budget Analyst,Budget Analyst,Junior,Junior,2024-09-18,Annual Raise,Retention adjustment
+EMP0754,17808,21728,Budget Analyst,Budget Analyst,Junior,Mid,2025-01-05,Promotion,Market correction adjustment
+EMP0733,,20449,,Account Manager,,Junior,2018-04-19,Hire,Initial appointment
+EMP0733,20449,23978,Account Manager,Account Manager,Junior,Junior,2022-08-16,Annual Raise,Retention adjustment
+EMP0733,23978,27338,Account Manager,Account Manager,Junior,Senior,2023-01-31,Promotion,Promoted following review
+EMP0186,,10829,,Data Analyst,,Junior,2023-01-30,Hire,Initial appointment
+EMP0186,10829,12684,Data Analyst,Data Analyst,Junior,Junior,2024-03-10,Annual Raise,Retention adjustment
+EMP0186,12684,19463,Data Analyst,Data Analyst,Junior,Mid,2025-01-17,Promotion,Retention adjustment
+EMP0597,,9315,,Brand Manager,,Mid,2022-04-25,Hire,Initial appointment
+EMP0597,9315,11163,Brand Manager,Brand Manager,Mid,Mid,2023-01-14,Annual Raise,Cost of living adjustment
+EMP0597,11163,13273,Brand Manager,Brand Manager,Mid,Mid,2023-03-06,Annual Raise,Project completion bonus integration
+EMP0597,13273,15716,Brand Manager,Brand Manager,Mid,Junior,2024-10-15,Promotion,Retention adjustment
+EMP0730,,13542,,Supply Chain Analyst,,Junior,2024-03-16,Hire,Initial appointment
+EMP0730,13542,16209,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2024-10-22,Annual Raise,Market correction adjustment
+EMP0730,16209,22168,Supply Chain Analyst,Supply Chain Analyst,Junior,Mid,2025-05-05,Promotion,Cost of living adjustment
+EMP0464,,17794,,Learning & Development,,Junior,2020-05-02,Hire,Initial appointment
+EMP0464,17794,20293,Learning & Development,Learning & Development,Junior,Junior,2020-12-12,Annual Raise,Cost of living adjustment
+EMP0464,20293,31780,Learning & Development,Learning & Development,Junior,Senior,2024-11-07,Promotion,Project completion bonus integration
+EMP0325,,12135,,Data Analyst,,Junior,2023-03-13,Hire,Initial appointment
+EMP0325,12135,14424,Data Analyst,Data Analyst,Junior,Junior,2024-03-23,Annual Raise,Annual performance increase
+EMP0325,14424,16112,Data Analyst,Data Analyst,Junior,Junior,2024-06-02,Annual Raise,Annual performance increase
+EMP0325,16112,16948,Data Analyst,Data Analyst,Junior,Junior,2025-01-01,Annual Raise,Annual performance increase
+EMP0325,16948,17375,Data Analyst,Data Analyst,Junior,Mid,2025-04-08,Promotion,Market correction adjustment
+EMP0348,,18011,,Senior Data Engineer,,Junior,2018-09-21,Hire,Initial appointment
+EMP0348,18011,20546,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2022-12-25,Annual Raise,Annual performance increase
+EMP0348,20546,22978,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2023-04-17,Annual Raise,Annual performance increase
+EMP0348,22978,24863,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-10-09,Annual Raise,Market correction adjustment
+EMP0348,24863,30633,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2025-01-12,Promotion,Market correction adjustment
+EMP0831,,14955,,Data Analyst,,Junior,2019-08-25,Hire,Initial appointment
+EMP0831,14955,26461,Data Analyst,Data Analyst,Junior,Senior,2025-03-16,Promotion,Market correction adjustment
+EMP0536,,16251,,Cloud Architect,,Junior,2017-01-23,Hire,Initial appointment
+EMP0536,16251,18866,Cloud Architect,Cloud Architect,Junior,Junior,2018-05-18,Annual Raise,Project completion bonus integration
+EMP0536,18866,20194,Cloud Architect,Cloud Architect,Junior,Junior,2023-12-14,Annual Raise,Market correction adjustment
+EMP0536,20194,27641,Cloud Architect,Cloud Architect,Junior,Senior,2024-07-29,Promotion,Promoted following review
+EMP0247,,16494,,Marketing Analyst,,Junior,2020-01-08,Hire,Initial appointment
+EMP0247,16494,17388,Marketing Analyst,Marketing Analyst,Junior,Junior,2021-11-13,Annual Raise,Cost of living adjustment
+EMP0247,17388,20190,Marketing Analyst,Marketing Analyst,Junior,Junior,2022-04-30,Annual Raise,Promoted following review
+EMP0247,20190,28742,Marketing Analyst,Marketing Analyst,Junior,Senior,2024-11-28,Promotion,Cost of living adjustment
+EMP0327,,23166,,ML Engineer,,Junior,2019-01-04,Hire,Initial appointment
+EMP0327,23166,25818,ML Engineer,ML Engineer,Junior,Junior,2024-07-08,Annual Raise,Annual performance increase
+EMP0327,25818,32493,ML Engineer,ML Engineer,Junior,Senior,2024-10-12,Promotion,Project completion bonus integration
+EMP0021,,15458,,Operations Analyst,,Junior,2019-06-11,Hire,Initial appointment
+EMP0021,15458,21744,Operations Analyst,Operations Analyst,Junior,Mid,2021-10-06,Promotion,Promoted following review
+EMP0915,,23336,,Sustainability Analyst,,Mid,2009-10-01,Hire,Initial appointment
+EMP0915,23336,25205,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2015-02-19,Annual Raise,Market correction adjustment
+EMP0915,25205,41036,Sustainability Analyst,Sustainability Analyst,Mid,Lead,2024-05-09,Promotion,Market correction adjustment
+EMP0790,,9992,,Lead Data Engineer,,Mid,2024-05-23,Hire,Initial appointment
+EMP0790,9992,11912,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-05-10,Annual Raise,Cost of living adjustment
+EMP0790,11912,13736,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2025-06-14,Promotion,Project completion bonus integration
+EMP0685,,7415,,BI Specialist,,Mid,2024-02-26,Hire,Initial appointment
+EMP0685,7415,7966,BI Specialist,BI Specialist,Mid,Mid,2024-10-17,Annual Raise,Project completion bonus integration
+EMP0685,7966,13124,BI Specialist,BI Specialist,Mid,Junior,2025-03-20,Promotion,Cost of living adjustment
+EMP0466,,19846,,Senior Data Engineer,,Junior,2015-02-22,Hire,Initial appointment
+EMP0466,19846,20870,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2020-07-09,Annual Raise,Retention adjustment
+EMP0466,20870,30084,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2025-04-10,Promotion,Market correction adjustment
+EMP0595,,12136,,Senior Data Analyst,,Junior,2022-04-25,Hire,Initial appointment
+EMP0595,12136,20223,Senior Data Analyst,Senior Data Analyst,Junior,Mid,2025-04-04,Promotion,Market correction adjustment
+EMP0736,,31195,,Sales Analyst,,Mid,2015-06-02,Hire,Initial appointment
+EMP0736,31195,48427,Sales Analyst,Sales Analyst,Mid,Lead,2023-09-19,Promotion,Promoted following review
+EMP0586,,19639,,Marketing Analyst,,Junior,2017-02-25,Hire,Initial appointment
+EMP0586,19639,21348,Marketing Analyst,Marketing Analyst,Junior,Junior,2018-03-17,Annual Raise,Project completion bonus integration
+EMP0586,21348,31928,Marketing Analyst,Marketing Analyst,Junior,Senior,2020-10-13,Promotion,Retention adjustment
+EMP0020,,24729,,Operations Analyst,,Mid,2011-07-22,Hire,Initial appointment
+EMP0020,24729,28620,Operations Analyst,Operations Analyst,Mid,Mid,2012-08-19,Annual Raise,Market correction adjustment
+EMP0020,28620,30206,Operations Analyst,Operations Analyst,Mid,Mid,2022-08-26,Annual Raise,Cost of living adjustment
+EMP0020,30206,40697,Operations Analyst,Operations Analyst,Mid,Lead,2022-10-03,Promotion,Project completion bonus integration
+EMP0602,,14714,,Data Engineer,,Junior,2022-03-09,Hire,Initial appointment
+EMP0602,14714,21037,Data Engineer,Data Engineer,Junior,Mid,2023-10-26,Promotion,Annual performance increase
+EMP0216,,9313,,Data Scientist,,Mid,2024-05-04,Hire,Initial appointment
+EMP0216,9313,12895,Data Scientist,Data Scientist,Mid,Junior,2025-04-05,Promotion,Promoted following review
+EMP0989,,20880,,ML Engineer,,Junior,2015-01-15,Hire,Initial appointment
+EMP0989,20880,23234,ML Engineer,ML Engineer,Junior,Junior,2015-07-26,Annual Raise,Promoted following review
+EMP0989,23234,25582,ML Engineer,ML Engineer,Junior,Junior,2019-03-11,Annual Raise,Annual performance increase
+EMP0989,25582,35683,ML Engineer,ML Engineer,Junior,Senior,2023-08-21,Promotion,Retention adjustment
+EMP0721,,14155,,DevOps Engineer,,Junior,2022-05-28,Hire,Initial appointment
+EMP0721,14155,21266,DevOps Engineer,DevOps Engineer,Junior,Mid,2023-10-04,Promotion,Annual performance increase
+EMP0472,,7564,,IT Manager,,Mid,2023-08-27,Hire,Initial appointment
+EMP0472,7564,8870,IT Manager,IT Manager,Mid,Mid,2024-09-13,Annual Raise,Retention adjustment
+EMP0472,8870,9629,IT Manager,IT Manager,Mid,Mid,2024-10-17,Annual Raise,Annual performance increase
+EMP0472,9629,11103,IT Manager,IT Manager,Mid,Mid,2025-02-17,Annual Raise,Retention adjustment
+EMP0472,11103,12796,IT Manager,IT Manager,Mid,Junior,2025-02-23,Promotion,Retention adjustment
+EMP0425,,14298,,Account Manager,,Junior,2024-03-17,Hire,Initial appointment
+EMP0425,14298,16846,Account Manager,Account Manager,Junior,Junior,2025-03-29,Annual Raise,Retention adjustment
+EMP0425,16846,21295,Account Manager,Account Manager,Junior,Mid,2025-06-29,Promotion,Annual performance increase
+EMP0832,,25817,,Data Engineer,,Mid,2018-05-28,Hire,Initial appointment
+EMP0832,25817,27253,Data Engineer,Data Engineer,Mid,Mid,2021-12-29,Annual Raise,Promoted following review
+EMP0832,27253,30729,Data Engineer,Data Engineer,Mid,Mid,2022-05-13,Annual Raise,Promoted following review
+EMP0832,30729,35510,Data Engineer,Data Engineer,Mid,Mid,2023-10-08,Annual Raise,Cost of living adjustment
+EMP0832,35510,45999,Data Engineer,Data Engineer,Mid,Lead,2024-11-22,Promotion,Promoted following review
+EMP0338,,17218,,Marketing Analyst,,Junior,2017-09-25,Hire,Initial appointment
+EMP0338,17218,19396,Marketing Analyst,Marketing Analyst,Junior,Junior,2020-09-04,Annual Raise,Promoted following review
+EMP0338,19396,20670,Marketing Analyst,Marketing Analyst,Junior,Junior,2024-04-24,Annual Raise,Retention adjustment
+EMP0338,20670,30207,Marketing Analyst,Marketing Analyst,Junior,Senior,2024-08-15,Promotion,Annual performance increase
+EMP0683,,13692,,Operations Analyst,,Junior,2023-07-03,Hire,Initial appointment
+EMP0683,13692,15069,Operations Analyst,Operations Analyst,Junior,Junior,2024-03-03,Annual Raise,Promoted following review
+EMP0683,15069,17854,Operations Analyst,Operations Analyst,Junior,Junior,2024-07-10,Annual Raise,Project completion bonus integration
+EMP0683,17854,19972,Operations Analyst,Operations Analyst,Junior,Mid,2025-04-21,Promotion,Promoted following review
+EMP0826,,17048,,Supply Chain Analyst,,Junior,2021-02-19,Hire,Initial appointment
+EMP0826,17048,22944,Supply Chain Analyst,Supply Chain Analyst,Junior,Mid,2022-11-09,Promotion,Market correction adjustment
+EMP0056,,11479,,Senior Data Engineer,,Mid,2024-07-07,Hire,Initial appointment
+EMP0056,11479,15312,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2025-02-10,Promotion,Project completion bonus integration
+EMP0749,,15509,,Sales Analyst,,Junior,2014-08-26,Hire,Initial appointment
+EMP0749,15509,26746,Sales Analyst,Sales Analyst,Junior,Senior,2015-05-25,Promotion,Annual performance increase
+EMP0344,,10500,,BI Developer,,Mid,2024-04-26,Hire,Initial appointment
+EMP0344,10500,12343,BI Developer,BI Developer,Mid,Mid,2024-12-12,Annual Raise,Project completion bonus integration
+EMP0344,12343,14803,BI Developer,BI Developer,Mid,Mid,2025-02-10,Annual Raise,Promoted following review
+EMP0344,14803,14063,BI Developer,BI Developer,Mid,Junior,2025-03-29,Promotion,Market correction adjustment
+EMP0159,,12455,,Senior Data Engineer,,Junior,2024-01-27,Hire,Initial appointment
+EMP0159,12455,13157,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2025-05-19,Annual Raise,Project completion bonus integration
+EMP0159,13157,21731,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-06-12,Promotion,Annual performance increase
+EMP0416,,22521,,Lead Data Engineer,,Junior,2022-02-06,Hire,Initial appointment
+EMP0416,22521,26916,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2023-08-22,Annual Raise,Promoted following review
+EMP0416,26916,30071,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2024-06-02,Annual Raise,Cost of living adjustment
+EMP0416,30071,33667,Lead Data Engineer,Lead Data Engineer,Junior,Senior,2025-04-21,Promotion,Market correction adjustment
+EMP0199,,10124,,HR Analyst,,Mid,2024-07-22,Hire,Initial appointment
+EMP0199,10124,16808,HR Analyst,HR Analyst,Mid,Junior,2025-01-28,Promotion,Promoted following review
+EMP0955,,13136,,BI Developer,,Junior,2022-01-21,Hire,Initial appointment
+EMP0955,13136,14377,BI Developer,BI Developer,Junior,Junior,2022-11-12,Annual Raise,Promoted following review
+EMP0955,14377,15645,BI Developer,BI Developer,Junior,Junior,2023-01-20,Annual Raise,Market correction adjustment
+EMP0955,15645,16598,BI Developer,BI Developer,Junior,Junior,2024-01-02,Annual Raise,Annual performance increase
+EMP0955,16598,21167,BI Developer,BI Developer,Junior,Mid,2024-03-19,Promotion,Annual performance increase
+EMP0675,,17606,,Finance Director,,Junior,2021-01-29,Hire,Initial appointment
+EMP0675,17606,20223,Finance Director,Finance Director,Junior,Junior,2021-08-12,Annual Raise,Annual performance increase
+EMP0675,20223,21576,Finance Director,Finance Director,Junior,Junior,2025-01-25,Annual Raise,Retention adjustment
+EMP0675,21576,26077,Finance Director,Finance Director,Junior,Senior,2025-05-25,Promotion,Market correction adjustment
+EMP0094,,16504,,Operations Analyst,,Junior,2019-05-23,Hire,Initial appointment
+EMP0094,16504,18448,Operations Analyst,Operations Analyst,Junior,Junior,2021-03-28,Annual Raise,Annual performance increase
+EMP0094,18448,20137,Operations Analyst,Operations Analyst,Junior,Junior,2023-05-04,Annual Raise,Project completion bonus integration
+EMP0094,20137,23460,Operations Analyst,Operations Analyst,Junior,Mid,2024-12-16,Promotion,Market correction adjustment
+EMP0076,,10176,,Data Modeler,,Mid,2024-02-21,Hire,Initial appointment
+EMP0076,10176,11486,Data Modeler,Data Modeler,Mid,Mid,2025-02-17,Annual Raise,Retention adjustment
+EMP0076,11486,13441,Data Modeler,Data Modeler,Mid,Mid,2025-02-27,Annual Raise,Market correction adjustment
+EMP0076,13441,14719,Data Modeler,Data Modeler,Mid,Junior,2025-05-23,Promotion,Promoted following review
+EMP0337,,22297,,Marketing Analyst,,Junior,2015-03-23,Hire,Initial appointment
+EMP0337,22297,25097,Marketing Analyst,Marketing Analyst,Junior,Junior,2020-01-12,Annual Raise,Promoted following review
+EMP0337,25097,30415,Marketing Analyst,Marketing Analyst,Junior,Senior,2021-11-26,Promotion,Project completion bonus integration
+EMP0779,,17538,,Marketing Analyst,,Junior,2022-08-24,Hire,Initial appointment
+EMP0779,17538,30828,Marketing Analyst,Marketing Analyst,Junior,Senior,2023-12-08,Promotion,Promoted following review
+EMP0854,,13312,,Operations Analyst,,Junior,2021-01-27,Hire,Initial appointment
+EMP0854,13312,22949,Operations Analyst,Operations Analyst,Junior,Mid,2024-02-12,Promotion,Project completion bonus integration
+EMP0632,,24230,,Finance Manager,,Junior,2019-07-07,Hire,Initial appointment
+EMP0632,24230,26132,Finance Manager,Finance Manager,Junior,Junior,2021-04-18,Annual Raise,Annual performance increase
+EMP0632,26132,33165,Finance Manager,Finance Manager,Junior,Senior,2024-10-08,Promotion,Annual performance increase
+EMP0434,,13569,,Account Manager,,Junior,2024-09-05,Hire,Initial appointment
+EMP0434,13569,16061,Account Manager,Account Manager,Junior,Junior,2025-03-08,Annual Raise,Promoted following review
+EMP0434,16061,21165,Account Manager,Account Manager,Junior,Mid,2025-03-13,Promotion,Retention adjustment
+EMP0406,,22616,,Product Manager,,Junior,2022-04-22,Hire,Initial appointment
+EMP0406,22616,30905,Product Manager,Product Manager,Junior,Senior,2023-09-16,Promotion,Retention adjustment
+EMP0190,,12403,,Learning & Development,,Junior,2024-08-28,Hire,Initial appointment
+EMP0190,12403,13904,Learning & Development,Learning & Development,Junior,Junior,2025-03-29,Annual Raise,Market correction adjustment
+EMP0190,13904,20817,Learning & Development,Learning & Development,Junior,Mid,2025-05-12,Promotion,Project completion bonus integration
+EMP0385,,9773,,Brand Manager,,Mid,2024-05-14,Hire,Initial appointment
+EMP0385,9773,10663,Brand Manager,Brand Manager,Mid,Mid,2025-02-18,Annual Raise,Retention adjustment
+EMP0385,10663,14127,Brand Manager,Brand Manager,Mid,Junior,2025-05-20,Promotion,Cost of living adjustment
+EMP0496,,24898,,Procurement Analyst,,Junior,2017-04-04,Hire,Initial appointment
+EMP0496,24898,33518,Procurement Analyst,Procurement Analyst,Junior,Senior,2025-03-13,Promotion,Project completion bonus integration
+EMP0318,,31834,,Senior Data Engineer,,Mid,2010-08-02,Hire,Initial appointment
+EMP0318,31834,34660,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2016-06-15,Annual Raise,Promoted following review
+EMP0318,34660,39790,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2017-10-12,Annual Raise,Cost of living adjustment
+EMP0318,39790,45914,Senior Data Engineer,Senior Data Engineer,Mid,Lead,2020-07-23,Promotion,Project completion bonus integration
+EMP0082,,14822,,Brand Manager,,Junior,2022-06-04,Hire,Initial appointment
+EMP0082,14822,22655,Brand Manager,Brand Manager,Junior,Mid,2024-03-13,Promotion,Cost of living adjustment
+EMP0294,,19097,,DevOps Engineer,,Junior,2018-06-07,Hire,Initial appointment
+EMP0294,19097,21409,DevOps Engineer,DevOps Engineer,Junior,Junior,2019-05-25,Annual Raise,Promoted following review
+EMP0294,21409,24452,DevOps Engineer,DevOps Engineer,Junior,Junior,2024-02-15,Annual Raise,Market correction adjustment
+EMP0294,24452,27412,DevOps Engineer,DevOps Engineer,Junior,Junior,2025-02-26,Annual Raise,Promoted following review
+EMP0294,27412,28666,DevOps Engineer,DevOps Engineer,Junior,Senior,2025-03-27,Promotion,Project completion bonus integration
+EMP0963,,15240,,BI Developer,,Junior,2022-08-17,Hire,Initial appointment
+EMP0963,15240,17796,BI Developer,BI Developer,Junior,Junior,2023-10-26,Annual Raise,Retention adjustment
+EMP0963,17796,23258,BI Developer,BI Developer,Junior,Mid,2025-03-03,Promotion,Annual performance increase
+EMP0907,,12731,,Brand Manager,,Junior,2021-08-28,Hire,Initial appointment
+EMP0907,12731,17349,Brand Manager,Brand Manager,Junior,Mid,2025-02-10,Promotion,Annual performance increase
+EMP0181,,19401,,Compliance Analyst,,Junior,2015-05-24,Hire,Initial appointment
+EMP0181,19401,32546,Compliance Analyst,Compliance Analyst,Junior,Senior,2023-08-04,Promotion,Annual performance increase
+EMP0084,,15217,,Vendor Manager,,Junior,2024-06-29,Hire,Initial appointment
+EMP0084,15217,16314,Vendor Manager,Vendor Manager,Junior,Junior,2025-03-02,Annual Raise,Retention adjustment
+EMP0084,16314,23354,Vendor Manager,Vendor Manager,Junior,Mid,2025-03-02,Promotion,Retention adjustment
+EMP0035,,10456,,Legal Analyst,,Mid,2024-06-02,Hire,Initial appointment
+EMP0035,10456,12241,Legal Analyst,Legal Analyst,Mid,Mid,2025-01-15,Annual Raise,Project completion bonus integration
+EMP0035,12241,13611,Legal Analyst,Legal Analyst,Mid,Mid,2025-04-14,Annual Raise,Market correction adjustment
+EMP0035,13611,14571,Legal Analyst,Legal Analyst,Mid,Junior,2025-05-22,Promotion,Retention adjustment
+EMP0771,,24564,,Sustainability Analyst,,Junior,2019-01-06,Hire,Initial appointment
+EMP0771,24564,26571,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2019-12-30,Annual Raise,Project completion bonus integration
+EMP0771,26571,31841,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2021-08-25,Annual Raise,Cost of living adjustment
+EMP0771,31841,32812,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2024-05-19,Promotion,Retention adjustment
+EMP0281,,12898,,Account Manager,,Junior,2019-02-02,Hire,Initial appointment
+EMP0281,12898,13773,Account Manager,Account Manager,Junior,Junior,2021-05-30,Annual Raise,Project completion bonus integration
+EMP0281,13773,15550,Account Manager,Account Manager,Junior,Junior,2022-11-22,Annual Raise,Promoted following review
+EMP0281,15550,17638,Account Manager,Account Manager,Junior,Junior,2023-05-08,Annual Raise,Promoted following review
+EMP0281,17638,23196,Account Manager,Account Manager,Junior,Mid,2024-09-04,Promotion,Cost of living adjustment
+EMP0545,,21031,,Legal Analyst,,Junior,2020-08-25,Hire,Initial appointment
+EMP0545,21031,31791,Legal Analyst,Legal Analyst,Junior,Senior,2021-10-26,Promotion,Promoted following review
+EMP0051,,25410,,Data Scientist,,Junior,2021-01-22,Hire,Initial appointment
+EMP0051,25410,28570,Data Scientist,Data Scientist,Junior,Junior,2024-03-21,Annual Raise,Cost of living adjustment
+EMP0051,28570,32540,Data Scientist,Data Scientist,Junior,Junior,2025-05-15,Annual Raise,Annual performance increase
+EMP0051,32540,34837,Data Scientist,Data Scientist,Junior,Senior,2025-05-19,Promotion,Project completion bonus integration
+EMP0776,,21589,,Legal Analyst,,Junior,2022-08-18,Hire,Initial appointment
+EMP0776,21589,24285,Legal Analyst,Legal Analyst,Junior,Junior,2023-03-16,Annual Raise,Project completion bonus integration
+EMP0776,24285,29001,Legal Analyst,Legal Analyst,Junior,Senior,2023-10-29,Promotion,Market correction adjustment
+EMP0161,,10840,,Procurement Analyst,,Mid,2024-09-01,Hire,Initial appointment
+EMP0161,10840,11711,Procurement Analyst,Procurement Analyst,Mid,Mid,2025-03-03,Annual Raise,Market correction adjustment
+EMP0161,11711,13963,Procurement Analyst,Procurement Analyst,Mid,Mid,2025-03-05,Annual Raise,Promoted following review
+EMP0161,13963,16594,Procurement Analyst,Procurement Analyst,Mid,Junior,2025-04-13,Promotion,Retention adjustment
+EMP0118,,23462,,HR Analyst,,Junior,2015-06-20,Hire,Initial appointment
+EMP0118,23462,26508,HR Analyst,HR Analyst,Junior,Junior,2016-11-14,Annual Raise,Annual performance increase
+EMP0118,26508,35336,HR Analyst,HR Analyst,Junior,Senior,2020-06-09,Promotion,Retention adjustment
+EMP0026,,10677,,Data Analyst,,Junior,2021-02-24,Hire,Initial appointment
+EMP0026,10677,11614,Data Analyst,Data Analyst,Junior,Junior,2021-11-02,Annual Raise,Annual performance increase
+EMP0026,11614,13086,Data Analyst,Data Analyst,Junior,Junior,2022-02-08,Annual Raise,Market correction adjustment
+EMP0026,13086,13812,Data Analyst,Data Analyst,Junior,Junior,2022-05-24,Annual Raise,Market correction adjustment
+EMP0026,13812,18100,Data Analyst,Data Analyst,Junior,Mid,2025-06-30,Promotion,Annual performance increase
+EMP0818,,18050,,Data Analyst,,Junior,2018-03-18,Hire,Initial appointment
+EMP0818,18050,19700,Data Analyst,Data Analyst,Junior,Junior,2020-10-02,Annual Raise,Retention adjustment
+EMP0818,19700,23047,Data Analyst,Data Analyst,Junior,Junior,2022-03-03,Annual Raise,Project completion bonus integration
+EMP0818,23047,32812,Data Analyst,Data Analyst,Junior,Senior,2023-12-23,Promotion,Cost of living adjustment
+EMP0230,,13130,,Learning & Development,,Junior,2019-02-18,Hire,Initial appointment
+EMP0230,13130,14756,Learning & Development,Learning & Development,Junior,Junior,2020-10-07,Annual Raise,Promoted following review
+EMP0230,14756,19681,Learning & Development,Learning & Development,Junior,Mid,2023-06-02,Promotion,Cost of living adjustment
+EMP0436,,13779,,Finance Manager,,Junior,2024-05-11,Hire,Initial appointment
+EMP0436,13779,15954,Finance Manager,Finance Manager,Junior,Junior,2025-03-23,Annual Raise,Promoted following review
+EMP0436,15954,18217,Finance Manager,Finance Manager,Junior,Junior,2025-05-20,Annual Raise,Project completion bonus integration
+EMP0436,18217,19259,Finance Manager,Finance Manager,Junior,Mid,2025-06-10,Promotion,Retention adjustment
+EMP0311,,24328,,Legal Analyst,,Junior,2019-02-24,Hire,Initial appointment
+EMP0311,24328,26267,Legal Analyst,Legal Analyst,Junior,Junior,2024-06-27,Annual Raise,Market correction adjustment
+EMP0311,26267,35203,Legal Analyst,Legal Analyst,Junior,Senior,2024-11-03,Promotion,Annual performance increase
+EMP0863,,18307,,Brand Manager,,Junior,2020-04-03,Hire,Initial appointment
+EMP0863,18307,21592,Brand Manager,Brand Manager,Junior,Junior,2022-08-17,Annual Raise,Promoted following review
+EMP0863,21592,23617,Brand Manager,Brand Manager,Junior,Junior,2022-09-13,Annual Raise,Promoted following review
+EMP0863,23617,31525,Brand Manager,Brand Manager,Junior,Senior,2024-06-24,Promotion,Retention adjustment
+EMP0566,,7495,,DevOps Engineer,,Mid,2024-01-14,Hire,Initial appointment
+EMP0566,7495,8126,DevOps Engineer,DevOps Engineer,Mid,Mid,2024-08-02,Annual Raise,Promoted following review
+EMP0566,8126,9408,DevOps Engineer,DevOps Engineer,Mid,Mid,2025-02-02,Annual Raise,Market correction adjustment
+EMP0566,9408,12558,DevOps Engineer,DevOps Engineer,Mid,Junior,2025-04-09,Promotion,Market correction adjustment
+EMP0010,,12983,,Legal Analyst,,Junior,2023-01-06,Hire,Initial appointment
+EMP0010,12983,21334,Legal Analyst,Legal Analyst,Junior,Mid,2025-01-10,Promotion,Project completion bonus integration
+EMP0660,,11649,,Brand Manager,,Junior,2024-09-18,Hire,Initial appointment
+EMP0660,11649,13845,Brand Manager,Brand Manager,Junior,Junior,2025-04-18,Annual Raise,Cost of living adjustment
+EMP0660,13845,15255,Brand Manager,Brand Manager,Junior,Junior,2025-05-28,Annual Raise,Promoted following review
+EMP0660,15255,19878,Brand Manager,Brand Manager,Junior,Mid,2025-06-15,Promotion,Annual performance increase
+EMP0640,,18339,,Finance Manager,,Junior,2021-05-13,Hire,Initial appointment
+EMP0640,18339,20892,Finance Manager,Finance Manager,Junior,Junior,2023-10-23,Annual Raise,Promoted following review
+EMP0640,20892,23575,Finance Manager,Finance Manager,Junior,Junior,2024-05-08,Annual Raise,Retention adjustment
+EMP0640,23575,26809,Finance Manager,Finance Manager,Junior,Senior,2024-08-12,Promotion,Cost of living adjustment
+EMP0445,,22412,,Data Analyst,,Junior,2020-08-22,Hire,Initial appointment
+EMP0445,22412,25731,Data Analyst,Data Analyst,Junior,Junior,2023-03-26,Annual Raise,Project completion bonus integration
+EMP0445,25731,28014,Data Analyst,Data Analyst,Junior,Junior,2023-04-18,Annual Raise,Annual performance increase
+EMP0445,28014,31425,Data Analyst,Data Analyst,Junior,Junior,2024-08-01,Annual Raise,Cost of living adjustment
+EMP0445,31425,33530,Data Analyst,Data Analyst,Junior,Senior,2024-11-04,Promotion,Project completion bonus integration
+EMP0528,,12502,,Sales Analyst,,Junior,2021-08-27,Hire,Initial appointment
+EMP0528,12502,13848,Sales Analyst,Sales Analyst,Junior,Junior,2022-03-20,Annual Raise,Cost of living adjustment
+EMP0528,13848,17909,Sales Analyst,Sales Analyst,Junior,Mid,2022-10-24,Promotion,Annual performance increase
+EMP0550,,11379,,Data Analyst,,Junior,2022-09-29,Hire,Initial appointment
+EMP0550,11379,17399,Data Analyst,Data Analyst,Junior,Mid,2023-09-23,Promotion,Retention adjustment
+EMP0998,,8996,,BI Engineer,,Mid,2024-04-21,Hire,Initial appointment
+EMP0998,8996,9768,BI Engineer,BI Engineer,Mid,Mid,2024-11-04,Annual Raise,Project completion bonus integration
+EMP0998,9768,10844,BI Engineer,BI Engineer,Mid,Mid,2025-01-28,Annual Raise,Promoted following review
+EMP0998,10844,12488,BI Engineer,BI Engineer,Mid,Mid,2025-03-01,Annual Raise,Retention adjustment
+EMP0998,12488,12164,BI Engineer,BI Engineer,Mid,Junior,2025-06-14,Promotion,Market correction adjustment
+EMP0307,,14658,,Finance Manager,,Junior,2020-08-11,Hire,Initial appointment
+EMP0307,14658,15857,Finance Manager,Finance Manager,Junior,Junior,2022-11-16,Annual Raise,Cost of living adjustment
+EMP0307,15857,21885,Finance Manager,Finance Manager,Junior,Mid,2024-06-17,Promotion,Promoted following review
+EMP0553,,29092,,UX Designer,,Mid,2018-06-29,Hire,Initial appointment
+EMP0553,29092,33197,UX Designer,UX Designer,Mid,Mid,2019-04-07,Annual Raise,Market correction adjustment
+EMP0553,33197,40150,UX Designer,UX Designer,Mid,Lead,2022-01-15,Promotion,Market correction adjustment
+EMP0384,,13814,,Lead Data Engineer,,Junior,2023-03-03,Hire,Initial appointment
+EMP0384,13814,14905,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2024-04-16,Annual Raise,Promoted following review
+EMP0384,14905,23356,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-06-05,Promotion,Retention adjustment
+EMP0238,,27864,,Learning & Development,,Mid,2015-02-15,Hire,Initial appointment
+EMP0238,27864,32676,Learning & Development,Learning & Development,Mid,Mid,2017-10-11,Annual Raise,Cost of living adjustment
+EMP0238,32676,37502,Learning & Development,Learning & Development,Mid,Mid,2022-06-04,Annual Raise,Project completion bonus integration
+EMP0238,37502,42417,Learning & Development,Learning & Development,Mid,Mid,2022-10-23,Annual Raise,Cost of living adjustment
+EMP0238,42417,40290,Learning & Development,Learning & Development,Mid,Lead,2023-07-17,Promotion,Cost of living adjustment
+EMP0381,,9631,,Procurement Analyst,,Mid,2024-04-13,Hire,Initial appointment
+EMP0381,9631,10593,Procurement Analyst,Procurement Analyst,Mid,Mid,2024-11-18,Annual Raise,Market correction adjustment
+EMP0381,10593,12596,Procurement Analyst,Procurement Analyst,Mid,Mid,2025-02-24,Annual Raise,Project completion bonus integration
+EMP0381,12596,13724,Procurement Analyst,Procurement Analyst,Mid,Mid,2025-03-17,Annual Raise,Project completion bonus integration
+EMP0381,13724,14174,Procurement Analyst,Procurement Analyst,Mid,Junior,2025-04-30,Promotion,Retention adjustment
+EMP0303,,27279,,Brand Manager,,Mid,2014-04-05,Hire,Initial appointment
+EMP0303,27279,29240,Brand Manager,Brand Manager,Mid,Mid,2015-02-12,Annual Raise,Retention adjustment
+EMP0303,29240,31751,Brand Manager,Brand Manager,Mid,Mid,2017-09-10,Annual Raise,Project completion bonus integration
+EMP0303,31751,34934,Brand Manager,Brand Manager,Mid,Mid,2018-02-07,Annual Raise,Cost of living adjustment
+EMP0303,34934,40346,Brand Manager,Brand Manager,Mid,Lead,2020-06-09,Promotion,Retention adjustment
+EMP0517,,20705,,BI Engineer,,Junior,2018-09-07,Hire,Initial appointment
+EMP0517,20705,23767,BI Engineer,BI Engineer,Junior,Junior,2023-04-19,Annual Raise,Cost of living adjustment
+EMP0517,23767,27189,BI Engineer,BI Engineer,Junior,Junior,2023-11-15,Annual Raise,Retention adjustment
+EMP0517,27189,29432,BI Engineer,BI Engineer,Junior,Junior,2024-03-07,Annual Raise,Retention adjustment
+EMP0517,29432,27881,BI Engineer,BI Engineer,Junior,Senior,2024-04-06,Promotion,Annual performance increase
+EMP0994,,30684,,Data Scientist,,Mid,2009-01-12,Hire,Initial appointment
+EMP0994,30684,36642,Data Scientist,Data Scientist,Mid,Mid,2014-03-31,Annual Raise,Project completion bonus integration
+EMP0994,36642,41181,Data Scientist,Data Scientist,Mid,Lead,2020-06-10,Promotion,Annual performance increase
+EMP0888,,26551,,Finance Manager,,Junior,2013-05-21,Hire,Initial appointment
+EMP0888,26551,35877,Finance Manager,Finance Manager,Junior,Senior,2018-11-21,Promotion,Market correction adjustment
+EMP0140,,10823,,Legal Analyst,,Junior,2023-04-06,Hire,Initial appointment
+EMP0140,10823,19044,Legal Analyst,Legal Analyst,Junior,Mid,2025-04-24,Promotion,Retention adjustment
+EMP0112,,20561,,Data Analyst,,Junior,2017-03-18,Hire,Initial appointment
+EMP0112,20561,30724,Data Analyst,Data Analyst,Junior,Senior,2022-11-12,Promotion,Retention adjustment
+EMP0211,,45854,,Content Strategist,,Mid,2009-09-20,Hire,Initial appointment
+EMP0211,45854,69078,Content Strategist,Content Strategist,Mid,Director,2014-05-28,Promotion,Cost of living adjustment
+EMP0664,,9513,,Sustainability Analyst,,Mid,2024-07-02,Hire,Initial appointment
+EMP0664,9513,11026,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-01-20,Annual Raise,Cost of living adjustment
+EMP0664,11026,12049,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-02-03,Annual Raise,Annual performance increase
+EMP0664,12049,14301,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-06-11,Annual Raise,Retention adjustment
+EMP0664,14301,13011,Sustainability Analyst,Sustainability Analyst,Mid,Junior,2025-06-26,Promotion,Annual performance increase
+EMP0172,,12523,,Lead Data Engineer,,Junior,2024-07-03,Hire,Initial appointment
+EMP0172,12523,13612,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2025-02-27,Annual Raise,Cost of living adjustment
+EMP0172,13612,21693,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-03-26,Promotion,Promoted following review
+EMP0950,,23313,,Data Scientist,,Junior,2016-08-20,Hire,Initial appointment
+EMP0950,23313,25886,Data Scientist,Data Scientist,Junior,Junior,2018-10-16,Annual Raise,Market correction adjustment
+EMP0950,25886,27779,Data Scientist,Data Scientist,Junior,Junior,2023-08-03,Annual Raise,Project completion bonus integration
+EMP0950,27779,32354,Data Scientist,Data Scientist,Junior,Senior,2024-07-01,Promotion,Market correction adjustment
+EMP0686,,31674,,Data Engineer,,Mid,2016-03-16,Hire,Initial appointment
+EMP0686,31674,33290,Data Engineer,Data Engineer,Mid,Mid,2017-10-20,Annual Raise,Project completion bonus integration
+EMP0686,33290,45106,Data Engineer,Data Engineer,Mid,Lead,2023-04-26,Promotion,Market correction adjustment
+EMP0650,,13424,,Legal Analyst,,Junior,2019-08-16,Hire,Initial appointment
+EMP0650,13424,19777,Legal Analyst,Legal Analyst,Junior,Mid,2024-03-08,Promotion,Cost of living adjustment
+EMP0677,,13386,,Data Analyst,,Junior,2023-02-04,Hire,Initial appointment
+EMP0677,13386,15004,Data Analyst,Data Analyst,Junior,Junior,2024-11-14,Annual Raise,Annual performance increase
+EMP0677,15004,17884,Data Analyst,Data Analyst,Junior,Mid,2025-01-17,Promotion,Annual performance increase
+EMP0154,,10818,,Data Analyst,,Mid,2024-07-06,Hire,Initial appointment
+EMP0154,10818,11654,Data Analyst,Data Analyst,Mid,Mid,2025-04-17,Annual Raise,Promoted following review
+EMP0154,11654,15530,Data Analyst,Data Analyst,Mid,Junior,2025-06-22,Promotion,Market correction adjustment
+EMP0048,,12038,,Vendor Manager,,Junior,2024-01-21,Hire,Initial appointment
+EMP0048,12038,18836,Vendor Manager,Vendor Manager,Junior,Mid,2025-01-09,Promotion,Project completion bonus integration
+EMP0753,,10500,,Legal Analyst,,Mid,2024-07-20,Hire,Initial appointment
+EMP0753,10500,14313,Legal Analyst,Legal Analyst,Mid,Junior,2025-02-13,Promotion,Annual performance increase
+EMP0237,,12667,,Procurement Analyst,,Junior,2021-08-15,Hire,Initial appointment
+EMP0237,12667,13843,Procurement Analyst,Procurement Analyst,Junior,Junior,2024-03-10,Annual Raise,Retention adjustment
+EMP0237,13843,14551,Procurement Analyst,Procurement Analyst,Junior,Junior,2024-04-05,Annual Raise,Cost of living adjustment
+EMP0237,14551,20372,Procurement Analyst,Procurement Analyst,Junior,Mid,2024-12-21,Promotion,Retention adjustment
+EMP0400,,17810,,Legal Analyst,,Junior,2017-04-08,Hire,Initial appointment
+EMP0400,17810,18751,Legal Analyst,Legal Analyst,Junior,Junior,2020-07-17,Annual Raise,Promoted following review
+EMP0400,18751,19871,Legal Analyst,Legal Analyst,Junior,Junior,2020-09-13,Annual Raise,Annual performance increase
+EMP0400,19871,29664,Legal Analyst,Legal Analyst,Junior,Senior,2021-08-22,Promotion,Annual performance increase
+EMP0970,,12950,,Senior Data Engineer,,Junior,2023-03-05,Hire,Initial appointment
+EMP0970,12950,17276,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-03-12,Promotion,Annual performance increase
+EMP0851,,34825,,IT Manager,,Mid,2016-06-13,Hire,Initial appointment
+EMP0851,34825,49929,IT Manager,IT Manager,Mid,Lead,2024-07-11,Promotion,Annual performance increase
+EMP0473,,13100,,Lead Data Engineer,,Junior,2022-08-21,Hire,Initial appointment
+EMP0473,13100,22449,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2023-03-28,Promotion,Cost of living adjustment
+EMP0022,,8879,,Data Analyst,,Mid,2024-04-30,Hire,Initial appointment
+EMP0022,8879,10081,Data Analyst,Data Analyst,Mid,Mid,2024-11-04,Annual Raise,Annual performance increase
+EMP0022,10081,10825,Data Analyst,Data Analyst,Mid,Mid,2024-11-05,Annual Raise,Retention adjustment
+EMP0022,10825,12561,Data Analyst,Data Analyst,Mid,Junior,2025-01-08,Promotion,Project completion bonus integration
+EMP0540,,11952,,Operations Analyst,,Junior,2024-04-09,Hire,Initial appointment
+EMP0540,11952,13971,Operations Analyst,Operations Analyst,Junior,Junior,2024-11-16,Annual Raise,Project completion bonus integration
+EMP0540,13971,19673,Operations Analyst,Operations Analyst,Junior,Mid,2025-02-03,Promotion,Annual performance increase
+EMP0584,,12671,,Marketing Analyst,,Junior,2023-02-16,Hire,Initial appointment
+EMP0584,12671,20334,Marketing Analyst,Marketing Analyst,Junior,Mid,2025-02-24,Promotion,Retention adjustment
+EMP0258,,19812,,Senior Data Engineer,,Junior,2020-02-23,Hire,Initial appointment
+EMP0258,19812,29093,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2022-09-01,Promotion,Project completion bonus integration
+EMP0138,,18764,,Account Manager,,Junior,2018-03-16,Hire,Initial appointment
+EMP0138,18764,20718,Account Manager,Account Manager,Junior,Junior,2019-08-16,Annual Raise,Project completion bonus integration
+EMP0138,20718,23112,Account Manager,Account Manager,Junior,Junior,2021-05-02,Annual Raise,Promoted following review
+EMP0138,23112,33406,Account Manager,Account Manager,Junior,Senior,2023-06-11,Promotion,Cost of living adjustment
+EMP0414,,11348,,UX Designer,,Mid,2024-09-07,Hire,Initial appointment
+EMP0414,11348,13346,UX Designer,UX Designer,Mid,Mid,2025-03-25,Annual Raise,Annual performance increase
+EMP0414,13346,16677,UX Designer,UX Designer,Mid,Junior,2025-05-19,Promotion,Cost of living adjustment
+EMP0709,,12146,,Operations Analyst,,Junior,2024-03-10,Hire,Initial appointment
+EMP0709,12146,13019,Operations Analyst,Operations Analyst,Junior,Junior,2024-10-02,Annual Raise,Project completion bonus integration
+EMP0709,13019,19052,Operations Analyst,Operations Analyst,Junior,Mid,2024-10-25,Promotion,Retention adjustment
+EMP0974,,16045,,Lead Data Engineer,,Junior,2013-01-15,Hire,Initial appointment
+EMP0974,16045,26774,Lead Data Engineer,Lead Data Engineer,Junior,Senior,2017-05-21,Promotion,Project completion bonus integration
+EMP0361,,18149,,Content Strategist,,Junior,2020-07-30,Hire,Initial appointment
+EMP0361,18149,19306,Content Strategist,Content Strategist,Junior,Junior,2022-06-28,Annual Raise,Promoted following review
+EMP0361,19306,28452,Content Strategist,Content Strategist,Junior,Senior,2024-10-13,Promotion,Project completion bonus integration
+EMP0768,,18200,,ML Engineer,,Junior,2017-02-16,Hire,Initial appointment
+EMP0768,18200,21622,ML Engineer,ML Engineer,Junior,Junior,2024-07-25,Annual Raise,Project completion bonus integration
+EMP0768,21622,26080,ML Engineer,ML Engineer,Junior,Senior,2024-08-28,Promotion,Promoted following review
+EMP0139,,11486,,Lead Data Engineer,,Junior,2019-08-20,Hire,Initial appointment
+EMP0139,11486,17265,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2021-12-02,Promotion,Promoted following review
+EMP0622,,10047,,Content Strategist,,Mid,2024-05-30,Hire,Initial appointment
+EMP0622,10047,12028,Content Strategist,Content Strategist,Mid,Mid,2025-03-19,Annual Raise,Annual performance increase
+EMP0622,12028,14074,Content Strategist,Content Strategist,Mid,Mid,2025-03-30,Annual Raise,Cost of living adjustment
+EMP0622,14074,16794,Content Strategist,Content Strategist,Mid,Junior,2025-06-20,Promotion,Market correction adjustment
+EMP0028,,40619,,Sales Analyst,,Mid,2007-08-11,Hire,Initial appointment
+EMP0028,40619,47557,Sales Analyst,Sales Analyst,Mid,Mid,2010-12-14,Annual Raise,Retention adjustment
+EMP0028,47557,64478,Sales Analyst,Sales Analyst,Mid,Director,2018-01-20,Promotion,Retention adjustment
+EMP0680,,12451,,Senior Data Engineer,,Junior,2021-04-11,Hire,Initial appointment
+EMP0680,12451,13888,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2023-11-15,Annual Raise,Promoted following review
+EMP0680,13888,15541,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2025-03-10,Annual Raise,Annual performance increase
+EMP0680,15541,17447,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-03-11,Promotion,Annual performance increase
+EMP0856,,11823,,Data Analyst,,Junior,2024-02-09,Hire,Initial appointment
+EMP0856,11823,13866,Data Analyst,Data Analyst,Junior,Junior,2024-10-31,Annual Raise,Annual performance increase
+EMP0856,13866,15090,Data Analyst,Data Analyst,Junior,Junior,2024-12-18,Annual Raise,Annual performance increase
+EMP0856,15090,17974,Data Analyst,Data Analyst,Junior,Junior,2025-02-15,Annual Raise,Project completion bonus integration
+EMP0856,17974,20389,Data Analyst,Data Analyst,Junior,Mid,2025-04-24,Promotion,Cost of living adjustment
+EMP0278,,13359,,BI Specialist,,Junior,2020-04-13,Hire,Initial appointment
+EMP0278,13359,15025,BI Specialist,BI Specialist,Junior,Junior,2022-01-07,Annual Raise,Promoted following review
+EMP0278,15025,17425,BI Specialist,BI Specialist,Junior,Junior,2022-04-20,Annual Raise,Retention adjustment
+EMP0278,17425,22120,BI Specialist,BI Specialist,Junior,Mid,2022-12-13,Promotion,Market correction adjustment
+EMP0944,,11566,,Lead Data Engineer,,Junior,2023-05-05,Hire,Initial appointment
+EMP0944,11566,19400,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2024-01-01,Promotion,Annual performance increase
+EMP0980,,21604,,Learning & Development,,Junior,2018-05-30,Hire,Initial appointment
+EMP0980,21604,34237,Learning & Development,Learning & Development,Junior,Senior,2023-12-29,Promotion,Market correction adjustment
+EMP0927,,18391,,Vendor Manager,,Junior,2015-06-06,Hire,Initial appointment
+EMP0927,18391,20829,Vendor Manager,Vendor Manager,Junior,Junior,2016-08-23,Annual Raise,Cost of living adjustment
+EMP0927,20829,28609,Vendor Manager,Vendor Manager,Junior,Senior,2019-05-28,Promotion,Project completion bonus integration
+EMP0053,,18189,,Sustainability Analyst,,Junior,2017-05-07,Hire,Initial appointment
+EMP0053,18189,19458,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2019-07-01,Annual Raise,Market correction adjustment
+EMP0053,19458,22249,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2019-11-06,Annual Raise,Promoted following review
+EMP0053,22249,32136,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2020-04-27,Promotion,Cost of living adjustment
+EMP0990,,18511,,Marketing Analyst,,Junior,2015-01-08,Hire,Initial appointment
+EMP0990,18511,22035,Marketing Analyst,Marketing Analyst,Junior,Junior,2020-09-09,Annual Raise,Project completion bonus integration
+EMP0990,22035,31266,Marketing Analyst,Marketing Analyst,Junior,Senior,2023-10-13,Promotion,Market correction adjustment
+EMP0794,,8196,,Data Engineer,,Mid,2024-08-17,Hire,Initial appointment
+EMP0794,8196,9824,Data Engineer,Data Engineer,Mid,Mid,2025-06-04,Annual Raise,Cost of living adjustment
+EMP0794,9824,14068,Data Engineer,Data Engineer,Mid,Junior,2025-06-06,Promotion,Cost of living adjustment
+EMP0357,,12023,,Operations Analyst,,Mid,2024-08-28,Hire,Initial appointment
+EMP0357,12023,13024,Operations Analyst,Operations Analyst,Mid,Mid,2025-04-11,Annual Raise,Project completion bonus integration
+EMP0357,13024,14060,Operations Analyst,Operations Analyst,Mid,Mid,2025-04-24,Annual Raise,Promoted following review
+EMP0357,14060,16242,Operations Analyst,Operations Analyst,Mid,Junior,2025-06-30,Promotion,Cost of living adjustment
+EMP0378,,19728,,Compliance Analyst,,Junior,2015-08-26,Hire,Initial appointment
+EMP0378,19728,23081,Compliance Analyst,Compliance Analyst,Junior,Junior,2017-12-13,Annual Raise,Project completion bonus integration
+EMP0378,23081,30565,Compliance Analyst,Compliance Analyst,Junior,Senior,2021-08-03,Promotion,Cost of living adjustment
+EMP0738,,13516,,Brand Manager,,Junior,2021-08-08,Hire,Initial appointment
+EMP0738,13516,15783,Brand Manager,Brand Manager,Junior,Junior,2022-05-22,Annual Raise,Annual performance increase
+EMP0738,15783,18706,Brand Manager,Brand Manager,Junior,Junior,2024-02-10,Annual Raise,Promoted following review
+EMP0738,18706,22304,Brand Manager,Brand Manager,Junior,Junior,2024-11-18,Annual Raise,Market correction adjustment
+EMP0738,22304,20980,Brand Manager,Brand Manager,Junior,Mid,2025-01-13,Promotion,Annual performance increase
+EMP0403,,17172,,UX Designer,,Junior,2019-01-30,Hire,Initial appointment
+EMP0403,17172,19144,UX Designer,UX Designer,Junior,Junior,2022-07-30,Annual Raise,Retention adjustment
+EMP0403,19144,22061,UX Designer,UX Designer,Junior,Junior,2023-01-31,Annual Raise,Retention adjustment
+EMP0403,22061,30410,UX Designer,UX Designer,Junior,Senior,2024-03-30,Promotion,Market correction adjustment
+EMP0324,,12834,,Account Manager,,Junior,2024-04-23,Hire,Initial appointment
+EMP0324,12834,13991,Account Manager,Account Manager,Junior,Junior,2025-01-07,Annual Raise,Cost of living adjustment
+EMP0324,13991,17934,Account Manager,Account Manager,Junior,Mid,2025-05-23,Promotion,Project completion bonus integration
+EMP0577,,14962,,Lead Data Engineer,,Junior,2020-08-07,Hire,Initial appointment
+EMP0577,14962,17596,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2022-01-03,Annual Raise,Retention adjustment
+EMP0577,17596,23563,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2023-06-28,Promotion,Promoted following review
+EMP0520,,8386,,Vendor Manager,,Mid,2024-03-06,Hire,Initial appointment
+EMP0520,8386,14209,Vendor Manager,Vendor Manager,Mid,Junior,2025-02-06,Promotion,Market correction adjustment
+EMP0219,,15069,,Digital Analyst,,Junior,2022-07-20,Hire,Initial appointment
+EMP0219,15069,16115,Digital Analyst,Digital Analyst,Junior,Junior,2023-10-31,Annual Raise,Project completion bonus integration
+EMP0219,16115,17927,Digital Analyst,Digital Analyst,Junior,Junior,2024-12-18,Annual Raise,Project completion bonus integration
+EMP0219,17927,21890,Digital Analyst,Digital Analyst,Junior,Mid,2025-05-04,Promotion,Project completion bonus integration
+EMP0418,,17650,,Content Strategist,,Junior,2018-07-26,Hire,Initial appointment
+EMP0418,17650,18659,Content Strategist,Content Strategist,Junior,Junior,2020-01-21,Annual Raise,Retention adjustment
+EMP0418,18659,21664,Content Strategist,Content Strategist,Junior,Junior,2020-02-13,Annual Raise,Market correction adjustment
+EMP0418,21664,26705,Content Strategist,Content Strategist,Junior,Senior,2021-09-03,Promotion,Annual performance increase
+EMP0751,,14333,,Senior Data Engineer,,Junior,2024-03-19,Hire,Initial appointment
+EMP0751,14333,16994,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-11-21,Annual Raise,Retention adjustment
+EMP0751,16994,20085,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-02-03,Promotion,Retention adjustment
+EMP0599,,37810,,Budget Analyst,,Mid,2011-08-26,Hire,Initial appointment
+EMP0599,37810,42233,Budget Analyst,Budget Analyst,Mid,Mid,2016-10-30,Annual Raise,Project completion bonus integration
+EMP0599,42233,64777,Budget Analyst,Budget Analyst,Mid,Director,2018-07-27,Promotion,Annual performance increase
+EMP0606,,13484,,Senior Data Analyst,,Junior,2022-09-18,Hire,Initial appointment
+EMP0606,13484,14969,Senior Data Analyst,Senior Data Analyst,Junior,Junior,2023-07-10,Annual Raise,Promoted following review
+EMP0606,14969,19327,Senior Data Analyst,Senior Data Analyst,Junior,Mid,2025-05-24,Promotion,Market correction adjustment
+EMP0940,,13876,,Supply Chain Analyst,,Junior,2020-08-07,Hire,Initial appointment
+EMP0940,13876,16566,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2023-05-24,Annual Raise,Promoted following review
+EMP0940,16566,23792,Supply Chain Analyst,Supply Chain Analyst,Junior,Mid,2024-02-12,Promotion,Market correction adjustment
+EMP0019,,14981,,BI Developer,,Junior,2023-01-08,Hire,Initial appointment
+EMP0019,14981,17604,BI Developer,BI Developer,Junior,Junior,2023-11-20,Annual Raise,Cost of living adjustment
+EMP0019,17604,21508,BI Developer,BI Developer,Junior,Mid,2025-02-28,Promotion,Annual performance increase
+EMP0902,,26438,,Senior Data Engineer,,Mid,2015-06-11,Hire,Initial appointment
+EMP0902,26438,28680,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2018-05-04,Annual Raise,Retention adjustment
+EMP0902,28680,33911,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2018-06-05,Annual Raise,Promoted following review
+EMP0902,33911,40535,Senior Data Engineer,Senior Data Engineer,Mid,Lead,2022-10-13,Promotion,Project completion bonus integration
+EMP0982,,13862,,DevOps Engineer,,Junior,2022-02-18,Hire,Initial appointment
+EMP0982,13862,16454,DevOps Engineer,DevOps Engineer,Junior,Junior,2023-02-07,Annual Raise,Market correction adjustment
+EMP0982,16454,19554,DevOps Engineer,DevOps Engineer,Junior,Mid,2023-08-22,Promotion,Cost of living adjustment
+EMP0742,,33138,,Legal Analyst,,Mid,2018-07-18,Hire,Initial appointment
+EMP0742,33138,38642,Legal Analyst,Legal Analyst,Mid,Mid,2022-07-27,Annual Raise,Market correction adjustment
+EMP0742,38642,41537,Legal Analyst,Legal Analyst,Mid,Mid,2022-10-01,Annual Raise,Market correction adjustment
+EMP0742,41537,48786,Legal Analyst,Legal Analyst,Mid,Lead,2024-03-23,Promotion,Cost of living adjustment
+EMP0895,,12726,,Procurement Analyst,,Junior,2019-05-30,Hire,Initial appointment
+EMP0895,12726,20539,Procurement Analyst,Procurement Analyst,Junior,Mid,2021-04-11,Promotion,Retention adjustment
+EMP0426,,17270,,Marketing Analyst,,Junior,2015-07-23,Hire,Initial appointment
+EMP0426,17270,18264,Marketing Analyst,Marketing Analyst,Junior,Junior,2018-06-25,Annual Raise,Retention adjustment
+EMP0426,18264,19765,Marketing Analyst,Marketing Analyst,Junior,Junior,2021-10-09,Annual Raise,Cost of living adjustment
+EMP0426,19765,21542,Marketing Analyst,Marketing Analyst,Junior,Junior,2022-11-27,Annual Raise,Annual performance increase
+EMP0426,21542,28638,Marketing Analyst,Marketing Analyst,Junior,Senior,2023-03-15,Promotion,Promoted following review
+EMP0543,,14626,,ML Engineer,,Junior,2021-05-28,Hire,Initial appointment
+EMP0543,14626,23074,ML Engineer,ML Engineer,Junior,Mid,2024-09-02,Promotion,Market correction adjustment
+EMP0282,,15157,,Operations Analyst,,Junior,2024-09-21,Hire,Initial appointment
+EMP0282,15157,16900,Operations Analyst,Operations Analyst,Junior,Junior,2025-04-14,Annual Raise,Annual performance increase
+EMP0282,16900,19760,Operations Analyst,Operations Analyst,Junior,Junior,2025-06-01,Annual Raise,Promoted following review
+EMP0282,19760,20234,Operations Analyst,Operations Analyst,Junior,Mid,2025-06-02,Promotion,Promoted following review
+EMP0059,,33852,,Data Modeler,,Mid,2002-09-14,Hire,Initial appointment
+EMP0059,33852,59572,Data Modeler,Data Modeler,Mid,Director,2009-02-13,Promotion,Market correction adjustment
+EMP0066,,20799,,ML Engineer,,Junior,2016-02-18,Hire,Initial appointment
+EMP0066,20799,30280,ML Engineer,ML Engineer,Junior,Senior,2020-03-14,Promotion,Cost of living adjustment
+EMP0616,,17326,,Finance Manager,,Junior,2021-08-25,Hire,Initial appointment
+EMP0616,17326,20586,Finance Manager,Finance Manager,Junior,Junior,2024-07-31,Annual Raise,Market correction adjustment
+EMP0616,20586,23680,Finance Manager,Finance Manager,Junior,Junior,2024-11-06,Annual Raise,Annual performance increase
+EMP0616,23680,25266,Finance Manager,Finance Manager,Junior,Senior,2025-04-08,Promotion,Promoted following review
+EMP0050,,32115,,DevOps Engineer,,Mid,2018-07-13,Hire,Initial appointment
+EMP0050,32115,37026,DevOps Engineer,DevOps Engineer,Mid,Mid,2020-05-15,Annual Raise,Project completion bonus integration
+EMP0050,37026,42543,DevOps Engineer,DevOps Engineer,Mid,Mid,2022-06-08,Annual Raise,Cost of living adjustment
+EMP0050,42543,47481,DevOps Engineer,DevOps Engineer,Mid,Lead,2023-12-03,Promotion,Market correction adjustment
+EMP0759,,24449,,Account Manager,,Junior,2018-06-17,Hire,Initial appointment
+EMP0759,24449,34362,Account Manager,Account Manager,Junior,Senior,2019-09-24,Promotion,Annual performance increase
+EMP0061,,8929,,Budget Analyst,,Mid,2024-04-25,Hire,Initial appointment
+EMP0061,8929,10288,Budget Analyst,Budget Analyst,Mid,Mid,2025-01-31,Annual Raise,Market correction adjustment
+EMP0061,10288,12970,Budget Analyst,Budget Analyst,Mid,Junior,2025-04-01,Promotion,Cost of living adjustment
+EMP0862,,18197,,ML Engineer,,Junior,2016-02-04,Hire,Initial appointment
+EMP0862,18197,19464,ML Engineer,ML Engineer,Junior,Junior,2020-07-05,Annual Raise,Promoted following review
+EMP0862,19464,28272,ML Engineer,ML Engineer,Junior,Senior,2024-01-09,Promotion,Cost of living adjustment
+EMP0276,,7994,,Account Manager,,Mid,2024-06-18,Hire,Initial appointment
+EMP0276,7994,8504,Account Manager,Account Manager,Mid,Mid,2025-02-15,Annual Raise,Market correction adjustment
+EMP0276,8504,10148,Account Manager,Account Manager,Mid,Mid,2025-04-07,Annual Raise,Promoted following review
+EMP0276,10148,10683,Account Manager,Account Manager,Mid,Mid,2025-05-26,Annual Raise,Promoted following review
+EMP0276,10683,13286,Account Manager,Account Manager,Mid,Junior,2025-06-12,Promotion,Promoted following review
+EMP0367,,23511,,Marketing Analyst,,Junior,2019-09-03,Hire,Initial appointment
+EMP0367,23511,24860,Marketing Analyst,Marketing Analyst,Junior,Junior,2023-07-19,Annual Raise,Market correction adjustment
+EMP0367,24860,31971,Marketing Analyst,Marketing Analyst,Junior,Senior,2024-08-16,Promotion,Project completion bonus integration
+EMP0119,,17668,,Senior Data Analyst,,Junior,2018-07-21,Hire,Initial appointment
+EMP0119,17668,19396,Senior Data Analyst,Senior Data Analyst,Junior,Junior,2021-01-14,Annual Raise,Cost of living adjustment
+EMP0119,19396,30731,Senior Data Analyst,Senior Data Analyst,Junior,Senior,2021-09-27,Promotion,Project completion bonus integration
+EMP0380,,17019,,Account Manager,,Junior,2019-06-11,Hire,Initial appointment
+EMP0380,17019,17935,Account Manager,Account Manager,Junior,Junior,2020-06-13,Annual Raise,Cost of living adjustment
+EMP0380,17935,19004,Account Manager,Account Manager,Junior,Junior,2020-08-25,Annual Raise,Retention adjustment
+EMP0380,19004,20577,Account Manager,Account Manager,Junior,Junior,2023-02-16,Annual Raise,Market correction adjustment
+EMP0380,20577,26245,Account Manager,Account Manager,Junior,Senior,2025-03-21,Promotion,Project completion bonus integration
+EMP0015,,6915,,Product Manager,,Mid,2023-04-28,Hire,Initial appointment
+EMP0015,6915,7517,Product Manager,Product Manager,Mid,Mid,2024-03-22,Annual Raise,Promoted following review
+EMP0015,7517,12524,Product Manager,Product Manager,Mid,Junior,2025-03-08,Promotion,Retention adjustment
+EMP0842,,16816,,Sustainability Analyst,,Junior,2015-02-21,Hire,Initial appointment
+EMP0842,16816,27059,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2019-07-14,Promotion,Promoted following review
+EMP0840,,16595,,Product Manager,,Junior,2021-07-19,Hire,Initial appointment
+EMP0840,16595,22707,Product Manager,Product Manager,Junior,Mid,2024-11-09,Promotion,Cost of living adjustment
+EMP0567,,21916,,Account Manager,,Junior,2018-09-13,Hire,Initial appointment
+EMP0567,21916,23119,Account Manager,Account Manager,Junior,Junior,2020-05-17,Annual Raise,Market correction adjustment
+EMP0567,23119,27113,Account Manager,Account Manager,Junior,Junior,2023-03-08,Annual Raise,Project completion bonus integration
+EMP0567,27113,32635,Account Manager,Account Manager,Junior,Senior,2025-01-24,Promotion,Retention adjustment
+EMP0163,,13450,,Vendor Manager,,Junior,2021-05-21,Hire,Initial appointment
+EMP0163,13450,15801,Vendor Manager,Vendor Manager,Junior,Junior,2022-08-13,Annual Raise,Retention adjustment
+EMP0163,15801,19597,Vendor Manager,Vendor Manager,Junior,Mid,2025-01-02,Promotion,Annual performance increase
+EMP0926,,24808,,Account Manager,,Mid,2009-09-06,Hire,Initial appointment
+EMP0926,24808,28517,Account Manager,Account Manager,Mid,Mid,2011-06-21,Annual Raise,Retention adjustment
+EMP0926,28517,40125,Account Manager,Account Manager,Mid,Lead,2015-04-29,Promotion,Promoted following review
+EMP0270,,20313,,Product Manager,,Junior,2015-04-02,Hire,Initial appointment
+EMP0270,20313,34207,Product Manager,Product Manager,Junior,Senior,2024-05-16,Promotion,Cost of living adjustment
+EMP0392,,17142,,Finance Director,,Junior,2014-09-26,Hire,Initial appointment
+EMP0392,17142,19136,Finance Director,Finance Director,Junior,Junior,2017-06-09,Annual Raise,Market correction adjustment
+EMP0392,19136,22912,Finance Director,Finance Director,Junior,Junior,2019-10-13,Annual Raise,Cost of living adjustment
+EMP0392,22912,29444,Finance Director,Finance Director,Junior,Senior,2023-08-07,Promotion,Annual performance increase
+EMP0667,,13058,,Account Manager,,Junior,2020-03-29,Hire,Initial appointment
+EMP0667,13058,14695,Account Manager,Account Manager,Junior,Junior,2020-12-22,Annual Raise,Project completion bonus integration
+EMP0667,14695,16502,Account Manager,Account Manager,Junior,Junior,2022-07-21,Annual Raise,Market correction adjustment
+EMP0667,16502,21662,Account Manager,Account Manager,Junior,Mid,2023-05-27,Promotion,Cost of living adjustment
+EMP0360,,17388,,Data Analyst,,Junior,2018-07-06,Hire,Initial appointment
+EMP0360,17388,19094,Data Analyst,Data Analyst,Junior,Junior,2020-11-19,Annual Raise,Project completion bonus integration
+EMP0360,19094,27461,Data Analyst,Data Analyst,Junior,Senior,2025-04-03,Promotion,Annual performance increase
+EMP0158,,12821,,Sustainability Analyst,,Junior,2024-06-18,Hire,Initial appointment
+EMP0158,12821,14837,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2025-04-01,Annual Raise,Annual performance increase
+EMP0158,14837,20890,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-05-16,Promotion,Annual performance increase
+EMP0765,,11809,,Sustainability Analyst,,Junior,2024-08-04,Hire,Initial appointment
+EMP0765,11809,13678,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2025-03-13,Annual Raise,Retention adjustment
+EMP0765,13678,14730,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2025-06-11,Annual Raise,Retention adjustment
+EMP0765,14730,19272,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-06-24,Promotion,Annual performance increase
+EMP0336,,10088,,UX Designer,,Mid,2024-09-20,Hire,Initial appointment
+EMP0336,10088,13531,UX Designer,UX Designer,Mid,Junior,2025-03-21,Promotion,Project completion bonus integration
+EMP0803,,31173,,Product Manager,,Mid,2013-06-10,Hire,Initial appointment
+EMP0803,31173,48609,Product Manager,Product Manager,Mid,Lead,2018-11-22,Promotion,Promoted following review
+EMP0478,,18603,,UX Designer,,Junior,2017-01-02,Hire,Initial appointment
+EMP0478,18603,22165,UX Designer,UX Designer,Junior,Junior,2020-06-30,Annual Raise,Project completion bonus integration
+EMP0478,22165,24912,UX Designer,UX Designer,Junior,Junior,2021-04-15,Annual Raise,Market correction adjustment
+EMP0478,24912,27136,UX Designer,UX Designer,Junior,Junior,2024-11-06,Annual Raise,Annual performance increase
+EMP0478,27136,26483,UX Designer,UX Designer,Junior,Senior,2025-06-09,Promotion,Cost of living adjustment
+EMP0315,,8931,,Procurement Analyst,,Mid,2024-03-28,Hire,Initial appointment
+EMP0315,8931,12079,Procurement Analyst,Procurement Analyst,Mid,Junior,2025-04-23,Promotion,Annual performance increase
+EMP0809,,21547,,Procurement Analyst,,Junior,2018-04-26,Hire,Initial appointment
+EMP0809,21547,25736,Procurement Analyst,Procurement Analyst,Junior,Junior,2022-03-11,Annual Raise,Market correction adjustment
+EMP0809,25736,30049,Procurement Analyst,Procurement Analyst,Junior,Junior,2023-06-27,Annual Raise,Annual performance increase
+EMP0809,30049,33057,Procurement Analyst,Procurement Analyst,Junior,Senior,2025-04-03,Promotion,Annual performance increase
+EMP0727,,17212,,Legal Analyst,,Junior,2015-08-31,Hire,Initial appointment
+EMP0727,17212,18292,Legal Analyst,Legal Analyst,Junior,Junior,2020-09-14,Annual Raise,Project completion bonus integration
+EMP0727,18292,26178,Legal Analyst,Legal Analyst,Junior,Senior,2023-07-11,Promotion,Market correction adjustment
+EMP0985,,21313,,Sustainability Analyst,,Junior,2018-09-01,Hire,Initial appointment
+EMP0985,21313,30409,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2021-09-13,Promotion,Annual performance increase
+EMP0004,,14834,,Procurement Analyst,,Junior,2024-05-30,Hire,Initial appointment
+EMP0004,14834,17737,Procurement Analyst,Procurement Analyst,Junior,Junior,2025-01-10,Annual Raise,Cost of living adjustment
+EMP0004,17737,18854,Procurement Analyst,Procurement Analyst,Junior,Junior,2025-01-24,Annual Raise,Retention adjustment
+EMP0004,18854,20100,Procurement Analyst,Procurement Analyst,Junior,Mid,2025-06-29,Promotion,Annual performance increase
+EMP0514,,15077,,Data Engineer,,Junior,2017-08-04,Hire,Initial appointment
+EMP0514,15077,17824,Data Engineer,Data Engineer,Junior,Junior,2024-01-02,Annual Raise,Retention adjustment
+EMP0514,17824,26442,Data Engineer,Data Engineer,Junior,Senior,2024-03-15,Promotion,Project completion bonus integration
+EMP0670,,13481,,Legal Analyst,,Junior,2023-01-23,Hire,Initial appointment
+EMP0670,13481,21059,Legal Analyst,Legal Analyst,Junior,Mid,2024-04-18,Promotion,Project completion bonus integration
+EMP0737,,17584,,UX Designer,,Junior,2021-01-04,Hire,Initial appointment
+EMP0737,17584,19031,UX Designer,UX Designer,Junior,Junior,2023-02-09,Annual Raise,Project completion bonus integration
+EMP0737,19031,22196,UX Designer,UX Designer,Junior,Junior,2024-08-29,Annual Raise,Promoted following review
+EMP0737,22196,25155,UX Designer,UX Designer,Junior,Senior,2025-01-08,Promotion,Market correction adjustment
+EMP0598,,12065,,Procurement Analyst,,Junior,2024-04-20,Hire,Initial appointment
+EMP0598,12065,13705,Procurement Analyst,Procurement Analyst,Junior,Junior,2024-11-14,Annual Raise,Promoted following review
+EMP0598,13705,20533,Procurement Analyst,Procurement Analyst,Junior,Mid,2025-02-28,Promotion,Promoted following review
+EMP0372,,8950,,Vendor Manager,,Mid,2024-08-29,Hire,Initial appointment
+EMP0372,8950,12043,Vendor Manager,Vendor Manager,Mid,Junior,2025-03-13,Promotion,Market correction adjustment
+EMP0228,,28836,,Budget Analyst,,Mid,2015-03-18,Hire,Initial appointment
+EMP0228,28836,49492,Budget Analyst,Budget Analyst,Mid,Lead,2016-05-06,Promotion,Promoted following review
+EMP0495,,25753,,Brand Manager,,Mid,2014-02-22,Hire,Initial appointment
+EMP0495,25753,29845,Brand Manager,Brand Manager,Mid,Mid,2016-12-04,Annual Raise,Market correction adjustment
+EMP0495,29845,33162,Brand Manager,Brand Manager,Mid,Mid,2017-03-10,Annual Raise,Promoted following review
+EMP0495,33162,43488,Brand Manager,Brand Manager,Mid,Lead,2018-06-15,Promotion,Promoted following review
+EMP0265,,11709,,Senior Data Analyst,,Junior,2021-01-29,Hire,Initial appointment
+EMP0265,11709,19183,Senior Data Analyst,Senior Data Analyst,Junior,Mid,2024-08-31,Promotion,Market correction adjustment
+EMP0322,,12406,,UX Designer,,Junior,2023-07-26,Hire,Initial appointment
+EMP0322,12406,21074,UX Designer,UX Designer,Junior,Mid,2024-06-07,Promotion,Project completion bonus integration
+EMP0801,,39260,,Sales Analyst,,Mid,2004-04-20,Hire,Initial appointment
+EMP0801,39260,45186,Sales Analyst,Sales Analyst,Mid,Mid,2013-07-01,Annual Raise,Cost of living adjustment
+EMP0801,45186,62516,Sales Analyst,Sales Analyst,Mid,Director,2014-06-05,Promotion,Annual performance increase
+EMP0750,,9806,,Digital Analyst,,Mid,2024-06-12,Hire,Initial appointment
+EMP0750,9806,11229,Digital Analyst,Digital Analyst,Mid,Mid,2025-01-16,Annual Raise,Cost of living adjustment
+EMP0750,11229,13194,Digital Analyst,Digital Analyst,Mid,Junior,2025-03-20,Promotion,Project completion bonus integration
+EMP0710,,10389,,Account Manager,,Junior,2021-03-24,Hire,Initial appointment
+EMP0710,10389,18148,Account Manager,Account Manager,Junior,Mid,2025-05-10,Promotion,Retention adjustment
+EMP0471,,12939,,Legal Analyst,,Junior,2022-06-20,Hire,Initial appointment
+EMP0471,12939,22048,Legal Analyst,Legal Analyst,Junior,Mid,2024-01-12,Promotion,Annual performance increase
+EMP0136,,20945,,Data Analyst,,Junior,2020-05-31,Hire,Initial appointment
+EMP0136,20945,32055,Data Analyst,Data Analyst,Junior,Senior,2024-03-27,Promotion,Retention adjustment
+EMP0402,,16688,,DevOps Engineer,,Junior,2019-01-09,Hire,Initial appointment
+EMP0402,16688,28814,DevOps Engineer,DevOps Engineer,Junior,Senior,2020-05-11,Promotion,Retention adjustment
+EMP0663,,16780,,Data Engineer,,Junior,2019-09-09,Hire,Initial appointment
+EMP0663,16780,18353,Data Engineer,Data Engineer,Junior,Junior,2023-12-08,Annual Raise,Cost of living adjustment
+EMP0663,18353,25156,Data Engineer,Data Engineer,Junior,Senior,2024-06-30,Promotion,Promoted following review
+EMP0465,,13535,,Data Analyst,,Junior,2022-08-16,Hire,Initial appointment
+EMP0465,13535,14231,Data Analyst,Data Analyst,Junior,Junior,2023-04-27,Annual Raise,Market correction adjustment
+EMP0465,14231,16988,Data Analyst,Data Analyst,Junior,Junior,2024-08-24,Annual Raise,Promoted following review
+EMP0465,16988,23371,Data Analyst,Data Analyst,Junior,Mid,2025-01-18,Promotion,Project completion bonus integration
+EMP0568,,30039,,Data Engineer,,Mid,2017-08-20,Hire,Initial appointment
+EMP0568,30039,32999,Data Engineer,Data Engineer,Mid,Mid,2019-12-31,Annual Raise,Promoted following review
+EMP0568,32999,45051,Data Engineer,Data Engineer,Mid,Lead,2024-02-06,Promotion,Market correction adjustment
+EMP0007,,17155,,HR Analyst,,Junior,2021-07-25,Hire,Initial appointment
+EMP0007,17155,19279,HR Analyst,HR Analyst,Junior,Junior,2022-07-17,Annual Raise,Project completion bonus integration
+EMP0007,19279,28752,HR Analyst,HR Analyst,Junior,Senior,2022-08-18,Promotion,Annual performance increase
+EMP0937,,16351,,Data Scientist,,Junior,2022-09-11,Hire,Initial appointment
+EMP0937,16351,19513,Data Scientist,Data Scientist,Junior,Junior,2023-09-27,Annual Raise,Project completion bonus integration
+EMP0937,19513,23274,Data Scientist,Data Scientist,Junior,Mid,2025-05-19,Promotion,Annual performance increase
+EMP0560,,11659,,Supply Chain Analyst,,Junior,2021-08-27,Hire,Initial appointment
+EMP0560,11659,13857,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2022-04-02,Annual Raise,Cost of living adjustment
+EMP0560,13857,15294,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2023-12-19,Annual Raise,Cost of living adjustment
+EMP0560,15294,17924,Supply Chain Analyst,Supply Chain Analyst,Junior,Mid,2024-04-11,Promotion,Market correction adjustment
+EMP0673,,13989,,Digital Analyst,,Junior,2024-09-23,Hire,Initial appointment
+EMP0673,13989,15743,Digital Analyst,Digital Analyst,Junior,Junior,2025-04-04,Annual Raise,Market correction adjustment
+EMP0673,15743,23819,Digital Analyst,Digital Analyst,Junior,Mid,2025-05-27,Promotion,Cost of living adjustment
+EMP0001,,9882,,Senior Data Engineer,,Junior,2019-08-06,Hire,Initial appointment
+EMP0001,9882,11383,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2021-08-22,Annual Raise,Market correction adjustment
+EMP0001,11383,17839,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2022-10-09,Promotion,Promoted following review
+EMP0121,,7694,,Product Manager,,Mid,2024-02-21,Hire,Initial appointment
+EMP0121,7694,8421,Product Manager,Product Manager,Mid,Mid,2024-09-14,Annual Raise,Retention adjustment
+EMP0121,8421,9755,Product Manager,Product Manager,Mid,Mid,2024-10-27,Annual Raise,Retention adjustment
+EMP0121,9755,11640,Product Manager,Product Manager,Mid,Mid,2025-02-14,Annual Raise,Promoted following review
+EMP0121,11640,13269,Product Manager,Product Manager,Mid,Junior,2025-06-25,Promotion,Cost of living adjustment
+EMP0886,,11727,,Senior Data Engineer,,Junior,2023-01-09,Hire,Initial appointment
+EMP0886,11727,12516,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-04-30,Annual Raise,Promoted following review
+EMP0886,12516,20871,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-01-07,Promotion,Promoted following review
+EMP0078,,31759,,Vendor Manager,,Mid,2019-02-06,Hire,Initial appointment
+EMP0078,31759,34429,Vendor Manager,Vendor Manager,Mid,Mid,2020-04-13,Annual Raise,Annual performance increase
+EMP0078,34429,41115,Vendor Manager,Vendor Manager,Mid,Mid,2020-04-30,Annual Raise,Market correction adjustment
+EMP0078,41115,46864,Vendor Manager,Vendor Manager,Mid,Lead,2020-08-13,Promotion,Market correction adjustment
+EMP0648,,7459,,Lead Data Engineer,,Mid,2024-09-03,Hire,Initial appointment
+EMP0648,7459,12553,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2025-06-06,Promotion,Cost of living adjustment
+EMP0798,,11713,,Procurement Analyst,,Junior,2022-05-02,Hire,Initial appointment
+EMP0798,11713,13624,Procurement Analyst,Procurement Analyst,Junior,Junior,2024-01-31,Annual Raise,Retention adjustment
+EMP0798,13624,18401,Procurement Analyst,Procurement Analyst,Junior,Mid,2024-07-16,Promotion,Promoted following review
+EMP0524,,13348,,Data Analyst,,Junior,2020-02-13,Hire,Initial appointment
+EMP0524,13348,20706,Data Analyst,Data Analyst,Junior,Mid,2021-03-30,Promotion,Cost of living adjustment
+EMP0070,,15978,,UX Designer,,Junior,2018-03-10,Hire,Initial appointment
+EMP0070,15978,18637,UX Designer,UX Designer,Junior,Junior,2018-11-23,Annual Raise,Promoted following review
+EMP0070,18637,20647,UX Designer,UX Designer,Junior,Junior,2020-08-29,Annual Raise,Annual performance increase
+EMP0070,20647,22595,UX Designer,UX Designer,Junior,Junior,2020-11-16,Annual Raise,Promoted following review
+EMP0070,22595,28335,UX Designer,UX Designer,Junior,Senior,2024-06-26,Promotion,Cost of living adjustment
+EMP0571,,12386,,Account Manager,,Junior,2023-01-24,Hire,Initial appointment
+EMP0571,12386,19625,Account Manager,Account Manager,Junior,Mid,2024-05-12,Promotion,Project completion bonus integration
+EMP0096,,25634,,Senior Data Engineer,,Junior,2020-09-15,Hire,Initial appointment
+EMP0096,25634,30057,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2021-08-15,Annual Raise,Cost of living adjustment
+EMP0096,30057,34726,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2025-05-04,Promotion,Annual performance increase
+EMP0872,,7860,,Data Scientist,,Mid,2024-07-13,Hire,Initial appointment
+EMP0872,7860,12614,Data Scientist,Data Scientist,Mid,Junior,2025-06-11,Promotion,Project completion bonus integration
+EMP0215,,18431,,Senior Data Engineer,,Junior,2016-02-21,Hire,Initial appointment
+EMP0215,18431,32912,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2021-05-25,Promotion,Market correction adjustment
+EMP0871,,11357,,Procurement Analyst,,Junior,2024-07-07,Hire,Initial appointment
+EMP0871,11357,12275,Procurement Analyst,Procurement Analyst,Junior,Junior,2025-05-07,Annual Raise,Annual performance increase
+EMP0871,12275,17721,Procurement Analyst,Procurement Analyst,Junior,Mid,2025-06-30,Promotion,Retention adjustment
+EMP0025,,7132,,Data Analyst,,Mid,2024-05-25,Hire,Initial appointment
+EMP0025,7132,12563,Data Analyst,Data Analyst,Mid,Junior,2024-12-31,Promotion,Cost of living adjustment
+EMP0905,,9257,,Sales Analyst,,Mid,2024-04-12,Hire,Initial appointment
+EMP0905,9257,10202,Sales Analyst,Sales Analyst,Mid,Mid,2025-02-07,Annual Raise,Market correction adjustment
+EMP0905,10202,11929,Sales Analyst,Sales Analyst,Mid,Mid,2025-02-21,Annual Raise,Annual performance increase
+EMP0905,11929,12652,Sales Analyst,Sales Analyst,Mid,Mid,2025-03-23,Annual Raise,Annual performance increase
+EMP0905,12652,13971,Sales Analyst,Sales Analyst,Mid,Junior,2025-05-19,Promotion,Retention adjustment
+EMP0173,,13960,,Account Manager,,Junior,2024-05-31,Hire,Initial appointment
+EMP0173,13960,22654,Account Manager,Account Manager,Junior,Mid,2024-11-30,Promotion,Retention adjustment
+EMP0878,,14538,,DevOps Engineer,,Junior,2023-01-09,Hire,Initial appointment
+EMP0878,14538,16241,DevOps Engineer,DevOps Engineer,Junior,Junior,2023-09-11,Annual Raise,Retention adjustment
+EMP0878,16241,19176,DevOps Engineer,DevOps Engineer,Junior,Junior,2024-10-22,Annual Raise,Market correction adjustment
+EMP0878,19176,23103,DevOps Engineer,DevOps Engineer,Junior,Mid,2025-05-28,Promotion,Project completion bonus integration
+EMP0559,,27378,,Sustainability Analyst,,Mid,2008-08-17,Hire,Initial appointment
+EMP0559,27378,32245,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2018-01-09,Annual Raise,Annual performance increase
+EMP0559,32245,35140,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2021-05-21,Annual Raise,Retention adjustment
+EMP0559,35140,44004,Sustainability Analyst,Sustainability Analyst,Mid,Lead,2025-02-21,Promotion,Cost of living adjustment
+EMP0115,,8986,,Lead Data Engineer,,Mid,2024-09-16,Hire,Initial appointment
+EMP0115,8986,10396,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-04-02,Annual Raise,Retention adjustment
+EMP0115,10396,12323,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-04-13,Annual Raise,Cost of living adjustment
+EMP0115,12323,13450,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-05-18,Annual Raise,Cost of living adjustment
+EMP0115,13450,12628,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2025-06-10,Promotion,Project completion bonus integration
+EMP0006,,15200,,Learning & Development,,Junior,2024-03-28,Hire,Initial appointment
+EMP0006,15200,17654,Learning & Development,Learning & Development,Junior,Junior,2024-09-27,Annual Raise,Market correction adjustment
+EMP0006,17654,19734,Learning & Development,Learning & Development,Junior,Junior,2025-01-09,Annual Raise,Promoted following review
+EMP0006,19734,22749,Learning & Development,Learning & Development,Junior,Mid,2025-04-25,Promotion,Retention adjustment
+EMP0585,,13303,,Procurement Analyst,,Junior,2021-05-09,Hire,Initial appointment
+EMP0585,13303,15228,Procurement Analyst,Procurement Analyst,Junior,Junior,2023-09-17,Annual Raise,Promoted following review
+EMP0585,15228,21275,Procurement Analyst,Procurement Analyst,Junior,Mid,2024-11-26,Promotion,Promoted following review
+EMP0339,,12642,,HR Analyst,,Junior,2022-07-04,Hire,Initial appointment
+EMP0339,12642,22434,HR Analyst,HR Analyst,Junior,Mid,2025-05-26,Promotion,Project completion bonus integration
+EMP0470,,9420,,Supply Chain Analyst,,Mid,2022-03-08,Hire,Initial appointment
+EMP0470,9420,14774,Supply Chain Analyst,Supply Chain Analyst,Mid,Junior,2023-09-21,Promotion,Market correction adjustment
+EMP0358,,17612,,Sustainability Analyst,,Junior,2019-07-14,Hire,Initial appointment
+EMP0358,17612,20077,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2020-08-02,Annual Raise,Annual performance increase
+EMP0358,20077,29314,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2021-10-31,Promotion,Promoted following review
+EMP0442,,25037,,Sustainability Analyst,,Junior,2015-07-20,Hire,Initial appointment
+EMP0442,25037,35642,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2022-08-12,Promotion,Retention adjustment
+EMP0642,,18821,,Data Engineer,,Junior,2020-09-22,Hire,Initial appointment
+EMP0642,18821,21509,Data Engineer,Data Engineer,Junior,Junior,2024-09-01,Annual Raise,Retention adjustment
+EMP0642,21509,29057,Data Engineer,Data Engineer,Junior,Senior,2024-12-23,Promotion,Promoted following review
+EMP0939,,24158,,Lead Data Engineer,,Junior,2022-05-01,Hire,Initial appointment
+EMP0939,24158,25784,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2024-03-21,Annual Raise,Annual performance increase
+EMP0939,25784,33854,Lead Data Engineer,Lead Data Engineer,Junior,Senior,2024-09-11,Promotion,Annual performance increase
+EMP0463,,13915,,DevOps Engineer,,Junior,2022-03-26,Hire,Initial appointment
+EMP0463,13915,16604,DevOps Engineer,DevOps Engineer,Junior,Junior,2023-08-11,Annual Raise,Retention adjustment
+EMP0463,16604,18243,DevOps Engineer,DevOps Engineer,Junior,Junior,2024-03-05,Annual Raise,Promoted following review
+EMP0463,18243,19778,DevOps Engineer,DevOps Engineer,Junior,Mid,2024-07-07,Promotion,Market correction adjustment
+EMP0593,,12018,,Financial Analyst,,Junior,2022-09-22,Hire,Initial appointment
+EMP0593,12018,12750,Financial Analyst,Financial Analyst,Junior,Junior,2023-09-21,Annual Raise,Cost of living adjustment
+EMP0593,12750,14820,Financial Analyst,Financial Analyst,Junior,Junior,2023-10-27,Annual Raise,Retention adjustment
+EMP0593,14820,17907,Financial Analyst,Financial Analyst,Junior,Mid,2024-12-07,Promotion,Promoted following review
+EMP0343,,13423,,Senior Data Engineer,,Junior,2022-02-06,Hire,Initial appointment
+EMP0343,13423,15859,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2023-08-27,Annual Raise,Project completion bonus integration
+EMP0343,15859,23073,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2024-03-05,Promotion,Retention adjustment
+EMP0387,,17023,,Supply Chain Analyst,,Junior,2020-03-18,Hire,Initial appointment
+EMP0387,17023,20383,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2020-10-06,Annual Raise,Cost of living adjustment
+EMP0387,20383,28212,Supply Chain Analyst,Supply Chain Analyst,Junior,Senior,2023-04-25,Promotion,Promoted following review
+EMP0429,,13820,,Learning & Development,,Junior,2021-01-13,Hire,Initial appointment
+EMP0429,13820,15036,Learning & Development,Learning & Development,Junior,Junior,2022-03-12,Annual Raise,Promoted following review
+EMP0429,15036,19822,Learning & Development,Learning & Development,Junior,Mid,2025-06-24,Promotion,Market correction adjustment
+EMP0081,,13128,,Network Engineer,,Junior,2023-01-05,Hire,Initial appointment
+EMP0081,13128,15595,Network Engineer,Network Engineer,Junior,Junior,2024-07-29,Annual Raise,Market correction adjustment
+EMP0081,15595,16657,Network Engineer,Network Engineer,Junior,Junior,2024-10-23,Annual Raise,Market correction adjustment
+EMP0081,16657,20764,Network Engineer,Network Engineer,Junior,Mid,2024-12-09,Promotion,Project completion bonus integration
+EMP0879,,8658,,Finance Manager,,Mid,2024-04-18,Hire,Initial appointment
+EMP0879,8658,12688,Finance Manager,Finance Manager,Mid,Junior,2024-11-06,Promotion,Retention adjustment
+EMP0458,,18667,,Brand Manager,,Junior,2020-04-30,Hire,Initial appointment
+EMP0458,18667,21993,Brand Manager,Brand Manager,Junior,Junior,2024-01-12,Annual Raise,Promoted following review
+EMP0458,21993,33069,Brand Manager,Brand Manager,Junior,Senior,2024-12-08,Promotion,Market correction adjustment
+EMP0182,,13035,,Data Engineer,,Junior,2019-08-18,Hire,Initial appointment
+EMP0182,13035,17826,Data Engineer,Data Engineer,Junior,Mid,2020-04-05,Promotion,Cost of living adjustment
+EMP0518,,13928,,Lead Data Engineer,,Junior,2021-02-26,Hire,Initial appointment
+EMP0518,13928,16652,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2023-03-05,Annual Raise,Annual performance increase
+EMP0518,16652,22544,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2024-06-30,Promotion,Cost of living adjustment
+EMP0655,,9587,,Account Manager,,Mid,2024-01-30,Hire,Initial appointment
+EMP0655,9587,13486,Account Manager,Account Manager,Mid,Junior,2024-12-11,Promotion,Project completion bonus integration
+EMP0298,,10232,,Sales Analyst,,Mid,2024-08-02,Hire,Initial appointment
+EMP0298,10232,12156,Sales Analyst,Sales Analyst,Mid,Mid,2025-02-06,Annual Raise,Retention adjustment
+EMP0298,12156,16074,Sales Analyst,Sales Analyst,Mid,Junior,2025-03-31,Promotion,Project completion bonus integration
+EMP0603,,34807,,Platform Engineer,,Mid,2003-08-14,Hire,Initial appointment
+EMP0603,34807,37231,Platform Engineer,Platform Engineer,Mid,Mid,2015-01-01,Annual Raise,Retention adjustment
+EMP0603,37231,40866,Platform Engineer,Platform Engineer,Mid,Mid,2015-11-22,Annual Raise,Annual performance increase
+EMP0603,40866,59207,Platform Engineer,Platform Engineer,Mid,Director,2019-06-16,Promotion,Promoted following review
+EMP0030,,18773,,Senior Data Engineer,,Junior,2017-07-29,Hire,Initial appointment
+EMP0030,18773,26684,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2018-11-28,Promotion,Promoted following review
+EMP0479,,15501,,Marketing Analyst,,Junior,2022-06-05,Hire,Initial appointment
+EMP0479,15501,16485,Marketing Analyst,Marketing Analyst,Junior,Junior,2023-12-24,Annual Raise,Cost of living adjustment
+EMP0479,16485,22582,Marketing Analyst,Marketing Analyst,Junior,Mid,2024-02-16,Promotion,Market correction adjustment
+EMP0966,,17892,,HR Analyst,,Junior,2014-04-26,Hire,Initial appointment
+EMP0966,17892,30054,HR Analyst,HR Analyst,Junior,Senior,2020-10-01,Promotion,Project completion bonus integration
+EMP0772,,13259,,Vendor Manager,,Junior,2024-08-02,Hire,Initial appointment
+EMP0772,13259,14316,Vendor Manager,Vendor Manager,Junior,Junior,2025-04-15,Annual Raise,Annual performance increase
+EMP0772,14316,16998,Vendor Manager,Vendor Manager,Junior,Junior,2025-04-18,Annual Raise,Project completion bonus integration
+EMP0772,16998,18169,Vendor Manager,Vendor Manager,Junior,Junior,2025-06-20,Annual Raise,Promoted following review
+EMP0772,18169,22795,Vendor Manager,Vendor Manager,Junior,Mid,2025-06-29,Promotion,Project completion bonus integration
+EMP0611,,24907,,Legal Analyst,,Junior,2018-06-03,Hire,Initial appointment
+EMP0611,24907,27693,Legal Analyst,Legal Analyst,Junior,Junior,2020-01-10,Annual Raise,Annual performance increase
+EMP0611,27693,35603,Legal Analyst,Legal Analyst,Junior,Senior,2020-09-09,Promotion,Retention adjustment
+EMP0013,,8347,,Senior Data Engineer,,Mid,2024-09-05,Hire,Initial appointment
+EMP0013,8347,12645,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2025-03-24,Promotion,Project completion bonus integration
+EMP0922,,14664,,Learning & Development,,Junior,2022-01-29,Hire,Initial appointment
+EMP0922,14664,15874,Learning & Development,Learning & Development,Junior,Junior,2023-09-04,Annual Raise,Cost of living adjustment
+EMP0922,15874,23402,Learning & Development,Learning & Development,Junior,Mid,2023-11-26,Promotion,Promoted following review
+EMP0165,,13167,,Procurement Analyst,,Junior,2019-05-06,Hire,Initial appointment
+EMP0165,13167,15501,Procurement Analyst,Procurement Analyst,Junior,Junior,2020-11-26,Annual Raise,Annual performance increase
+EMP0165,15501,16453,Procurement Analyst,Procurement Analyst,Junior,Junior,2021-07-02,Annual Raise,Project completion bonus integration
+EMP0165,16453,17803,Procurement Analyst,Procurement Analyst,Junior,Junior,2021-11-15,Annual Raise,Annual performance increase
+EMP0165,17803,22043,Procurement Analyst,Procurement Analyst,Junior,Mid,2023-11-16,Promotion,Cost of living adjustment
+EMP0286,,22047,,BI Developer,,Junior,2016-05-17,Hire,Initial appointment
+EMP0286,22047,24513,BI Developer,BI Developer,Junior,Junior,2018-08-30,Annual Raise,Retention adjustment
+EMP0286,24513,33775,BI Developer,BI Developer,Junior,Senior,2021-10-28,Promotion,Annual performance increase
+EMP0767,,13004,,Procurement Analyst,,Junior,2023-08-11,Hire,Initial appointment
+EMP0767,13004,20438,Procurement Analyst,Procurement Analyst,Junior,Mid,2025-03-29,Promotion,Retention adjustment
+EMP0783,,26247,,IT Manager,,Junior,2016-08-05,Hire,Initial appointment
+EMP0783,26247,29061,IT Manager,IT Manager,Junior,Junior,2018-11-24,Annual Raise,Cost of living adjustment
+EMP0783,29061,31327,IT Manager,IT Manager,Junior,Junior,2020-02-20,Annual Raise,Promoted following review
+EMP0783,31327,36462,IT Manager,IT Manager,Junior,Junior,2021-07-22,Annual Raise,Promoted following review
+EMP0783,36462,35899,IT Manager,IT Manager,Junior,Senior,2022-04-03,Promotion,Market correction adjustment
+EMP0948,,22205,,Procurement Analyst,,Mid,2018-01-14,Hire,Initial appointment
+EMP0948,22205,25692,Procurement Analyst,Procurement Analyst,Mid,Mid,2019-09-21,Annual Raise,Promoted following review
+EMP0948,25692,27421,Procurement Analyst,Procurement Analyst,Mid,Mid,2021-04-15,Annual Raise,Cost of living adjustment
+EMP0948,27421,40070,Procurement Analyst,Procurement Analyst,Mid,Lead,2021-09-07,Promotion,Market correction adjustment
+EMP0830,,32449,,Sales Analyst,,Mid,2012-02-17,Hire,Initial appointment
+EMP0830,32449,38179,Sales Analyst,Sales Analyst,Mid,Mid,2018-03-14,Annual Raise,Annual performance increase
+EMP0830,38179,41493,Sales Analyst,Sales Analyst,Mid,Mid,2023-11-25,Annual Raise,Annual performance increase
+EMP0830,41493,50489,Sales Analyst,Sales Analyst,Mid,Director,2024-09-30,Promotion,Market correction adjustment
+EMP0166,,11443,,Legal Analyst,,Junior,2022-03-22,Hire,Initial appointment
+EMP0166,11443,13080,Legal Analyst,Legal Analyst,Junior,Junior,2023-03-22,Annual Raise,Promoted following review
+EMP0166,13080,13861,Legal Analyst,Legal Analyst,Junior,Junior,2023-03-24,Annual Raise,Promoted following review
+EMP0166,13861,15641,Legal Analyst,Legal Analyst,Junior,Junior,2023-09-06,Annual Raise,Retention adjustment
+EMP0166,15641,17823,Legal Analyst,Legal Analyst,Junior,Mid,2024-04-20,Promotion,Cost of living adjustment
+EMP0756,,9975,,Data Modeler,,Mid,2022-07-26,Hire,Initial appointment
+EMP0756,9975,11885,Data Modeler,Data Modeler,Mid,Mid,2023-05-05,Annual Raise,Retention adjustment
+EMP0756,11885,12714,Data Modeler,Data Modeler,Mid,Mid,2023-12-26,Annual Raise,Retention adjustment
+EMP0756,12714,14772,Data Modeler,Data Modeler,Mid,Junior,2024-11-27,Promotion,Market correction adjustment
+EMP0033,,11184,,Account Manager,,Junior,2024-04-01,Hire,Initial appointment
+EMP0033,11184,12076,Account Manager,Account Manager,Junior,Junior,2025-01-05,Annual Raise,Annual performance increase
+EMP0033,12076,17226,Account Manager,Account Manager,Junior,Mid,2025-03-27,Promotion,Annual performance increase
+EMP0857,,16707,,Cloud Architect,,Junior,2021-01-17,Hire,Initial appointment
+EMP0857,16707,18683,Cloud Architect,Cloud Architect,Junior,Junior,2021-08-07,Annual Raise,Project completion bonus integration
+EMP0857,18683,22403,Cloud Architect,Cloud Architect,Junior,Mid,2023-04-27,Promotion,Project completion bonus integration
+EMP0074,,13470,,Digital Analyst,,Junior,2021-07-13,Hire,Initial appointment
+EMP0074,13470,14250,Digital Analyst,Digital Analyst,Junior,Junior,2023-01-14,Annual Raise,Cost of living adjustment
+EMP0074,14250,19723,Digital Analyst,Digital Analyst,Junior,Mid,2024-11-16,Promotion,Project completion bonus integration
+EMP0275,,12024,,ML Engineer,,Junior,2024-02-17,Hire,Initial appointment
+EMP0275,12024,14205,ML Engineer,ML Engineer,Junior,Junior,2024-11-14,Annual Raise,Project completion bonus integration
+EMP0275,14205,18318,ML Engineer,ML Engineer,Junior,Mid,2025-02-16,Promotion,Annual performance increase
+EMP0008,,22145,,Supply Chain Analyst,,Junior,2013-05-18,Hire,Initial appointment
+EMP0008,22145,25313,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2014-03-03,Annual Raise,Market correction adjustment
+EMP0008,25313,28912,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2016-10-30,Annual Raise,Market correction adjustment
+EMP0008,28912,35532,Supply Chain Analyst,Supply Chain Analyst,Junior,Senior,2018-03-09,Promotion,Annual performance increase
+EMP0134,,39082,,Legal Analyst,,Mid,2015-04-10,Hire,Initial appointment
+EMP0134,39082,44623,Legal Analyst,Legal Analyst,Mid,Mid,2015-12-02,Annual Raise,Retention adjustment
+EMP0134,44623,50829,Legal Analyst,Legal Analyst,Mid,Mid,2019-06-27,Annual Raise,Cost of living adjustment
+EMP0134,50829,58300,Legal Analyst,Legal Analyst,Mid,Director,2022-12-19,Promotion,Cost of living adjustment
+EMP0062,,21111,,Marketing Analyst,,Junior,2018-02-12,Hire,Initial appointment
+EMP0062,21111,22501,Marketing Analyst,Marketing Analyst,Junior,Junior,2021-07-25,Annual Raise,Market correction adjustment
+EMP0062,22501,28404,Marketing Analyst,Marketing Analyst,Junior,Senior,2022-07-26,Promotion,Market correction adjustment
+EMP0474,,20980,,Finance Manager,,Junior,2020-02-23,Hire,Initial appointment
+EMP0474,20980,34415,Finance Manager,Finance Manager,Junior,Senior,2022-11-10,Promotion,Annual performance increase
+EMP0055,,10005,,Senior Data Engineer,,Junior,2024-07-27,Hire,Initial appointment
+EMP0055,10005,17701,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-02-13,Promotion,Project completion bonus integration
+EMP0936,,28742,,Platform Engineer,,Mid,2009-08-01,Hire,Initial appointment
+EMP0936,28742,48448,Platform Engineer,Platform Engineer,Mid,Lead,2023-04-25,Promotion,Cost of living adjustment
+EMP0292,,19249,,Brand Manager,,Junior,2018-02-17,Hire,Initial appointment
+EMP0292,19249,27679,Brand Manager,Brand Manager,Junior,Senior,2025-04-04,Promotion,Market correction adjustment
+EMP0441,,7959,,Operations Analyst,,Mid,2024-04-28,Hire,Initial appointment
+EMP0441,7959,8991,Operations Analyst,Operations Analyst,Mid,Mid,2024-12-13,Annual Raise,Project completion bonus integration
+EMP0441,8991,12214,Operations Analyst,Operations Analyst,Mid,Junior,2025-03-07,Promotion,Cost of living adjustment
+EMP0494,,30485,,Finance Director,,Mid,2008-10-02,Hire,Initial appointment
+EMP0494,30485,33864,Finance Director,Finance Director,Mid,Mid,2021-03-14,Annual Raise,Market correction adjustment
+EMP0494,33864,44258,Finance Director,Finance Director,Mid,Lead,2023-07-31,Promotion,Market correction adjustment
+EMP0433,,18034,,UX Designer,,Junior,2016-05-20,Hire,Initial appointment
+EMP0433,18034,21414,UX Designer,UX Designer,Junior,Junior,2018-01-17,Annual Raise,Annual performance increase
+EMP0433,21414,23309,UX Designer,UX Designer,Junior,Junior,2018-06-13,Annual Raise,Cost of living adjustment
+EMP0433,23309,26091,UX Designer,UX Designer,Junior,Senior,2024-02-22,Promotion,Retention adjustment
+EMP0188,,18442,,Marketing Analyst,,Junior,2018-06-06,Hire,Initial appointment
+EMP0188,18442,19607,Marketing Analyst,Marketing Analyst,Junior,Junior,2021-08-31,Annual Raise,Project completion bonus integration
+EMP0188,19607,32854,Marketing Analyst,Marketing Analyst,Junior,Senior,2023-04-02,Promotion,Retention adjustment
+EMP0244,,19658,,UX Designer,,Junior,2018-01-08,Hire,Initial appointment
+EMP0244,19658,23477,UX Designer,UX Designer,Junior,Junior,2022-07-10,Annual Raise,Retention adjustment
+EMP0244,23477,26505,UX Designer,UX Designer,Junior,Junior,2023-03-15,Annual Raise,Cost of living adjustment
+EMP0244,26505,30353,UX Designer,UX Designer,Junior,Junior,2023-08-02,Annual Raise,Retention adjustment
+EMP0244,30353,30067,UX Designer,UX Designer,Junior,Senior,2024-03-15,Promotion,Project completion bonus integration
+EMP0932,,19986,,Data Analyst,,Junior,2016-04-22,Hire,Initial appointment
+EMP0932,19986,21283,Data Analyst,Data Analyst,Junior,Junior,2017-03-27,Annual Raise,Annual performance increase
+EMP0932,21283,25098,Data Analyst,Data Analyst,Junior,Junior,2020-11-11,Annual Raise,Market correction adjustment
+EMP0932,25098,34973,Data Analyst,Data Analyst,Junior,Senior,2024-05-30,Promotion,Retention adjustment
+EMP0443,,36706,,Budget Analyst,,Mid,2014-02-05,Hire,Initial appointment
+EMP0443,36706,48999,Budget Analyst,Budget Analyst,Mid,Lead,2016-07-29,Promotion,Promoted following review
+EMP0371,,9478,,Sales Analyst,,Mid,2024-04-19,Hire,Initial appointment
+EMP0371,9478,11063,Sales Analyst,Sales Analyst,Mid,Mid,2024-11-16,Annual Raise,Project completion bonus integration
+EMP0371,11063,15658,Sales Analyst,Sales Analyst,Mid,Junior,2025-03-17,Promotion,Project completion bonus integration
+EMP0747,,9312,,Financial Analyst,,Mid,2024-04-06,Hire,Initial appointment
+EMP0747,9312,10283,Financial Analyst,Financial Analyst,Mid,Mid,2024-10-13,Annual Raise,Annual performance increase
+EMP0747,10283,11754,Financial Analyst,Financial Analyst,Mid,Mid,2025-04-09,Annual Raise,Promoted following review
+EMP0747,11754,12912,Financial Analyst,Financial Analyst,Mid,Junior,2025-05-18,Promotion,Project completion bonus integration
+EMP0958,,11569,,Network Engineer,,Junior,2021-02-07,Hire,Initial appointment
+EMP0958,11569,12396,Network Engineer,Network Engineer,Junior,Junior,2023-04-24,Annual Raise,Annual performance increase
+EMP0958,12396,20714,Network Engineer,Network Engineer,Junior,Mid,2023-07-10,Promotion,Project completion bonus integration
+EMP0903,,9149,,BI Engineer,,Mid,2024-04-14,Hire,Initial appointment
+EMP0903,9149,10095,BI Engineer,BI Engineer,Mid,Mid,2025-02-03,Annual Raise,Market correction adjustment
+EMP0903,10095,11568,BI Engineer,BI Engineer,Mid,Mid,2025-02-21,Annual Raise,Cost of living adjustment
+EMP0903,11568,12991,BI Engineer,BI Engineer,Mid,Junior,2025-03-31,Promotion,Annual performance increase
+EMP0631,,19547,,Marketing Analyst,,Junior,2022-02-23,Hire,Initial appointment
+EMP0631,19547,21443,Marketing Analyst,Marketing Analyst,Junior,Junior,2022-11-15,Annual Raise,Cost of living adjustment
+EMP0631,21443,34215,Marketing Analyst,Marketing Analyst,Junior,Senior,2022-12-10,Promotion,Promoted following review
+EMP0043,,14467,,Cloud Architect,,Junior,2022-08-01,Hire,Initial appointment
+EMP0043,14467,15323,Cloud Architect,Cloud Architect,Junior,Junior,2023-12-23,Annual Raise,Annual performance increase
+EMP0043,15323,17641,Cloud Architect,Cloud Architect,Junior,Junior,2024-06-30,Annual Raise,Retention adjustment
+EMP0043,17641,22786,Cloud Architect,Cloud Architect,Junior,Mid,2024-12-06,Promotion,Market correction adjustment
+EMP0988,,28764,,BI Developer,,Mid,2017-05-24,Hire,Initial appointment
+EMP0988,28764,41504,BI Developer,BI Developer,Mid,Lead,2021-03-05,Promotion,Retention adjustment
+EMP0969,,18781,,Operations Analyst,,Junior,2020-09-27,Hire,Initial appointment
+EMP0969,18781,19766,Operations Analyst,Operations Analyst,Junior,Junior,2021-04-03,Annual Raise,Promoted following review
+EMP0969,19766,25223,Operations Analyst,Operations Analyst,Junior,Senior,2024-01-19,Promotion,Cost of living adjustment
+EMP0804,,10161,,Cloud Architect,,Mid,2022-09-27,Hire,Initial appointment
+EMP0804,10161,11122,Cloud Architect,Cloud Architect,Mid,Mid,2023-11-09,Annual Raise,Promoted following review
+EMP0804,11122,15727,Cloud Architect,Cloud Architect,Mid,Junior,2023-12-01,Promotion,Project completion bonus integration
+EMP0810,,22741,,HR Analyst,,Mid,2008-04-05,Hire,Initial appointment
+EMP0810,22741,38710,HR Analyst,HR Analyst,Mid,Lead,2013-09-15,Promotion,Retention adjustment
+EMP0917,,13006,,Data Analyst,,Junior,2020-01-13,Hire,Initial appointment
+EMP0917,13006,15437,Data Analyst,Data Analyst,Junior,Junior,2022-12-03,Annual Raise,Cost of living adjustment
+EMP0917,15437,21927,Data Analyst,Data Analyst,Junior,Mid,2024-04-25,Promotion,Market correction adjustment
+EMP0965,,18906,,Lead Data Engineer,,Junior,2016-07-21,Hire,Initial appointment
+EMP0965,18906,29286,Lead Data Engineer,Lead Data Engineer,Junior,Senior,2017-11-25,Promotion,Cost of living adjustment
+EMP0249,,25228,,Sales Analyst,,Mid,2009-07-28,Hire,Initial appointment
+EMP0249,25228,29031,Sales Analyst,Sales Analyst,Mid,Mid,2022-09-07,Annual Raise,Retention adjustment
+EMP0249,29031,41656,Sales Analyst,Sales Analyst,Mid,Lead,2024-03-26,Promotion,Promoted following review
+EMP0475,,14000,,Sustainability Analyst,,Junior,2019-03-24,Hire,Initial appointment
+EMP0475,14000,15628,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2021-07-06,Annual Raise,Retention adjustment
+EMP0475,15628,18954,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2022-04-14,Promotion,Retention adjustment
+EMP0345,,24169,,Compliance Analyst,,Junior,2021-01-24,Hire,Initial appointment
+EMP0345,24169,35509,Compliance Analyst,Compliance Analyst,Junior,Senior,2021-08-10,Promotion,Market correction adjustment
+EMP0999,,19746,,Sales Analyst,,Junior,2016-07-15,Hire,Initial appointment
+EMP0999,19746,21945,Sales Analyst,Sales Analyst,Junior,Junior,2021-08-29,Annual Raise,Cost of living adjustment
+EMP0999,21945,24394,Sales Analyst,Sales Analyst,Junior,Junior,2022-12-13,Annual Raise,Promoted following review
+EMP0999,24394,27174,Sales Analyst,Sales Analyst,Junior,Senior,2024-04-28,Promotion,Retention adjustment
+EMP0899,,21035,,BI Engineer,,Junior,2019-09-21,Hire,Initial appointment
+EMP0899,21035,24791,BI Engineer,BI Engineer,Junior,Junior,2023-09-16,Annual Raise,Retention adjustment
+EMP0899,24791,29954,BI Engineer,BI Engineer,Junior,Senior,2024-01-25,Promotion,Annual performance increase
+EMP0525,,11211,,Lead Data Engineer,,Junior,2024-06-05,Hire,Initial appointment
+EMP0525,11211,17743,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-05-27,Promotion,Market correction adjustment
+EMP0610,,28386,,Sustainability Analyst,,Mid,2012-04-04,Hire,Initial appointment
+EMP0610,28386,32321,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2019-05-30,Annual Raise,Project completion bonus integration
+EMP0610,32321,38781,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2020-03-15,Annual Raise,Promoted following review
+EMP0610,38781,43986,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2022-11-30,Annual Raise,Annual performance increase
+EMP0610,43986,39516,Sustainability Analyst,Sustainability Analyst,Mid,Lead,2024-08-18,Promotion,Project completion bonus integration
+EMP0930,,11042,,Data Engineer,,Junior,2023-07-16,Hire,Initial appointment
+EMP0930,11042,19214,Data Engineer,Data Engineer,Junior,Mid,2025-03-01,Promotion,Cost of living adjustment
+EMP0191,,26779,,Marketing Analyst,,Mid,2015-08-04,Hire,Initial appointment
+EMP0191,26779,38265,Marketing Analyst,Marketing Analyst,Mid,Lead,2018-07-08,Promotion,Annual performance increase
+EMP0883,,19976,,Network Engineer,,Junior,2018-05-29,Hire,Initial appointment
+EMP0883,19976,35434,Network Engineer,Network Engineer,Junior,Senior,2022-07-23,Promotion,Annual performance increase
+EMP0986,,10797,,Marketing Analyst,,Mid,2024-02-09,Hire,Initial appointment
+EMP0986,10797,12437,Marketing Analyst,Marketing Analyst,Mid,Mid,2024-09-13,Annual Raise,Promoted following review
+EMP0986,12437,13663,Marketing Analyst,Marketing Analyst,Mid,Mid,2024-10-28,Annual Raise,Market correction adjustment
+EMP0986,13663,15895,Marketing Analyst,Marketing Analyst,Mid,Junior,2025-04-20,Promotion,Annual performance increase
+EMP0835,,21263,,Digital Analyst,,Junior,2015-08-29,Hire,Initial appointment
+EMP0835,21263,24545,Digital Analyst,Digital Analyst,Junior,Junior,2020-01-20,Annual Raise,Cost of living adjustment
+EMP0835,24545,28881,Digital Analyst,Digital Analyst,Junior,Junior,2022-02-06,Annual Raise,Cost of living adjustment
+EMP0835,28881,32632,Digital Analyst,Digital Analyst,Junior,Senior,2025-01-18,Promotion,Retention adjustment
+EMP0795,,19686,,Data Analyst,,Junior,2018-03-09,Hire,Initial appointment
+EMP0795,19686,21432,Data Analyst,Data Analyst,Junior,Junior,2018-10-21,Annual Raise,Project completion bonus integration
+EMP0795,21432,34816,Data Analyst,Data Analyst,Junior,Senior,2021-09-24,Promotion,Retention adjustment
+EMP0224,,19856,,Vendor Manager,,Junior,2021-02-28,Hire,Initial appointment
+EMP0224,19856,21235,Vendor Manager,Vendor Manager,Junior,Junior,2025-03-14,Annual Raise,Project completion bonus integration
+EMP0224,21235,34006,Vendor Manager,Vendor Manager,Junior,Senior,2025-05-18,Promotion,Retention adjustment
+EMP0693,,13563,,BI Engineer,,Junior,2021-02-10,Hire,Initial appointment
+EMP0693,13563,15958,BI Engineer,BI Engineer,Junior,Junior,2023-09-30,Annual Raise,Retention adjustment
+EMP0693,15958,21200,BI Engineer,BI Engineer,Junior,Mid,2025-02-14,Promotion,Market correction adjustment
+EMP0263,,39557,,Sales Analyst,,Mid,2003-07-08,Hire,Initial appointment
+EMP0263,39557,62533,Sales Analyst,Sales Analyst,Mid,Director,2023-01-19,Promotion,Annual performance increase
+EMP0778,,11501,,ML Engineer,,Junior,2021-01-02,Hire,Initial appointment
+EMP0778,11501,13686,ML Engineer,ML Engineer,Junior,Junior,2022-04-14,Annual Raise,Cost of living adjustment
+EMP0778,13686,19404,ML Engineer,ML Engineer,Junior,Mid,2024-12-15,Promotion,Promoted following review
+EMP0257,,10022,,Lead Data Engineer,,Mid,2024-09-19,Hire,Initial appointment
+EMP0257,10022,11947,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-03-20,Annual Raise,Project completion bonus integration
+EMP0257,11947,13312,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-04-05,Annual Raise,Promoted following review
+EMP0257,13312,14033,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2025-06-12,Promotion,Promoted following review
+EMP0503,,15530,,Compliance Analyst,,Junior,2022-07-16,Hire,Initial appointment
+EMP0503,15530,18100,Compliance Analyst,Compliance Analyst,Junior,Junior,2023-05-23,Annual Raise,Retention adjustment
+EMP0503,18100,21424,Compliance Analyst,Compliance Analyst,Junior,Mid,2025-04-14,Promotion,Annual performance increase
+EMP0209,,30006,,Senior Data Analyst,,Mid,2009-01-17,Hire,Initial appointment
+EMP0209,30006,47703,Senior Data Analyst,Senior Data Analyst,Mid,Lead,2011-11-14,Promotion,Retention adjustment
+EMP0225,,11661,,Sustainability Analyst,,Junior,2023-01-17,Hire,Initial appointment
+EMP0225,11661,12404,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2024-01-19,Annual Raise,Promoted following review
+EMP0225,12404,17838,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-03-04,Promotion,Promoted following review
+EMP0108,,15056,,Operations Analyst,,Junior,2023-05-29,Hire,Initial appointment
+EMP0108,15056,16320,Operations Analyst,Operations Analyst,Junior,Junior,2024-03-20,Annual Raise,Market correction adjustment
+EMP0108,16320,17864,Operations Analyst,Operations Analyst,Junior,Junior,2024-11-28,Annual Raise,Market correction adjustment
+EMP0108,17864,23286,Operations Analyst,Operations Analyst,Junior,Mid,2024-12-26,Promotion,Project completion bonus integration
+EMP0034,,24691,,Vendor Manager,,Junior,2020-04-08,Hire,Initial appointment
+EMP0034,24691,28611,Vendor Manager,Vendor Manager,Junior,Junior,2022-05-20,Annual Raise,Market correction adjustment
+EMP0034,28611,31123,Vendor Manager,Vendor Manager,Junior,Junior,2023-08-28,Annual Raise,Project completion bonus integration
+EMP0034,31123,34932,Vendor Manager,Vendor Manager,Junior,Senior,2024-04-26,Promotion,Annual performance increase
+EMP0412,,21345,,HR Analyst,,Junior,2021-07-18,Hire,Initial appointment
+EMP0412,21345,24794,HR Analyst,HR Analyst,Junior,Junior,2023-01-07,Annual Raise,Promoted following review
+EMP0412,24794,30254,HR Analyst,HR Analyst,Junior,Senior,2023-09-07,Promotion,Market correction adjustment
+EMP0909,,31693,,BI Specialist,,Mid,2012-04-05,Hire,Initial appointment
+EMP0909,31693,35330,BI Specialist,BI Specialist,Mid,Mid,2017-10-29,Annual Raise,Retention adjustment
+EMP0909,35330,38343,BI Specialist,BI Specialist,Mid,Mid,2020-10-21,Annual Raise,Promoted following review
+EMP0909,38343,45925,BI Specialist,BI Specialist,Mid,Lead,2022-01-11,Promotion,Market correction adjustment
+EMP0003,,12743,,Compliance Analyst,,Junior,2021-02-17,Hire,Initial appointment
+EMP0003,12743,14807,Compliance Analyst,Compliance Analyst,Junior,Junior,2023-01-21,Annual Raise,Promoted following review
+EMP0003,14807,18763,Compliance Analyst,Compliance Analyst,Junior,Mid,2023-02-01,Promotion,Cost of living adjustment
+EMP0562,,12062,,Sustainability Analyst,,Junior,2024-07-07,Hire,Initial appointment
+EMP0562,12062,12941,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2025-03-06,Annual Raise,Market correction adjustment
+EMP0562,12941,14439,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2025-05-11,Annual Raise,Annual performance increase
+EMP0562,14439,18546,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-06-26,Promotion,Market correction adjustment
+EMP0876,,13878,,Sustainability Analyst,,Junior,2023-08-21,Hire,Initial appointment
+EMP0876,13878,16246,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2024-03-27,Annual Raise,Retention adjustment
+EMP0876,16246,23229,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-06-01,Promotion,Project completion bonus integration
+EMP0951,,15380,,Procurement Analyst,,Junior,2022-07-09,Hire,Initial appointment
+EMP0951,15380,17147,Procurement Analyst,Procurement Analyst,Junior,Junior,2023-03-03,Annual Raise,Project completion bonus integration
+EMP0951,17147,27494,Procurement Analyst,Procurement Analyst,Junior,Senior,2025-05-15,Promotion,Promoted following review
+EMP0719,,20853,,Marketing Analyst,,Junior,2022-03-05,Hire,Initial appointment
+EMP0719,20853,28811,Marketing Analyst,Marketing Analyst,Junior,Senior,2024-12-20,Promotion,Project completion bonus integration
+EMP0548,,13191,,Financial Analyst,,Junior,2023-09-04,Hire,Initial appointment
+EMP0548,13191,21906,Financial Analyst,Financial Analyst,Junior,Mid,2024-07-23,Promotion,Annual performance increase
+EMP0914,,17609,,Data Analyst,,Junior,2022-02-19,Hire,Initial appointment
+EMP0914,17609,20113,Data Analyst,Data Analyst,Junior,Junior,2023-10-26,Annual Raise,Retention adjustment
+EMP0914,20113,22833,Data Analyst,Data Analyst,Junior,Junior,2023-10-27,Annual Raise,Cost of living adjustment
+EMP0914,22833,26409,Data Analyst,Data Analyst,Junior,Senior,2024-08-31,Promotion,Promoted following review
+EMP0752,,29649,,IT Manager,,Mid,2007-01-16,Hire,Initial appointment
+EMP0752,29649,42900,IT Manager,IT Manager,Mid,Lead,2022-11-13,Promotion,Annual performance increase
+EMP0688,,24068,,Sustainability Analyst,,Mid,2017-02-04,Hire,Initial appointment
+EMP0688,24068,41428,Sustainability Analyst,Sustainability Analyst,Mid,Lead,2025-01-14,Promotion,Project completion bonus integration
+EMP0784,,20073,,Sustainability Analyst,,Junior,2019-01-12,Hire,Initial appointment
+EMP0784,20073,22031,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2021-04-12,Annual Raise,Annual performance increase
+EMP0784,22031,24403,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2021-09-05,Annual Raise,Cost of living adjustment
+EMP0784,24403,27153,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2022-09-28,Promotion,Retention adjustment
+EMP0500,,12522,,Lead Data Engineer,,Junior,2020-09-09,Hire,Initial appointment
+EMP0500,12522,14708,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2022-01-12,Annual Raise,Market correction adjustment
+EMP0500,14708,16002,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2025-03-24,Annual Raise,Project completion bonus integration
+EMP0500,16002,18457,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-04-21,Promotion,Cost of living adjustment
+EMP0555,,17376,,Procurement Analyst,,Junior,2021-08-09,Hire,Initial appointment
+EMP0555,17376,20191,Procurement Analyst,Procurement Analyst,Junior,Junior,2022-03-16,Annual Raise,Project completion bonus integration
+EMP0555,20191,24146,Procurement Analyst,Procurement Analyst,Junior,Junior,2022-07-29,Annual Raise,Annual performance increase
+EMP0555,24146,26273,Procurement Analyst,Procurement Analyst,Junior,Senior,2025-04-28,Promotion,Annual performance increase
+EMP0148,,23245,,Account Manager,,Junior,2020-02-12,Hire,Initial appointment
+EMP0148,23245,26707,Account Manager,Account Manager,Junior,Junior,2021-04-13,Annual Raise,Market correction adjustment
+EMP0148,26707,34234,Account Manager,Account Manager,Junior,Senior,2024-03-31,Promotion,Promoted following review
+EMP0678,,16337,,Finance Director,,Junior,2020-04-06,Hire,Initial appointment
+EMP0678,16337,22936,Finance Director,Finance Director,Junior,Mid,2022-11-14,Promotion,Market correction adjustment
+EMP0541,,13454,,ML Engineer,,Junior,2024-07-20,Hire,Initial appointment
+EMP0541,13454,22546,ML Engineer,ML Engineer,Junior,Mid,2025-01-28,Promotion,Promoted following review
+EMP0925,,35008,,Data Engineer,,Mid,2000-02-15,Hire,Initial appointment
+EMP0925,35008,39864,Data Engineer,Data Engineer,Mid,Mid,2004-11-17,Annual Raise,Annual performance increase
+EMP0925,39864,46266,Data Engineer,Data Engineer,Mid,Mid,2010-10-07,Annual Raise,Annual performance increase
+EMP0925,46266,58189,Data Engineer,Data Engineer,Mid,Director,2017-10-25,Promotion,Market correction adjustment
+EMP0103,,14578,,Brand Manager,,Junior,2021-01-14,Hire,Initial appointment
+EMP0103,14578,15614,Brand Manager,Brand Manager,Junior,Junior,2021-09-01,Annual Raise,Project completion bonus integration
+EMP0103,15614,17321,Brand Manager,Brand Manager,Junior,Junior,2024-04-08,Annual Raise,Annual performance increase
+EMP0103,17321,23923,Brand Manager,Brand Manager,Junior,Mid,2024-06-03,Promotion,Promoted following review
+EMP0770,,14123,,Sustainability Analyst,,Junior,2023-02-20,Hire,Initial appointment
+EMP0770,14123,15308,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2023-10-17,Annual Raise,Retention adjustment
+EMP0770,15308,21518,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2023-12-20,Promotion,Market correction adjustment
+EMP0744,,7754,,Senior Data Engineer,,Mid,2024-01-15,Hire,Initial appointment
+EMP0744,7754,8854,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2024-11-14,Annual Raise,Project completion bonus integration
+EMP0744,8854,9348,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2025-03-19,Annual Raise,Promoted following review
+EMP0744,9348,12732,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2025-05-10,Promotion,Project completion bonus integration
+EMP0440,,19067,,Network Engineer,,Junior,2015-08-17,Hire,Initial appointment
+EMP0440,19067,31783,Network Engineer,Network Engineer,Junior,Senior,2020-04-08,Promotion,Cost of living adjustment
+EMP0421,,40032,,Budget Analyst,,Mid,2015-05-24,Hire,Initial appointment
+EMP0421,40032,46412,Budget Analyst,Budget Analyst,Mid,Mid,2018-03-30,Annual Raise,Project completion bonus integration
+EMP0421,46412,60318,Budget Analyst,Budget Analyst,Mid,Director,2021-10-13,Promotion,Project completion bonus integration
+EMP0296,,21106,,Account Manager,,Junior,2020-02-03,Hire,Initial appointment
+EMP0296,21106,29890,Account Manager,Account Manager,Junior,Senior,2023-06-30,Promotion,Market correction adjustment
+EMP0636,,9316,,Sales Analyst,,Mid,2024-07-24,Hire,Initial appointment
+EMP0636,9316,16258,Sales Analyst,Sales Analyst,Mid,Junior,2025-04-10,Promotion,Retention adjustment
+EMP0552,,11792,,Finance Director,,Junior,2021-02-22,Hire,Initial appointment
+EMP0552,11792,14024,Finance Director,Finance Director,Junior,Junior,2022-03-30,Annual Raise,Market correction adjustment
+EMP0552,14024,16433,Finance Director,Finance Director,Junior,Junior,2023-11-02,Annual Raise,Market correction adjustment
+EMP0552,16433,20375,Finance Director,Finance Director,Junior,Mid,2024-03-28,Promotion,Project completion bonus integration
+EMP0987,,12425,,Financial Analyst,,Junior,2020-07-13,Hire,Initial appointment
+EMP0987,12425,14775,Financial Analyst,Financial Analyst,Junior,Junior,2022-03-06,Annual Raise,Retention adjustment
+EMP0987,14775,16036,Financial Analyst,Financial Analyst,Junior,Junior,2023-11-19,Annual Raise,Market correction adjustment
+EMP0987,16036,16904,Financial Analyst,Financial Analyst,Junior,Junior,2025-06-06,Annual Raise,Promoted following review
+EMP0987,16904,18972,Financial Analyst,Financial Analyst,Junior,Mid,2025-06-21,Promotion,Annual performance increase
+EMP0619,,27280,,Legal Analyst,,Mid,2010-07-07,Hire,Initial appointment
+EMP0619,27280,42961,Legal Analyst,Legal Analyst,Mid,Lead,2012-04-22,Promotion,Project completion bonus integration
+EMP0153,,9323,,Content Strategist,,Mid,2022-04-21,Hire,Initial appointment
+EMP0153,9323,9839,Content Strategist,Content Strategist,Mid,Mid,2024-03-03,Annual Raise,Project completion bonus integration
+EMP0153,9839,16140,Content Strategist,Content Strategist,Mid,Junior,2024-04-26,Promotion,Promoted following review
+EMP0698,,16016,,Account Manager,,Junior,2015-07-28,Hire,Initial appointment
+EMP0698,16016,28694,Account Manager,Account Manager,Junior,Senior,2019-12-31,Promotion,Retention adjustment
+EMP0799,,16036,,Senior Data Engineer,,Junior,2019-06-28,Hire,Initial appointment
+EMP0799,16036,18098,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2020-09-28,Annual Raise,Annual performance increase
+EMP0799,18098,20757,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2021-10-08,Annual Raise,Project completion bonus integration
+EMP0799,20757,24786,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2022-03-23,Annual Raise,Project completion bonus integration
+EMP0799,24786,28440,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2023-11-18,Promotion,Project completion bonus integration
+EMP0822,,8157,,Brand Manager,,Mid,2024-08-27,Hire,Initial appointment
+EMP0822,8157,13504,Brand Manager,Brand Manager,Mid,Junior,2025-05-21,Promotion,Promoted following review
+EMP0389,,14575,,Vendor Manager,,Junior,2021-05-12,Hire,Initial appointment
+EMP0389,14575,19951,Vendor Manager,Vendor Manager,Junior,Mid,2022-03-11,Promotion,Market correction adjustment
+EMP0226,,21252,,Senior Data Engineer,,Junior,2014-03-15,Hire,Initial appointment
+EMP0226,21252,30744,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2015-03-28,Promotion,Promoted following review
+EMP0029,,22623,,Data Modeler,,Junior,2019-03-08,Hire,Initial appointment
+EMP0029,22623,24590,Data Modeler,Data Modeler,Junior,Junior,2020-12-04,Annual Raise,Retention adjustment
+EMP0029,24590,34052,Data Modeler,Data Modeler,Junior,Senior,2023-07-16,Promotion,Annual performance increase
+EMP0261,,17233,,Compliance Analyst,,Junior,2017-05-22,Hire,Initial appointment
+EMP0261,17233,30799,Compliance Analyst,Compliance Analyst,Junior,Senior,2021-05-29,Promotion,Promoted following review
+EMP0908,,11200,,Procurement Analyst,,Junior,2023-06-23,Hire,Initial appointment
+EMP0908,11200,18429,Procurement Analyst,Procurement Analyst,Junior,Mid,2024-05-07,Promotion,Annual performance increase
+EMP0168,,27060,,DevOps Engineer,,Mid,2010-06-01,Hire,Initial appointment
+EMP0168,27060,44504,DevOps Engineer,DevOps Engineer,Mid,Lead,2011-02-01,Promotion,Promoted following review
+EMP0996,,14745,,Network Engineer,,Junior,2024-09-15,Hire,Initial appointment
+EMP0996,14745,21985,Network Engineer,Network Engineer,Junior,Mid,2025-06-12,Promotion,Market correction adjustment
+EMP0040,,9751,,Senior Data Engineer,,Mid,2022-05-08,Hire,Initial appointment
+EMP0040,9751,10418,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2023-02-17,Annual Raise,Cost of living adjustment
+EMP0040,10418,16243,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2023-04-07,Promotion,Cost of living adjustment
+EMP0505,,9109,,Sustainability Analyst,,Mid,2024-07-18,Hire,Initial appointment
+EMP0505,9109,9820,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-03-04,Annual Raise,Promoted following review
+EMP0505,9820,11049,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-03-12,Annual Raise,Project completion bonus integration
+EMP0505,11049,13255,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-05-29,Annual Raise,Promoted following review
+EMP0505,13255,13564,Sustainability Analyst,Sustainability Analyst,Mid,Junior,2025-06-23,Promotion,Project completion bonus integration
+EMP0527,,15245,,Lead Data Engineer,,Junior,2021-04-17,Hire,Initial appointment
+EMP0527,15245,16902,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2022-02-05,Annual Raise,Retention adjustment
+EMP0527,16902,18374,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2024-01-30,Annual Raise,Retention adjustment
+EMP0527,18374,19646,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2024-02-03,Annual Raise,Market correction adjustment
+EMP0527,19646,22718,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2024-10-28,Promotion,Annual performance increase
+EMP0763,,13048,,Data Engineer,,Junior,2023-08-16,Hire,Initial appointment
+EMP0763,13048,21255,Data Engineer,Data Engineer,Junior,Mid,2024-05-09,Promotion,Project completion bonus integration
+EMP0961,,8956,,Compliance Analyst,,Mid,2024-05-14,Hire,Initial appointment
+EMP0961,8956,9499,Compliance Analyst,Compliance Analyst,Mid,Mid,2024-12-11,Annual Raise,Project completion bonus integration
+EMP0961,9499,10492,Compliance Analyst,Compliance Analyst,Mid,Mid,2025-02-10,Annual Raise,Promoted following review
+EMP0961,10492,12102,Compliance Analyst,Compliance Analyst,Mid,Mid,2025-02-23,Annual Raise,Cost of living adjustment
+EMP0961,12102,13459,Compliance Analyst,Compliance Analyst,Mid,Junior,2025-06-01,Promotion,Promoted following review
+EMP0977,,21129,,Finance Manager,,Junior,2014-05-03,Hire,Initial appointment
+EMP0977,21129,33007,Finance Manager,Finance Manager,Junior,Senior,2019-02-14,Promotion,Market correction adjustment
+EMP0714,,17040,,Data Analyst,,Junior,2024-03-26,Hire,Initial appointment
+EMP0714,17040,19839,Data Analyst,Data Analyst,Junior,Junior,2024-10-06,Annual Raise,Promoted following review
+EMP0714,19839,22685,Data Analyst,Data Analyst,Junior,Junior,2025-01-27,Annual Raise,Cost of living adjustment
+EMP0714,22685,23528,Data Analyst,Data Analyst,Junior,Mid,2025-04-15,Promotion,Market correction adjustment
+EMP0316,,15826,,HR Analyst,,Junior,2015-08-24,Hire,Initial appointment
+EMP0316,15826,18974,HR Analyst,HR Analyst,Junior,Junior,2024-02-21,Annual Raise,Annual performance increase
+EMP0316,18974,26865,HR Analyst,HR Analyst,Junior,Senior,2024-11-08,Promotion,Retention adjustment
+EMP0340,,16684,,Sales Analyst,,Junior,2021-05-05,Hire,Initial appointment
+EMP0340,16684,22261,Sales Analyst,Sales Analyst,Junior,Mid,2023-04-29,Promotion,Annual performance increase
+EMP0609,,10805,,Sales Analyst,,Mid,2024-03-07,Hire,Initial appointment
+EMP0609,10805,11808,Sales Analyst,Sales Analyst,Mid,Mid,2025-03-06,Annual Raise,Project completion bonus integration
+EMP0609,11808,15711,Sales Analyst,Sales Analyst,Mid,Junior,2025-03-22,Promotion,Promoted following review
+EMP0328,,20273,,Cloud Architect,,Junior,2020-06-14,Hire,Initial appointment
+EMP0328,20273,27103,Cloud Architect,Cloud Architect,Junior,Senior,2022-07-12,Promotion,Annual performance increase
+EMP0492,,15024,,Legal Analyst,,Junior,2022-06-26,Hire,Initial appointment
+EMP0492,15024,16731,Legal Analyst,Legal Analyst,Junior,Junior,2023-03-30,Annual Raise,Promoted following review
+EMP0492,16731,19941,Legal Analyst,Legal Analyst,Junior,Junior,2023-09-05,Annual Raise,Cost of living adjustment
+EMP0492,19941,23741,Legal Analyst,Legal Analyst,Junior,Junior,2024-09-07,Annual Raise,Project completion bonus integration
+EMP0492,23741,22947,Legal Analyst,Legal Analyst,Junior,Mid,2025-02-10,Promotion,Promoted following review
+EMP0234,,14500,,Lead Data Engineer,,Junior,2023-02-16,Hire,Initial appointment
+EMP0234,14500,16777,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2023-09-03,Annual Raise,Market correction adjustment
+EMP0234,16777,18621,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2023-11-14,Annual Raise,Retention adjustment
+EMP0234,18621,22161,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2024-09-15,Annual Raise,Market correction adjustment
+EMP0234,22161,22947,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-01-08,Promotion,Cost of living adjustment
+EMP0573,,8482,,Vendor Manager,,Mid,2023-01-11,Hire,Initial appointment
+EMP0573,8482,9553,Vendor Manager,Vendor Manager,Mid,Mid,2024-07-22,Annual Raise,Promoted following review
+EMP0573,9553,11039,Vendor Manager,Vendor Manager,Mid,Mid,2024-10-20,Annual Raise,Project completion bonus integration
+EMP0573,11039,12937,Vendor Manager,Vendor Manager,Mid,Junior,2025-06-27,Promotion,Project completion bonus integration
+EMP0080,,15668,,IT Manager,,Junior,2022-03-31,Hire,Initial appointment
+EMP0080,15668,16960,IT Manager,IT Manager,Junior,Junior,2024-02-19,Annual Raise,Cost of living adjustment
+EMP0080,16960,19409,IT Manager,IT Manager,Junior,Junior,2025-02-27,Annual Raise,Project completion bonus integration
+EMP0080,19409,21636,IT Manager,IT Manager,Junior,Mid,2025-03-05,Promotion,Annual performance increase
+EMP0615,,13939,,Data Analyst,,Junior,2023-09-20,Hire,Initial appointment
+EMP0615,13939,15348,Data Analyst,Data Analyst,Junior,Junior,2024-03-19,Annual Raise,Retention adjustment
+EMP0615,15348,21513,Data Analyst,Data Analyst,Junior,Mid,2025-06-11,Promotion,Project completion bonus integration
+EMP0404,,18916,,Compliance Analyst,,Junior,2015-05-09,Hire,Initial appointment
+EMP0404,18916,29078,Compliance Analyst,Compliance Analyst,Junior,Senior,2021-01-28,Promotion,Project completion bonus integration
+EMP0487,,16293,,Account Manager,,Junior,2024-01-06,Hire,Initial appointment
+EMP0487,16293,18121,Account Manager,Account Manager,Junior,Junior,2024-09-28,Annual Raise,Cost of living adjustment
+EMP0487,18121,20031,Account Manager,Account Manager,Junior,Junior,2025-06-25,Annual Raise,Promoted following review
+EMP0487,20031,22022,Account Manager,Account Manager,Junior,Mid,2025-06-26,Promotion,Promoted following review
+EMP0787,,17817,,Marketing Analyst,,Junior,2019-07-26,Hire,Initial appointment
+EMP0787,17817,19073,Marketing Analyst,Marketing Analyst,Junior,Junior,2025-01-25,Annual Raise,Annual performance increase
+EMP0787,19073,28758,Marketing Analyst,Marketing Analyst,Junior,Senior,2025-03-27,Promotion,Market correction adjustment
+EMP0192,,18988,,Sustainability Analyst,,Junior,2015-09-11,Hire,Initial appointment
+EMP0192,18988,29216,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2023-01-10,Promotion,Annual performance increase
+EMP0291,,12478,,Supply Chain Analyst,,Junior,2022-03-05,Hire,Initial appointment
+EMP0291,12478,14553,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2023-11-17,Annual Raise,Cost of living adjustment
+EMP0291,14553,21137,Supply Chain Analyst,Supply Chain Analyst,Junior,Mid,2024-04-30,Promotion,Annual performance increase
+EMP0789,,12855,,Data Analyst,,Junior,2024-07-05,Hire,Initial appointment
+EMP0789,12855,13559,Data Analyst,Data Analyst,Junior,Junior,2025-01-27,Annual Raise,Promoted following review
+EMP0789,13559,15367,Data Analyst,Data Analyst,Junior,Junior,2025-03-31,Annual Raise,Market correction adjustment
+EMP0789,15367,19492,Data Analyst,Data Analyst,Junior,Mid,2025-04-01,Promotion,Market correction adjustment
+EMP0781,,11759,,Account Manager,,Junior,2022-07-06,Hire,Initial appointment
+EMP0781,11759,20238,Account Manager,Account Manager,Junior,Mid,2023-01-17,Promotion,Promoted following review
+EMP0718,,23530,,Network Engineer,,Junior,2013-06-23,Hire,Initial appointment
+EMP0718,23530,25940,Network Engineer,Network Engineer,Junior,Junior,2016-04-07,Annual Raise,Project completion bonus integration
+EMP0718,25940,29967,Network Engineer,Network Engineer,Junior,Junior,2020-06-18,Annual Raise,Retention adjustment
+EMP0718,29967,35917,Network Engineer,Network Engineer,Junior,Senior,2022-11-05,Promotion,Market correction adjustment
+EMP0256,,32936,,HR Analyst,,Mid,2014-05-18,Hire,Initial appointment
+EMP0256,32936,34667,HR Analyst,HR Analyst,Mid,Mid,2017-02-06,Annual Raise,Promoted following review
+EMP0256,34667,45404,HR Analyst,HR Analyst,Mid,Lead,2020-02-16,Promotion,Promoted following review
+EMP0241,,14864,,HR Analyst,,Junior,2020-01-10,Hire,Initial appointment
+EMP0241,14864,15983,HR Analyst,HR Analyst,Junior,Junior,2020-09-11,Annual Raise,Annual performance increase
+EMP0241,15983,23248,HR Analyst,HR Analyst,Junior,Mid,2025-03-03,Promotion,Retention adjustment
+EMP0904,,13400,,Budget Analyst,,Junior,2024-05-13,Hire,Initial appointment
+EMP0904,13400,15186,Budget Analyst,Budget Analyst,Junior,Junior,2025-01-26,Annual Raise,Annual performance increase
+EMP0904,15186,23719,Budget Analyst,Budget Analyst,Junior,Mid,2025-04-27,Promotion,Retention adjustment
+EMP0703,,14572,,Senior Data Engineer,,Junior,2020-06-08,Hire,Initial appointment
+EMP0703,14572,16369,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2022-04-27,Annual Raise,Promoted following review
+EMP0703,16369,19143,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2023-01-20,Annual Raise,Promoted following review
+EMP0703,19143,21550,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2025-01-25,Annual Raise,Annual performance increase
+EMP0703,21550,22445,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-05-17,Promotion,Project completion bonus integration
+EMP0635,,18603,,Data Engineer,,Junior,2020-06-11,Hire,Initial appointment
+EMP0635,18603,22103,Data Engineer,Data Engineer,Junior,Junior,2021-09-27,Annual Raise,Annual performance increase
+EMP0635,22103,26140,Data Engineer,Data Engineer,Junior,Senior,2023-05-09,Promotion,Project completion bonus integration
+EMP0645,,13994,,IT Manager,,Junior,2020-09-20,Hire,Initial appointment
+EMP0645,13994,14967,IT Manager,IT Manager,Junior,Junior,2021-11-09,Annual Raise,Market correction adjustment
+EMP0645,14967,22825,IT Manager,IT Manager,Junior,Mid,2021-12-07,Promotion,Project completion bonus integration
+EMP0793,,11781,,Procurement Analyst,,Junior,2021-06-25,Hire,Initial appointment
+EMP0793,11781,13741,Procurement Analyst,Procurement Analyst,Junior,Junior,2022-03-28,Annual Raise,Annual performance increase
+EMP0793,13741,17613,Procurement Analyst,Procurement Analyst,Junior,Mid,2023-03-14,Promotion,Promoted following review
+EMP0368,,6634,,Senior Data Engineer,,Mid,2024-01-04,Hire,Initial appointment
+EMP0368,6634,7413,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2024-09-19,Annual Raise,Promoted following review
+EMP0368,7413,8074,Senior Data Engineer,Senior Data Engineer,Mid,Mid,2025-04-13,Annual Raise,Promoted following review
+EMP0368,8074,12058,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2025-05-16,Promotion,Market correction adjustment
+EMP0193,,40221,,Data Analyst,,Mid,2013-01-27,Hire,Initial appointment
+EMP0193,40221,48120,Data Analyst,Data Analyst,Mid,Mid,2017-01-09,Annual Raise,Retention adjustment
+EMP0193,48120,67168,Data Analyst,Data Analyst,Mid,Director,2022-04-01,Promotion,Market correction adjustment
+EMP0252,,17503,,Platform Engineer,,Junior,2019-09-30,Hire,Initial appointment
+EMP0252,17503,20563,Platform Engineer,Platform Engineer,Junior,Junior,2022-10-04,Annual Raise,Retention adjustment
+EMP0252,20563,30038,Platform Engineer,Platform Engineer,Junior,Senior,2022-10-26,Promotion,Cost of living adjustment
+EMP0791,,10118,,Financial Analyst,,Mid,2024-07-03,Hire,Initial appointment
+EMP0791,10118,11207,Financial Analyst,Financial Analyst,Mid,Mid,2025-01-23,Annual Raise,Market correction adjustment
+EMP0791,11207,12137,Financial Analyst,Financial Analyst,Mid,Mid,2025-03-01,Annual Raise,Market correction adjustment
+EMP0791,12137,16520,Financial Analyst,Financial Analyst,Mid,Junior,2025-03-19,Promotion,Project completion bonus integration
+EMP0512,,23811,,BI Specialist,,Junior,2014-01-11,Hire,Initial appointment
+EMP0512,23811,35034,BI Specialist,BI Specialist,Junior,Senior,2016-10-31,Promotion,Retention adjustment
+EMP0497,,13132,,BI Specialist,,Junior,2021-05-26,Hire,Initial appointment
+EMP0497,13132,20653,BI Specialist,BI Specialist,Junior,Mid,2024-01-05,Promotion,Annual performance increase
+EMP0176,,11505,,Marketing Analyst,,Junior,2020-03-01,Hire,Initial appointment
+EMP0176,11505,19687,Marketing Analyst,Marketing Analyst,Junior,Mid,2023-10-18,Promotion,Cost of living adjustment
+EMP0726,,8914,,Content Strategist,,Mid,2024-03-19,Hire,Initial appointment
+EMP0726,8914,9567,Content Strategist,Content Strategist,Mid,Mid,2025-02-10,Annual Raise,Project completion bonus integration
+EMP0726,9567,15501,Content Strategist,Content Strategist,Mid,Junior,2025-02-25,Promotion,Retention adjustment
+EMP0658,,21068,,Data Analyst,,Junior,2015-02-14,Hire,Initial appointment
+EMP0658,21068,22941,Data Analyst,Data Analyst,Junior,Junior,2016-09-08,Annual Raise,Market correction adjustment
+EMP0658,22941,29990,Data Analyst,Data Analyst,Junior,Senior,2017-09-28,Promotion,Retention adjustment
+EMP0437,,14219,,IT Manager,,Junior,2022-07-15,Hire,Initial appointment
+EMP0437,14219,15901,IT Manager,IT Manager,Junior,Junior,2023-07-01,Annual Raise,Annual performance increase
+EMP0437,15901,22381,IT Manager,IT Manager,Junior,Mid,2025-02-13,Promotion,Promoted following review
+EMP1000,,13188,,Operations Analyst,,Junior,2022-08-14,Hire,Initial appointment
+EMP1000,13188,15613,Operations Analyst,Operations Analyst,Junior,Junior,2024-02-23,Annual Raise,Promoted following review
+EMP1000,15613,18450,Operations Analyst,Operations Analyst,Junior,Mid,2024-08-25,Promotion,Market correction adjustment
+EMP0720,,13967,,Network Engineer,,Junior,2023-04-15,Hire,Initial appointment
+EMP0720,13967,15852,Network Engineer,Network Engineer,Junior,Junior,2024-03-27,Annual Raise,Annual performance increase
+EMP0720,15852,18654,Network Engineer,Network Engineer,Junior,Mid,2025-04-15,Promotion,Annual performance increase
+EMP0156,,18389,,Learning & Development,,Junior,2019-09-19,Hire,Initial appointment
+EMP0156,18389,21873,Learning & Development,Learning & Development,Junior,Junior,2022-03-16,Annual Raise,Retention adjustment
+EMP0156,21873,27363,Learning & Development,Learning & Development,Junior,Senior,2022-09-01,Promotion,Project completion bonus integration
+EMP0691,,10594,,Data Analyst,,Mid,2024-06-29,Hire,Initial appointment
+EMP0691,10594,14417,Data Analyst,Data Analyst,Mid,Junior,2025-02-15,Promotion,Project completion bonus integration
+EMP0574,,13871,,Legal Analyst,,Junior,2024-07-12,Hire,Initial appointment
+EMP0574,13871,15471,Legal Analyst,Legal Analyst,Junior,Junior,2025-02-14,Annual Raise,Project completion bonus integration
+EMP0574,15471,21816,Legal Analyst,Legal Analyst,Junior,Mid,2025-02-24,Promotion,Market correction adjustment
+EMP0366,,12274,,Account Manager,,Junior,2024-09-28,Hire,Initial appointment
+EMP0366,12274,14099,Account Manager,Account Manager,Junior,Junior,2025-04-25,Annual Raise,Market correction adjustment
+EMP0366,14099,20034,Account Manager,Account Manager,Junior,Mid,2025-05-12,Promotion,Project completion bonus integration
+EMP0456,,7748,,Sustainability Analyst,,Mid,2024-05-20,Hire,Initial appointment
+EMP0456,7748,9178,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2024-11-17,Annual Raise,Annual performance increase
+EMP0456,9178,10891,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2025-01-21,Annual Raise,Cost of living adjustment
+EMP0456,10891,13102,Sustainability Analyst,Sustainability Analyst,Mid,Junior,2025-06-30,Promotion,Cost of living adjustment
+EMP0116,,23868,,Brand Manager,,Junior,2015-03-21,Hire,Initial appointment
+EMP0116,23868,34912,Brand Manager,Brand Manager,Junior,Senior,2019-06-01,Promotion,Retention adjustment
+EMP0834,,12223,,Sales Analyst,,Mid,2024-02-23,Hire,Initial appointment
+EMP0834,12223,16594,Sales Analyst,Sales Analyst,Mid,Junior,2025-04-22,Promotion,Market correction adjustment
+EMP0428,,43330,,Marketing Analyst,,Mid,2013-08-11,Hire,Initial appointment
+EMP0428,43330,49639,Marketing Analyst,Marketing Analyst,Mid,Mid,2020-02-23,Annual Raise,Retention adjustment
+EMP0428,49639,57940,Marketing Analyst,Marketing Analyst,Mid,Director,2023-02-02,Promotion,Cost of living adjustment
+EMP0312,,18561,,Supply Chain Analyst,,Junior,2018-07-30,Hire,Initial appointment
+EMP0312,18561,33571,Supply Chain Analyst,Supply Chain Analyst,Junior,Senior,2020-06-14,Promotion,Project completion bonus integration
+EMP0449,,17806,,Procurement Analyst,,Junior,2015-07-07,Hire,Initial appointment
+EMP0449,17806,18707,Procurement Analyst,Procurement Analyst,Junior,Junior,2024-06-21,Annual Raise,Project completion bonus integration
+EMP0449,18707,26870,Procurement Analyst,Procurement Analyst,Junior,Senior,2025-06-08,Promotion,Annual performance increase
+EMP0575,,11678,,Account Manager,,Junior,2021-06-03,Hire,Initial appointment
+EMP0575,11678,21118,Account Manager,Account Manager,Junior,Mid,2023-11-14,Promotion,Market correction adjustment
+EMP0196,,18466,,Financial Analyst,,Junior,2015-05-07,Hire,Initial appointment
+EMP0196,18466,21852,Financial Analyst,Financial Analyst,Junior,Junior,2016-12-22,Annual Raise,Project completion bonus integration
+EMP0196,21852,31112,Financial Analyst,Financial Analyst,Junior,Senior,2020-02-13,Promotion,Promoted following review
+EMP0617,,15015,,Finance Director,,Junior,2022-05-16,Hire,Initial appointment
+EMP0617,15015,17964,Finance Director,Finance Director,Junior,Junior,2023-09-02,Annual Raise,Annual performance increase
+EMP0617,17964,21043,Finance Director,Finance Director,Junior,Junior,2024-05-11,Annual Raise,Retention adjustment
+EMP0617,21043,23204,Finance Director,Finance Director,Junior,Mid,2024-10-18,Promotion,Retention adjustment
+EMP0953,,28131,,DevOps Engineer,,Mid,2015-09-25,Hire,Initial appointment
+EMP0953,28131,32640,DevOps Engineer,DevOps Engineer,Mid,Mid,2024-02-15,Annual Raise,Cost of living adjustment
+EMP0953,32640,49976,DevOps Engineer,DevOps Engineer,Mid,Lead,2024-02-17,Promotion,Cost of living adjustment
+EMP0341,,11044,,Data Analyst,,Junior,2020-09-21,Hire,Initial appointment
+EMP0341,11044,12728,Data Analyst,Data Analyst,Junior,Junior,2021-04-29,Annual Raise,Retention adjustment
+EMP0341,12728,17202,Data Analyst,Data Analyst,Junior,Mid,2024-06-23,Promotion,Market correction adjustment
+EMP0086,,11025,,Procurement Analyst,,Junior,2020-09-29,Hire,Initial appointment
+EMP0086,11025,18082,Procurement Analyst,Procurement Analyst,Junior,Mid,2025-03-25,Promotion,Retention adjustment
+EMP0819,,14831,,Cloud Architect,,Junior,2021-06-03,Hire,Initial appointment
+EMP0819,14831,15753,Cloud Architect,Cloud Architect,Junior,Junior,2021-12-31,Annual Raise,Retention adjustment
+EMP0819,15753,17430,Cloud Architect,Cloud Architect,Junior,Junior,2022-01-25,Annual Raise,Project completion bonus integration
+EMP0819,17430,23128,Cloud Architect,Cloud Architect,Junior,Mid,2023-08-07,Promotion,Promoted following review
+EMP0807,,16848,,Data Engineer,,Junior,2023-03-05,Hire,Initial appointment
+EMP0807,16848,19712,Data Engineer,Data Engineer,Junior,Junior,2023-10-16,Annual Raise,Project completion bonus integration
+EMP0807,19712,21902,Data Engineer,Data Engineer,Junior,Junior,2024-03-08,Annual Raise,Cost of living adjustment
+EMP0807,21902,24182,Data Engineer,Data Engineer,Junior,Junior,2024-12-20,Annual Raise,Project completion bonus integration
+EMP0807,24182,22669,Data Engineer,Data Engineer,Junior,Mid,2025-01-29,Promotion,Annual performance increase
+EMP0529,,16784,,Data Analyst,,Junior,2015-03-02,Hire,Initial appointment
+EMP0529,16784,19318,Data Analyst,Data Analyst,Junior,Junior,2016-02-29,Annual Raise,Retention adjustment
+EMP0529,19318,22701,Data Analyst,Data Analyst,Junior,Junior,2017-05-07,Annual Raise,Cost of living adjustment
+EMP0529,22701,27267,Data Analyst,Data Analyst,Junior,Senior,2019-09-02,Promotion,Promoted following review
+EMP0875,,7573,,Vendor Manager,,Mid,2024-04-20,Hire,Initial appointment
+EMP0875,7573,12493,Vendor Manager,Vendor Manager,Mid,Junior,2025-01-10,Promotion,Project completion bonus integration
+EMP0713,,30721,,Supply Chain Analyst,,Mid,2014-01-11,Hire,Initial appointment
+EMP0713,30721,41908,Supply Chain Analyst,Supply Chain Analyst,Mid,Lead,2024-03-08,Promotion,Promoted following review
+EMP0983,,13077,,BI Engineer,,Junior,2023-01-08,Hire,Initial appointment
+EMP0983,13077,15055,BI Engineer,BI Engineer,Junior,Junior,2024-04-27,Annual Raise,Cost of living adjustment
+EMP0983,15055,18851,BI Engineer,BI Engineer,Junior,Mid,2025-04-12,Promotion,Annual performance increase
+EMP0578,,19522,,Legal Analyst,,Junior,2015-05-11,Hire,Initial appointment
+EMP0578,19522,28278,Legal Analyst,Legal Analyst,Junior,Senior,2023-03-15,Promotion,Annual performance increase
+EMP0189,,18526,,Senior Data Engineer,,Junior,2014-06-16,Hire,Initial appointment
+EMP0189,18526,28350,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2016-01-11,Promotion,Project completion bonus integration
+EMP0477,,9327,,Sustainability Analyst,,Mid,2024-02-05,Hire,Initial appointment
+EMP0477,9327,10295,Sustainability Analyst,Sustainability Analyst,Mid,Mid,2024-12-14,Annual Raise,Promoted following review
+EMP0477,10295,13443,Sustainability Analyst,Sustainability Analyst,Mid,Junior,2025-05-24,Promotion,Promoted following review
+EMP0852,,20702,,BI Developer,,Junior,2018-03-24,Hire,Initial appointment
+EMP0852,20702,31422,BI Developer,BI Developer,Junior,Senior,2023-10-27,Promotion,Project completion bonus integration
+EMP0073,,18443,,Finance Director,,Junior,2016-05-26,Hire,Initial appointment
+EMP0073,18443,22022,Finance Director,Finance Director,Junior,Junior,2018-05-06,Annual Raise,Retention adjustment
+EMP0073,22022,30568,Finance Director,Finance Director,Junior,Senior,2019-10-02,Promotion,Market correction adjustment
+EMP0393,,26834,,Financial Analyst,,Mid,2016-02-24,Hire,Initial appointment
+EMP0393,26834,41450,Financial Analyst,Financial Analyst,Mid,Lead,2024-02-21,Promotion,Market correction adjustment
+EMP0997,,22710,,Financial Analyst,,Junior,2015-02-16,Hire,Initial appointment
+EMP0997,22710,26663,Financial Analyst,Financial Analyst,Junior,Junior,2015-12-30,Annual Raise,Project completion bonus integration
+EMP0997,26663,29132,Financial Analyst,Financial Analyst,Junior,Junior,2016-11-29,Annual Raise,Market correction adjustment
+EMP0997,29132,31226,Financial Analyst,Financial Analyst,Junior,Junior,2017-03-12,Annual Raise,Cost of living adjustment
+EMP0997,31226,30594,Financial Analyst,Financial Analyst,Junior,Senior,2024-02-02,Promotion,Retention adjustment
+EMP0114,,10782,,Account Manager,,Junior,2021-06-05,Hire,Initial appointment
+EMP0114,10782,12872,Account Manager,Account Manager,Junior,Junior,2021-12-28,Annual Raise,Project completion bonus integration
+EMP0114,12872,15342,Account Manager,Account Manager,Junior,Junior,2024-10-12,Annual Raise,Annual performance increase
+EMP0114,15342,17559,Account Manager,Account Manager,Junior,Mid,2025-05-06,Promotion,Retention adjustment
+EMP0839,,10182,,Sustainability Analyst,,Junior,2023-08-08,Hire,Initial appointment
+EMP0839,10182,11676,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2024-03-29,Annual Raise,Annual performance increase
+EMP0839,11676,18507,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2025-01-23,Promotion,Market correction adjustment
+EMP0045,,22427,,Procurement Analyst,,Junior,2018-08-13,Hire,Initial appointment
+EMP0045,22427,25080,Procurement Analyst,Procurement Analyst,Junior,Junior,2024-09-19,Annual Raise,Promoted following review
+EMP0045,25080,32999,Procurement Analyst,Procurement Analyst,Junior,Senior,2025-04-22,Promotion,Project completion bonus integration
+EMP0207,,21884,,Learning & Development,,Junior,2014-08-11,Hire,Initial appointment
+EMP0207,21884,30399,Learning & Development,Learning & Development,Junior,Senior,2024-03-19,Promotion,Cost of living adjustment
+EMP0629,,11829,,Lead Data Engineer,,Junior,2024-04-24,Hire,Initial appointment
+EMP0629,11829,18857,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-01-19,Promotion,Retention adjustment
+EMP0959,,14748,,Data Analyst,,Junior,2023-03-12,Hire,Initial appointment
+EMP0959,14748,22197,Data Analyst,Data Analyst,Junior,Mid,2023-11-08,Promotion,Cost of living adjustment
+EMP0301,,11222,,Lead Data Engineer,,Junior,2020-08-29,Hire,Initial appointment
+EMP0301,11222,12718,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2021-10-12,Annual Raise,Retention adjustment
+EMP0301,12718,14439,Lead Data Engineer,Lead Data Engineer,Junior,Junior,2022-11-12,Annual Raise,Retention adjustment
+EMP0301,14439,19408,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-04-25,Promotion,Promoted following review
+EMP0978,,12903,,Data Analyst,,Junior,2022-03-24,Hire,Initial appointment
+EMP0978,12903,13920,Data Analyst,Data Analyst,Junior,Junior,2023-03-26,Annual Raise,Market correction adjustment
+EMP0978,13920,20077,Data Analyst,Data Analyst,Junior,Mid,2023-06-30,Promotion,Cost of living adjustment
+EMP0177,,8790,,Content Strategist,,Mid,2024-08-24,Hire,Initial appointment
+EMP0177,8790,15742,Content Strategist,Content Strategist,Mid,Junior,2025-06-22,Promotion,Retention adjustment
+EMP0711,,14850,,Procurement Analyst,,Junior,2024-05-19,Hire,Initial appointment
+EMP0711,14850,17557,Procurement Analyst,Procurement Analyst,Junior,Junior,2025-02-07,Annual Raise,Cost of living adjustment
+EMP0711,17557,19379,Procurement Analyst,Procurement Analyst,Junior,Junior,2025-04-13,Annual Raise,Annual performance increase
+EMP0711,19379,21844,Procurement Analyst,Procurement Analyst,Junior,Junior,2025-04-28,Annual Raise,Retention adjustment
+EMP0711,21844,22500,Procurement Analyst,Procurement Analyst,Junior,Mid,2025-05-29,Promotion,Market correction adjustment
+EMP0612,,11233,,Account Manager,,Mid,2024-08-16,Hire,Initial appointment
+EMP0612,11233,16199,Account Manager,Account Manager,Mid,Junior,2025-05-03,Promotion,Market correction adjustment
+EMP0221,,10572,,Brand Manager,,Mid,2024-03-29,Hire,Initial appointment
+EMP0221,10572,11789,Brand Manager,Brand Manager,Mid,Mid,2025-01-15,Annual Raise,Market correction adjustment
+EMP0221,11789,15465,Brand Manager,Brand Manager,Mid,Junior,2025-06-12,Promotion,Annual performance increase
+EMP0991,,31158,,Data Scientist,,Mid,2019-05-21,Hire,Initial appointment
+EMP0991,31158,34337,Data Scientist,Data Scientist,Mid,Mid,2020-05-05,Annual Raise,Cost of living adjustment
+EMP0991,34337,39529,Data Scientist,Data Scientist,Mid,Mid,2022-04-19,Annual Raise,Retention adjustment
+EMP0991,39529,43346,Data Scientist,Data Scientist,Mid,Mid,2024-12-22,Annual Raise,Cost of living adjustment
+EMP0991,43346,46237,Data Scientist,Data Scientist,Mid,Lead,2025-04-16,Promotion,Cost of living adjustment
+EMP0533,,13438,,Lead Data Engineer,,Junior,2024-04-06,Hire,Initial appointment
+EMP0533,13438,22281,Lead Data Engineer,Lead Data Engineer,Junior,Mid,2025-04-11,Promotion,Promoted following review
+EMP0149,,22538,,Compliance Analyst,,Junior,2018-06-05,Hire,Initial appointment
+EMP0149,22538,24506,Compliance Analyst,Compliance Analyst,Junior,Junior,2019-06-19,Annual Raise,Project completion bonus integration
+EMP0149,24506,33159,Compliance Analyst,Compliance Analyst,Junior,Senior,2020-12-24,Promotion,Project completion bonus integration
+EMP0382,,32229,,Account Manager,,Mid,2019-01-23,Hire,Initial appointment
+EMP0382,32229,34226,Account Manager,Account Manager,Mid,Mid,2023-05-15,Annual Raise,Retention adjustment
+EMP0382,34226,40231,Account Manager,Account Manager,Mid,Mid,2023-07-25,Annual Raise,Project completion bonus integration
+EMP0382,40231,48056,Account Manager,Account Manager,Mid,Lead,2024-09-17,Promotion,Cost of living adjustment
+EMP0870,,27857,,Sales Analyst,,Mid,2008-01-19,Hire,Initial appointment
+EMP0870,27857,44126,Sales Analyst,Sales Analyst,Mid,Lead,2024-10-07,Promotion,Promoted following review
+EMP0383,,8392,,Senior Data Engineer,,Mid,2022-03-07,Hire,Initial appointment
+EMP0383,8392,14295,Senior Data Engineer,Senior Data Engineer,Mid,Junior,2022-12-08,Promotion,Market correction adjustment
+EMP0992,,10874,,Sales Analyst,,Mid,2023-03-30,Hire,Initial appointment
+EMP0992,10874,11618,Sales Analyst,Sales Analyst,Mid,Mid,2024-01-24,Annual Raise,Market correction adjustment
+EMP0992,11618,15856,Sales Analyst,Sales Analyst,Mid,Junior,2024-11-07,Promotion,Promoted following review
+EMP0639,,15245,,Data Analyst,,Junior,2020-09-24,Hire,Initial appointment
+EMP0639,15245,17726,Data Analyst,Data Analyst,Junior,Junior,2022-10-16,Annual Raise,Annual performance increase
+EMP0639,17726,21191,Data Analyst,Data Analyst,Junior,Mid,2024-06-15,Promotion,Annual performance increase
+EMP0665,,15436,,Product Manager,,Junior,2023-01-11,Hire,Initial appointment
+EMP0665,15436,18032,Product Manager,Product Manager,Junior,Junior,2024-11-06,Annual Raise,Retention adjustment
+EMP0665,18032,20641,Product Manager,Product Manager,Junior,Mid,2025-01-11,Promotion,Retention adjustment
+EMP0105,,12055,,Vendor Manager,,Junior,2021-03-22,Hire,Initial appointment
+EMP0105,12055,14426,Vendor Manager,Vendor Manager,Junior,Junior,2023-02-01,Annual Raise,Project completion bonus integration
+EMP0105,14426,20439,Vendor Manager,Vendor Manager,Junior,Mid,2023-05-03,Promotion,Market correction adjustment
+EMP0248,,20029,,Sustainability Analyst,,Junior,2015-08-04,Hire,Initial appointment
+EMP0248,20029,22397,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2019-09-27,Annual Raise,Promoted following review
+EMP0248,22397,24083,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2021-03-18,Annual Raise,Project completion bonus integration
+EMP0248,24083,28678,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2024-06-12,Promotion,Cost of living adjustment
+EMP0197,,8306,,Platform Engineer,,Mid,2022-01-05,Hire,Initial appointment
+EMP0197,8306,8975,Platform Engineer,Platform Engineer,Mid,Mid,2023-06-16,Annual Raise,Market correction adjustment
+EMP0197,8975,15089,Platform Engineer,Platform Engineer,Mid,Junior,2023-10-10,Promotion,Retention adjustment
+EMP0587,,14376,,Data Analyst,,Junior,2020-09-01,Hire,Initial appointment
+EMP0587,14376,19592,Data Analyst,Data Analyst,Junior,Mid,2022-08-15,Promotion,Market correction adjustment
+EMP0107,,14259,,Data Analyst,,Junior,2020-09-27,Hire,Initial appointment
+EMP0107,14259,19320,Data Analyst,Data Analyst,Junior,Mid,2025-04-05,Promotion,Cost of living adjustment
+EMP0764,,16453,,Data Analyst,,Junior,2023-01-19,Hire,Initial appointment
+EMP0764,16453,19625,Data Analyst,Data Analyst,Junior,Junior,2024-11-07,Annual Raise,Project completion bonus integration
+EMP0764,19625,22428,Data Analyst,Data Analyst,Junior,Mid,2024-12-10,Promotion,Promoted following review
+EMP0269,,12888,,BI Specialist,,Junior,2019-06-23,Hire,Initial appointment
+EMP0269,12888,20240,BI Specialist,BI Specialist,Junior,Mid,2023-05-20,Promotion,Project completion bonus integration
+EMP0356,,53046,,Data Analyst,,Mid,2024-09-04,Hire,Initial appointment
+EMP0356,53046,62048,Data Analyst,Data Analyst,Mid,Mid,2025-04-11,Annual Raise,Market correction adjustment
+EMP0356,62048,67986,Data Analyst,Data Analyst,Mid,Mid,2025-04-18,Annual Raise,Market correction adjustment
+EMP0356,67986,76507,Data Analyst,Data Analyst,Mid,Junior,2025-05-06,Promotion,Project completion bonus integration
+EMP0827,,21969,,Brand Manager,,Junior,2021-03-24,Hire,Initial appointment
+EMP0827,21969,23356,Brand Manager,Brand Manager,Junior,Junior,2021-12-07,Annual Raise,Promoted following review
+EMP0827,23356,34606,Brand Manager,Brand Manager,Junior,Senior,2022-03-02,Promotion,Market correction adjustment
+EMP0821,,16395,,Vendor Manager,,Junior,2014-05-22,Hire,Initial appointment
+EMP0821,16395,18412,Vendor Manager,Vendor Manager,Junior,Junior,2020-11-09,Annual Raise,Market correction adjustment
+EMP0821,18412,28724,Vendor Manager,Vendor Manager,Junior,Senior,2024-02-01,Promotion,Retention adjustment
+EMP0572,,12677,,Learning & Development,,Junior,2022-06-29,Hire,Initial appointment
+EMP0572,12677,13538,Learning & Development,Learning & Development,Junior,Junior,2023-04-21,Annual Raise,Retention adjustment
+EMP0572,13538,19827,Learning & Development,Learning & Development,Junior,Mid,2025-04-06,Promotion,Promoted following review
+EMP0942,,20028,,Senior Data Engineer,,Junior,2015-07-15,Hire,Initial appointment
+EMP0942,20028,23046,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2016-06-19,Annual Raise,Project completion bonus integration
+EMP0942,23046,25721,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2016-12-11,Annual Raise,Cost of living adjustment
+EMP0942,25721,29784,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2020-04-05,Annual Raise,Cost of living adjustment
+EMP0942,29784,33326,Senior Data Engineer,Senior Data Engineer,Junior,Senior,2025-05-25,Promotion,Market correction adjustment
+EMP0027,,21170,,Supply Chain Analyst,,Junior,2014-01-29,Hire,Initial appointment
+EMP0027,21170,23420,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2021-04-29,Annual Raise,Promoted following review
+EMP0027,23420,27029,Supply Chain Analyst,Supply Chain Analyst,Junior,Junior,2022-04-30,Annual Raise,Promoted following review
+EMP0027,27029,33280,Supply Chain Analyst,Supply Chain Analyst,Junior,Senior,2024-05-13,Promotion,Promoted following review
+EMP0141,,11006,,Senior Data Engineer,,Junior,2020-03-04,Hire,Initial appointment
+EMP0141,11006,13203,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2021-02-08,Annual Raise,Cost of living adjustment
+EMP0141,13203,13959,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2021-04-07,Annual Raise,Retention adjustment
+EMP0141,13959,15949,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2022-08-01,Annual Raise,Promoted following review
+EMP0141,15949,19339,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2024-11-03,Promotion,Promoted following review
+EMP0884,,24419,,Budget Analyst,,Mid,2014-02-07,Hire,Initial appointment
+EMP0884,24419,40789,Budget Analyst,Budget Analyst,Mid,Lead,2017-10-13,Promotion,Annual performance increase
+EMP0130,,13573,,DevOps Engineer,,Junior,2021-08-02,Hire,Initial appointment
+EMP0130,13573,22036,DevOps Engineer,DevOps Engineer,Junior,Mid,2024-06-23,Promotion,Market correction adjustment
+EMP0289,,22822,,Marketing Analyst,,Junior,2018-09-07,Hire,Initial appointment
+EMP0289,22822,32237,Marketing Analyst,Marketing Analyst,Junior,Senior,2020-07-30,Promotion,Cost of living adjustment
+EMP0106,,7027,,Data Engineer,,Mid,2024-08-14,Hire,Initial appointment
+EMP0106,7027,12407,Data Engineer,Data Engineer,Mid,Junior,2025-03-12,Promotion,Project completion bonus integration
+EMP0874,,13547,,Procurement Analyst,,Junior,2023-02-12,Hire,Initial appointment
+EMP0874,13547,15457,Procurement Analyst,Procurement Analyst,Junior,Junior,2023-09-04,Annual Raise,Cost of living adjustment
+EMP0874,15457,19161,Procurement Analyst,Procurement Analyst,Junior,Mid,2024-09-08,Promotion,Promoted following review
+EMP0151,,10712,,Legal Analyst,,Mid,2024-05-03,Hire,Initial appointment
+EMP0151,10712,16218,Legal Analyst,Legal Analyst,Mid,Junior,2024-11-17,Promotion,Project completion bonus integration
+EMP0150,,10110,,Vendor Manager,,Mid,2023-04-15,Hire,Initial appointment
+EMP0150,10110,15404,Vendor Manager,Vendor Manager,Mid,Junior,2024-02-28,Promotion,Market correction adjustment
+EMP0242,,11585,,Sustainability Analyst,,Junior,2020-03-20,Hire,Initial appointment
+EMP0242,11585,20469,Sustainability Analyst,Sustainability Analyst,Junior,Mid,2024-07-17,Promotion,Cost of living adjustment
+EMP0725,,23993,,Finance Director,,Mid,2013-07-15,Hire,Initial appointment
+EMP0725,23993,26125,Finance Director,Finance Director,Mid,Mid,2014-11-10,Annual Raise,Cost of living adjustment
+EMP0725,26125,30779,Finance Director,Finance Director,Mid,Mid,2015-01-22,Annual Raise,Retention adjustment
+EMP0725,30779,39310,Finance Director,Finance Director,Mid,Lead,2023-08-01,Promotion,Cost of living adjustment
+EMP0099,,24884,,Sales Analyst,,Mid,2010-08-03,Hire,Initial appointment
+EMP0099,24884,27218,Sales Analyst,Sales Analyst,Mid,Mid,2015-03-11,Annual Raise,Promoted following review
+EMP0099,27218,45046,Sales Analyst,Sales Analyst,Mid,Lead,2019-12-10,Promotion,Project completion bonus integration
+EMP0314,,10728,,Account Manager,,Junior,2020-02-22,Hire,Initial appointment
+EMP0314,10728,11886,Account Manager,Account Manager,Junior,Junior,2021-10-17,Annual Raise,Project completion bonus integration
+EMP0314,11886,12857,Account Manager,Account Manager,Junior,Junior,2022-02-14,Annual Raise,Cost of living adjustment
+EMP0314,12857,19163,Account Manager,Account Manager,Junior,Mid,2022-09-26,Promotion,Annual performance increase
+EMP0137,,13099,,Vendor Manager,,Junior,2020-06-30,Hire,Initial appointment
+EMP0137,13099,15712,Vendor Manager,Vendor Manager,Junior,Junior,2023-01-10,Annual Raise,Promoted following review
+EMP0137,15712,18212,Vendor Manager,Vendor Manager,Junior,Junior,2023-02-06,Annual Raise,Cost of living adjustment
+EMP0137,18212,19879,Vendor Manager,Vendor Manager,Junior,Mid,2024-12-03,Promotion,Project completion bonus integration
+EMP0643,,16996,,Compliance Analyst,,Junior,2021-03-08,Hire,Initial appointment
+EMP0643,16996,20259,Compliance Analyst,Compliance Analyst,Junior,Junior,2022-07-08,Annual Raise,Cost of living adjustment
+EMP0643,20259,26511,Compliance Analyst,Compliance Analyst,Junior,Senior,2023-12-14,Promotion,Market correction adjustment
+EMP0825,,8025,,Brand Manager,,Mid,2024-02-17,Hire,Initial appointment
+EMP0825,8025,12374,Brand Manager,Brand Manager,Mid,Junior,2025-04-21,Promotion,Promoted following review
+EMP0707,,19341,,Procurement Analyst,,Junior,2016-03-05,Hire,Initial appointment
+EMP0707,19341,23090,Procurement Analyst,Procurement Analyst,Junior,Junior,2021-08-24,Annual Raise,Project completion bonus integration
+EMP0707,23090,25441,Procurement Analyst,Procurement Analyst,Junior,Junior,2022-08-11,Annual Raise,Cost of living adjustment
+EMP0707,25441,33085,Procurement Analyst,Procurement Analyst,Junior,Senior,2024-01-12,Promotion,Promoted following review
+EMP0060,,28932,,Network Engineer,,Mid,2016-07-26,Hire,Initial appointment
+EMP0060,28932,32858,Network Engineer,Network Engineer,Mid,Mid,2021-09-30,Annual Raise,Annual performance increase
+EMP0060,32858,45827,Network Engineer,Network Engineer,Mid,Lead,2022-02-24,Promotion,Cost of living adjustment
+EMP0920,,11627,,Senior Data Engineer,,Junior,2023-09-10,Hire,Initial appointment
+EMP0920,11627,12579,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-07-10,Annual Raise,Market correction adjustment
+EMP0920,12579,13781,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-12-08,Annual Raise,Promoted following review
+EMP0920,13781,14882,Senior Data Engineer,Senior Data Engineer,Junior,Junior,2024-12-23,Annual Raise,Annual performance increase
+EMP0920,14882,19700,Senior Data Engineer,Senior Data Engineer,Junior,Mid,2025-06-13,Promotion,Retention adjustment
+EMP0195,,18785,,Sustainability Analyst,,Junior,2014-02-26,Hire,Initial appointment
+EMP0195,18785,21905,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2024-02-13,Annual Raise,Project completion bonus integration
+EMP0195,21905,25280,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2024-02-15,Promotion,Market correction adjustment
+EMP0576,,12679,,Operations Analyst,,Junior,2020-04-26,Hire,Initial appointment
+EMP0576,12679,19435,Operations Analyst,Operations Analyst,Junior,Mid,2024-06-16,Promotion,Cost of living adjustment
+EMP0370,,17050,,Sustainability Analyst,,Junior,2017-09-06,Hire,Initial appointment
+EMP0370,17050,19659,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2020-01-01,Annual Raise,Cost of living adjustment
+EMP0370,19659,21282,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2020-02-16,Annual Raise,Market correction adjustment
+EMP0370,21282,27928,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2024-03-31,Promotion,Market correction adjustment
+EMP0101,,19395,,Data Modeler,,Junior,2017-03-05,Hire,Initial appointment
+EMP0101,19395,22786,Data Modeler,Data Modeler,Junior,Junior,2018-06-02,Annual Raise,Annual performance increase
+EMP0101,22786,23939,Data Modeler,Data Modeler,Junior,Junior,2022-06-07,Annual Raise,Retention adjustment
+EMP0101,23939,34202,Data Modeler,Data Modeler,Junior,Senior,2022-09-22,Promotion,Retention adjustment
+EMP0604,,14413,,HR Analyst,,Junior,2020-08-14,Hire,Initial appointment
+EMP0604,14413,19584,HR Analyst,HR Analyst,Junior,Mid,2021-10-07,Promotion,Cost of living adjustment
+EMP0179,,40082,,Account Manager,,Mid,2008-07-16,Hire,Initial appointment
+EMP0179,40082,62270,Account Manager,Account Manager,Mid,Director,2009-11-01,Promotion,Retention adjustment
+EMP0535,,12729,,Data Analyst,,Junior,2023-06-30,Hire,Initial appointment
+EMP0535,12729,13803,Data Analyst,Data Analyst,Junior,Junior,2024-10-24,Annual Raise,Project completion bonus integration
+EMP0535,13803,15659,Data Analyst,Data Analyst,Junior,Junior,2024-12-29,Annual Raise,Retention adjustment
+EMP0535,15659,16934,Data Analyst,Data Analyst,Junior,Junior,2025-03-13,Annual Raise,Retention adjustment
+EMP0535,16934,19360,Data Analyst,Data Analyst,Junior,Mid,2025-04-24,Promotion,Market correction adjustment
+EMP0921,,26642,,BI Engineer,,Mid,2018-09-04,Hire,Initial appointment
+EMP0921,26642,28668,BI Engineer,BI Engineer,Mid,Mid,2022-05-25,Annual Raise,Retention adjustment
+EMP0921,28668,48034,BI Engineer,BI Engineer,Mid,Lead,2023-04-12,Promotion,Project completion bonus integration
+EMP0144,,7928,,Data Analyst,,Mid,2024-09-02,Hire,Initial appointment
+EMP0144,7928,8744,Data Analyst,Data Analyst,Mid,Mid,2025-03-25,Annual Raise,Market correction adjustment
+EMP0144,8744,12538,Data Analyst,Data Analyst,Mid,Junior,2025-03-30,Promotion,Retention adjustment
+EMP0331,,15911,,Sustainability Analyst,,Junior,2017-09-04,Hire,Initial appointment
+EMP0331,15911,17773,Sustainability Analyst,Sustainability Analyst,Junior,Junior,2020-12-19,Annual Raise,Retention adjustment
+EMP0331,17773,26890,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2024-05-17,Promotion,Promoted following review
+EMP0413,,10932,,Learning & Development,,Junior,2024-02-04,Hire,Initial appointment
+EMP0413,10932,13058,Learning & Development,Learning & Development,Junior,Junior,2024-09-19,Annual Raise,Cost of living adjustment
+EMP0413,13058,14428,Learning & Development,Learning & Development,Junior,Junior,2024-11-25,Annual Raise,Cost of living adjustment
+EMP0413,14428,16567,Learning & Development,Learning & Development,Junior,Junior,2025-01-07,Annual Raise,Project completion bonus integration
+EMP0413,16567,17904,Learning & Development,Learning & Development,Junior,Mid,2025-04-24,Promotion,Promoted following review
+EMP0971,,9672,,BI Specialist,,Mid,2024-03-18,Hire,Initial appointment
+EMP0971,9672,15402,BI Specialist,BI Specialist,Mid,Junior,2024-09-27,Promotion,Annual performance increase
+EMP0892,,13995,,HR Analyst,,Junior,2023-03-18,Hire,Initial appointment
+EMP0892,13995,16194,HR Analyst,HR Analyst,Junior,Junior,2024-01-17,Annual Raise,Annual performance increase
+EMP0892,16194,21087,HR Analyst,HR Analyst,Junior,Mid,2025-06-01,Promotion,Promoted following review
+EMP0493,,12862,,Legal Analyst,,Junior,2019-07-15,Hire,Initial appointment
+EMP0493,12862,23112,Legal Analyst,Legal Analyst,Junior,Mid,2022-05-21,Promotion,Promoted following review
+EMP0806,,15992,,Sustainability Analyst,,Junior,2017-09-04,Hire,Initial appointment
+EMP0806,15992,26392,Sustainability Analyst,Sustainability Analyst,Junior,Senior,2019-03-07,Promotion,Annual performance increase
+EMP0217,,20730,,Compliance Analyst,,Junior,2015-01-17,Hire,Initial appointment
+EMP0217,20730,22401,Compliance Analyst,Compliance Analyst,Junior,Junior,2019-06-07,Annual Raise,Promoted following review
+EMP0217,22401,35493,Compliance Analyst,Compliance Analyst,Junior,Senior,2021-03-12,Promotion,Project completion bonus integration
+EMP0046,,27756,,Senior Data Engineer,,Mid,2018-01-15,Hire,Initial appointment
+EMP0046,27756,46751,Senior Data Engineer,Senior Data Engineer,Mid,Lead,2021-03-28,Promotion,Annual performance increase
+EMP0949,,11368,,Lead Data Engineer,,Mid,2024-05-30,Hire,Initial appointment
+EMP0949,11368,12190,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-01-30,Annual Raise,Retention adjustment
+EMP0949,12190,14588,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-02-04,Annual Raise,Project completion bonus integration
+EMP0949,14588,17321,Lead Data Engineer,Lead Data Engineer,Mid,Mid,2025-03-09,Annual Raise,Promoted following review
+EMP0949,17321,16562,Lead Data Engineer,Lead Data Engineer,Mid,Junior,2025-04-28,Promotion,Market correction adjustment
+EMP0590,,29678,,BI Developer,,Mid,2013-03-26,Hire,Initial appointment
+EMP0590,29678,35041,BI Developer,BI Developer,Mid,Mid,2014-03-03,Annual Raise,Market correction adjustment
+EMP0590,35041,39029,BI Developer,BI Developer,Mid,Mid,2018-06-25,Annual Raise,Annual performance increase
+EMP0590,39029,41857,BI Developer,BI Developer,Mid,Lead,2021-06-11,Promotion,Promoted following review
+EMP0239,,34180,,Sales Analyst,,Mid,2010-04-10,Hire,Initial appointment
+EMP0239,34180,46482,Sales Analyst,Sales Analyst,Mid,Lead,2014-08-11,Promotion,Project completion bonus integration

@@ -1,0 +1,23 @@
+Presight ETL report - 2026-09-01T00:00:00+00:00
+
+projects: raw=500 clean=500
+employees: raw=1000 clean=1000
+transactions: raw=50000 clean=50000
+
+DQ results:
+{
+  "projects": {
+    "project_id": 1.0
+  },
+  "employees": {
+    "employee_id": 1.0
+  },
+  "transactions": {
+    "transaction_id": 1.0
+  }
+}
+
+Files:
+/opt/airflow/outputs/projects_clean.csv
+/opt/airflow/outputs/employees_clean.csv
+/opt/airflow/outputs/transactions_clean.csv

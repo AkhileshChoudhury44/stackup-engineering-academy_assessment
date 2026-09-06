@@ -1,0 +1,26 @@
+============================================================
+PRESIGHT DATA ENGINE — PIPELINE SUMMARY REPORT
+Run Timestamp:        2026-09-06 21:41:36
+Total Execution Time: 1.99 seconds (< 30s SLA)
+============================================================
+
+1. DATASET VOLUMETRICS:
+  - Projects:     500 raw -> 500 cleaned
+  - Employees:    1000 raw -> 1000 cleaned
+  - Transactions: 50000 raw -> 50000 enriched
+
+2. DATA QUALITY REMEDIATIONS:
+  [Employees]:
+    - missing_emails: 10 records adjusted
+    - invalid_hire_dates: 8 records adjusted
+    - implausible_hire_dates: 0 records adjusted
+    - implausible_salaries: 0 records adjusted
+    - invalid_experience_records: 5 records adjusted
+  [Transactions]:
+    - Missing amounts defaulted to 0.0: 740
+
+3. ARCHITECTURAL DECISIONS:
+  - Vectorized operations used for high performance without row iteration.
+  - SCD Type 2 employee dimension fully materialized with valid_from, valid_to, and is_current.
+  - Columnar DuckDB data warehouse materialized with analytical star schema.
+  - Executive Dashboard Mockup PDF programmatically generated with live metrics.

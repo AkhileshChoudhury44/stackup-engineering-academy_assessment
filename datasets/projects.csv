@@ -1,0 +1,501 @@
+project_id,project_name,department,status,start_date,end_date,budget,actual_cost,project_manager_id,priority,region
+PRJ0001,MLOps Platform,Sustainability,Completed,2023-06-13,2023-12-01,1200000,907809,EMP0126,Medium,Dubai
+PRJ0002,Tax Automation Platform - Q2,Marketing,In Progress,2025-02-28,,800000,795986,EMP0045,Medium,Abu Dhabi
+PRJ0003,ERP Consolidation Phase 2,Legal,Completed,2023-11-21,2024-12-16,80000,56981,EMP0405,Medium,Dubai
+PRJ0004,Employee Wellness App - Q1,Marketing,Completed,2024-06-09,2025-08-17,800000,707314,EMP0270,Medium,Abu Dhabi
+PRJ0005,Mobile Workforce App - Q4,Finance,In Progress,2023-04-25,,2000000,1329426,EMP0478,High,Ras Al Khaimah
+PRJ0006,Risk Assessment Framework Phase 2,Sustainability,In Progress,2023-09-08,,2000000,1438154,EMP0656,High,Abu Dhabi
+PRJ0007,Mobile Workforce App,Finance,Completed,2022-10-17,2024-01-30,500000,437614,EMP0188,Medium,Dubai
+PRJ0008,Regulatory Compliance Tool Phase 3,Finance,In Progress,2023-04-29,,200000,172385,EMP0852,Medium,Dubai
+PRJ0009,IoT Sensor Network,Digital,In Progress,2022-07-24,,1200000,1115876,EMP0443,High,Sharjah
+PRJ0010,Energy Optimisation Platform - Q4,Procurement,In Progress,2022-07-16,,800000,541681,EMP0909,Critical,Abu Dhabi
+PRJ0011,Identity Management Upgrade - Q3,Marketing,Completed,2022-05-27,2023-01-19,1200000,1202311,EMP0682,Low,Sharjah
+PRJ0012,Employee Wellness App Phase 3,HR,In Progress,2022-01-04,,800000,919001,EMP0771,Medium,Dubai
+PRJ0013,HR System Upgrade Phase 3,Legal,In Progress,2024-02-26,,120000,102651,EMP0320,Medium,Dubai
+PRJ0014,Tax Automation Platform Phase 3,Legal,In Progress,2024-03-26,,2000000,2201078,EMP0539,High,Abu Dhabi
+PRJ0015,Recommendation System - Q1,Engineering,In Progress,2022-09-21,,2000000,1660788,EMP0517,Low,Dubai
+PRJ0016,Energy Optimisation Platform - Q4,Engineering,In Progress,2023-06-14,,80000,76974,EMP0948,Critical,Dubai
+PRJ0017,IoT Sensor Network Phase 3,Sustainability,On Hold,,,150000,59133,EMP0616,High,Sharjah
+PRJ0018,Internal Audit Digitisation,HR,On Hold,2023-09-22,,150000,38170,EMP0727,High,Dubai
+PRJ0019,Supply Chain Automation Phase 3,Engineering,In Progress,2024-09-29,,1200000,984314,EMP0702,High,Abu Dhabi
+PRJ0020,Mobile Workforce App,Sustainability,In Progress,2023-08-24,,500000,425118,EMP0509,Medium,Dubai
+PRJ0021,Disaster Recovery Setup Phase 3,Procurement,In Progress,2024-03-22,,200000,141028,EMP0619,Low,Dubai
+PRJ0022,Smart Building System - Q4,Finance,In Progress,2024-07-27,,200000,230253,EMP0991,Critical,Dubai
+PRJ0023,Workflow Automation,Data Science,In Progress,2022-03-20,,120000,115873,EMP0852,High,Sharjah
+PRJ0024,Vendor Portal Phase 3,Sales,Completed,2024-05-15,2025-02-04,50000,35517,EMP0884,Medium,Dubai
+PRJ0025,Internal Audit Digitisation,Operations,Completed,2023-09-13,2024-09-22,2000000,1846989,EMP0939,Medium,Dubai
+PRJ0026,Asset Tracking System Phase 2,Legal,In Progress,2023-01-16,,350000,315328,EMP0058,High,Sharjah
+PRJ0027,Resource Scheduling Tool Phase 3,Engineering,Completed,2022-02-08,2023-05-14,800000,795462,EMP0309,Medium,Dubai
+PRJ0028,Smart Building System,Operations,In Progress,2023-10-27,,200000,127646,EMP0327,High,Dubai
+PRJ0029,Citizen Services Portal Phase 3,Sustainability,Completed,2025-02-16,2025-04-23,500000,402178,EMP0394,High,Abu Dhabi
+PRJ0030,Visual Analytics Suite Phase 2,Sustainability,Completed,2024-03-09,2024-09-15,800000,495487,EMP0661,Critical,Dubai
+PRJ0031,MLOps Platform,Operations,Completed,2024-12-20,2025-08-26,350000,271282,EMP0361,Medium,Dubai
+PRJ0032,Executive Dashboard Phase 3,Marketing,Completed,2022-02-17,2023-05-07,350000,326852,EMP0570,Critical,Abu Dhabi
+PRJ0033,Data Lake Implementation - Q2,Marketing,On Hold,,,600000,99294,EMP0120,High,Abu Dhabi
+PRJ0034,Cloud Migration Phase 1 - Q4,HR,Completed,2024-05-06,2025-10-09,350000,277074,EMP0408,High,Dubai
+PRJ0035,Resource Scheduling Tool - Q3,Operations,Not Started,,,200000,,EMP0326,High,Abu Dhabi
+PRJ0036,Employee Wellness App Phase 3,Engineering,Completed,2023-11-16,2025-02-08,1200000,1192457,EMP0814,Critical,Abu Dhabi
+PRJ0037,Predictive Healthcare - Q4,Legal,In Progress,2022-03-01,,200000,136628,EMP0732,Medium,Abu Dhabi
+PRJ0038,Workflow Automation,HR,Completed,2022-12-07,2023-11-23,1200000,1212741,EMP0418,Low,Dubai
+PRJ0039,Predictive Healthcare Phase 2,IT,Completed,2023-05-06,2023-10-02,1200000,1394741,EMP0222,Medium,Abu Dhabi
+PRJ0040,Data Platform Modernisation - Q2,Digital,In Progress,2024-06-27,,200000,215610,EMP0536,Medium,Abu Dhabi
+PRJ0041,Disaster Recovery Setup Phase 2,Operations,Completed,2022-05-24,2022-07-26,50000,50460,EMP0457,Critical,Ajman
+PRJ0042,Vendor Portal - Q1,Finance,Not Started,,,500000,,EMP0925,High,Ajman
+PRJ0043,Sentiment Analysis Engine - Q1,Digital,Not Started,,,,,EMP0965,Medium,Dubai
+PRJ0044,IoT Sensor Network Phase 3,Legal,Completed,2024-11-13,2025-11-30,1200000,1028583,EMP0134,Low,Dubai
+PRJ0045,Geo-spatial Intelligence Phase 2,HR,Completed,2023-11-27,2024-04-07,200000,215466,EMP0232,Medium,Abu Dhabi
+PRJ0046,Quality Assurance Automation - Q1,Procurement,Completed,2023-05-17,2024-08-06,350000,281913,EMP0817,Medium,Dubai
+PRJ0047,Quality Assurance Automation Phase 3,Marketing,In Progress,2022-10-14,,120000,109568,EMP0039,Medium,Abu Dhabi
+PRJ0048,Asset Tracking System Phase 3,Procurement,In Progress,2023-09-17,,1200000,1233416,EMP0806,Medium,Dubai
+PRJ0049,Quality Assurance Automation Phase 2,Marketing,In Progress,2024-02-26,,350000,343720,EMP0041,Critical,Dubai
+PRJ0050,Executive Dashboard Phase 3,HR,Completed,2024-11-24,2025-08-18,1200000,1165291,EMP0192,Critical,Dubai
+PRJ0051,API Gateway Modernisation Phase 3 #51,Legal,Not Started,,,100000,,EMP0608,Medium,Dubai
+PRJ0052,Vendor Portal #52,HR,In Progress,2023-02-27,,200000,138010,EMP0719,High,Dubai
+PRJ0053,Predictive Healthcare Phase 3 #53,Digital,Completed,2022-01-25,2023-05-30,2000000,2277761,EMP0877,Medium,Dubai
+PRJ0054,Risk Assessment Framework Phase 3 #54,Sustainability,In Progress,2025-02-07,,2000000,2215926,EMP0630,Critical,Ras Al Khaimah
+PRJ0055,Supply Chain Automation Phase 2 #55,Operations,In Progress,2023-01-10,,200000,147400,EMP0848,Medium,Abu Dhabi
+PRJ0056,Disaster Recovery Setup Phase 3 #56,Data Science,Completed,2022-05-11,2023-10-16,120000,109624,EMP0067,Medium,Abu Dhabi
+PRJ0057,Geo-spatial Intelligence - Q4 #57,Data Science,Completed,2022-04-15,2022-11-24,80000,57428,EMP0126,Medium,Dubai
+PRJ0058,AI Forecasting Engine - Q2 #58,Finance,Completed,2024-05-30,2025-10-12,80000,82559,EMP0502,High,Abu Dhabi
+PRJ0059,Smart Building System #59,Finance,Completed,2023-07-09,2024-05-16,120000,95662,EMP0564,Medium,Ras Al Khaimah
+PRJ0060,Customer Feedback Platform Phase 2 #60,HR,In Progress,2025-02-23,,2000000,1570564,EMP0499,Low,Dubai
+PRJ0061,Employee Wellness App #61,HR,Not Started,,,200000,,EMP0185,Medium,Dubai
+PRJ0062,Resource Scheduling Tool #62,Digital,In Progress,2025-01-08,,120000,85938,EMP0119,High,Abu Dhabi
+PRJ0063,Real-time Analytics Engine Phase 3 #63,Sustainability,Completed,2023-09-07,2025-02-22,200000,188521,EMP0175,Medium,Abu Dhabi
+PRJ0064,Risk Assessment Framework Phase 2 #64,Marketing,Completed,2023-10-29,2024-09-17,1200000,1190513,EMP0933,Medium,Dubai
+PRJ0065,Predictive Maintenance - Q3 #65,Finance,Completed,2023-09-20,2024-05-07,500000,548769,EMP0361,Medium,Abu Dhabi
+PRJ0066,Risk Assessment Framework #66,Legal,In Progress,2024-04-17,,500000,493737,EMP0149,Critical,Dubai
+PRJ0067,Data Platform Modernisation Phase 2 #67,Sales,Completed,2023-08-27,2024-12-25,500000,307103,EMP0478,High,Abu Dhabi
+PRJ0068,MLOps Platform Phase 2 #68,Marketing,Completed,2023-07-16,2023-11-07,80000,59670,EMP0375,High,Sharjah
+PRJ0069,API Gateway Modernisation #69,Sales,Completed,2024-09-24,2025-03-30,350000,417255,EMP0682,Medium,Abu Dhabi
+PRJ0070,Smart Building System Phase 3 #70,Sustainability,Completed,2023-08-06,2023-11-30,1200000,816685,EMP0888,Low,Ras Al Khaimah
+PRJ0071,Recommendation System Phase 2 #71,IT,Completed,2023-02-14,2024-01-27,80000,69036,EMP0377,High,Dubai
+PRJ0072,Knowledge Management Portal #72,IT,Completed,2022-05-20,2023-10-07,500000,587160,EMP0406,Critical,Abu Dhabi
+PRJ0073,Fleet Management System Phase 3 #73,Digital,In Progress,2024-01-12,,500000,359695,EMP0832,Medium,Dubai
+PRJ0074,Data Platform Modernisation #74,Sales,Completed,2024-03-22,2025-07-07,1200000,1294629,EMP0989,Medium,Sharjah
+PRJ0075,Real-time Analytics Engine #75,Marketing,Completed,2022-03-07,2023-01-19,500000,537041,EMP0570,Medium,Abu Dhabi
+PRJ0076,Customer Portal Redesign #76,Sustainability,Completed,2024-12-25,2025-05-15,2000000,2215559,EMP0099,High,Dubai
+PRJ0077,Predictive Healthcare #77,Sales,Completed,2023-07-22,2024-05-15,1200000,1360336,EMP0873,Medium,Abu Dhabi
+PRJ0078,Employee Wellness App - Q3 #78,Sustainability,Completed,2024-06-04,2025-11-01,50000,42043,EMP0331,Low,Dubai
+PRJ0079,Data Platform Modernisation Phase 2 #79,HR,Completed,2023-06-15,2024-10-25,200000,190125,EMP0916,Medium,Dubai
+PRJ0080,Energy Optimisation Platform Phase 3 #80,Procurement,Not Started,,,,,EMP0921,Low,Abu Dhabi
+PRJ0081,AI Forecasting Engine #81,IT,Completed,2022-05-22,2023-01-04,500000,578539,EMP0787,Medium,Abu Dhabi
+PRJ0082,Performance Analytics Phase 2 #82,Operations,Completed,2022-02-25,2022-07-05,1200000,808639,EMP0424,Low,Sharjah
+PRJ0083,Visual Analytics Suite - Q2 #83,Engineering,Completed,2024-03-28,2024-09-05,200000,212518,EMP0688,High,Abu Dhabi
+PRJ0084,Employee Wellness App Phase 2 #84,Operations,In Progress,2024-09-28,,500000,524904,EMP0363,Medium,Abu Dhabi
+PRJ0085,Internal Audit Digitisation - Q3 #85,Finance,Completed,2024-07-24,2024-09-30,50000,41400,EMP0468,Medium,Sharjah
+PRJ0086,ERP Consolidation Phase 3 #86,Data Science,Completed,2023-09-08,2024-03-03,80000,79220,EMP0962,Medium,Dubai
+PRJ0087,Carbon Footprint Tracker #87,IT,Not Started,,,,,EMP0016,Low,Abu Dhabi
+PRJ0088,Quality Assurance Automation #88,Engineering,Completed,2023-03-06,2024-07-21,350000,288057,EMP0464,High,Abu Dhabi
+PRJ0089,Employee Wellness App Phase 2 #89,HR,Not Started,,,,,EMP0185,Low,Abu Dhabi
+PRJ0090,Risk Assessment Framework Phase 3 #90,Marketing,In Progress,2022-02-22,,500000,308549,EMP0545,Low,Sharjah
+PRJ0091,Contract Lifecycle Management - Q1 #91,Marketing,Completed,2022-12-14,2023-05-03,80000,48717,EMP0249,Low,Ajman
+PRJ0092,Network Security Overhaul - Q4 #92,Legal,Not Started,,,100000,,EMP0707,High,Abu Dhabi
+PRJ0093,Tax Automation Platform Phase 3 #93,IT,In Progress,2025-01-10,,500000,587071,EMP0801,High,Dubai
+PRJ0094,Visual Analytics Suite Phase 2 #94,Operations,Completed,2022-10-20,2023-04-13,80000,83672,EMP0848,Medium,Sharjah
+PRJ0095,AI Forecasting Engine Phase 2 #95,Finance,In Progress,2023-09-09,,500000,513138,EMP0536,High,Dubai
+PRJ0096,Workflow Automation Phase 2 #96,HR,Completed,2022-10-25,2023-10-16,50000,52438,EMP0946,Medium,Abu Dhabi
+PRJ0097,Regulatory Compliance Tool #97,IT,Completed,2023-05-03,2023-09-22,800000,634815,EMP0661,Medium,Sharjah
+PRJ0098,Regulatory Compliance Tool - Q4 #98,Operations,Completed,2023-06-23,2024-05-27,1200000,804829,EMP0316,High,Dubai
+PRJ0099,Mobile Workforce App Phase 2 #99,Finance,In Progress,2024-09-25,,2000000,1747579,EMP0109,High,Abu Dhabi
+PRJ0100,Compliance Monitoring #100,HR,Completed,2022-02-22,2023-01-26,120000,78810,EMP0529,High,Abu Dhabi
+PRJ0101,Sentiment Analysis Engine Phase 2 #101,HR,In Progress,2024-06-12,,2000000,2381174,EMP0092,Critical,Ras Al Khaimah
+PRJ0102,Employee Wellness App Phase 2 #102,IT,Not Started,,,,,EMP0028,Medium,Dubai
+PRJ0103,Compliance Monitoring #103,Sustainability,Completed,2023-04-17,2024-06-05,2000000,1400104,EMP0181,Low,Abu Dhabi
+PRJ0104,Smart Building System Phase 2 #104,Sustainability,On Hold,2023-07-27,,300000,34402,EMP0449,Medium,Sharjah
+PRJ0105,Contract Lifecycle Management - Q4 #105,HR,In Progress,2023-09-07,,50000,32246,EMP0835,High,Abu Dhabi
+PRJ0106,Recommendation System #106,Legal,In Progress,2024-09-11,,120000,127050,EMP0953,Critical,Ras Al Khaimah
+PRJ0107,Risk Assessment Framework - Q2 #107,Legal,Completed,2023-05-25,2024-09-23,500000,321159,EMP0311,Low,Abu Dhabi
+PRJ0108,Recommendation System Phase 2 #108,Digital,In Progress,2023-07-19,,500000,303230,EMP0128,Medium,Dubai
+PRJ0109,IoT Sensor Network Phase 2 #109,Sales,Completed,2022-09-13,2023-08-16,1200000,830647,EMP0891,Critical,Abu Dhabi
+PRJ0110,Carbon Footprint Tracker - Q1 #110,Finance,In Progress,2024-08-13,,800000,760789,EMP0837,High,Dubai
+PRJ0111,Geo-spatial Intelligence Phase 2 #111,Sustainability,In Progress,2024-01-13,,200000,224323,EMP0799,Medium,Dubai
+PRJ0112,Performance Analytics #112,Sales,In Progress,2023-07-28,,350000,399993,EMP0761,Medium,Abu Dhabi
+PRJ0113,Knowledge Management Portal #113,Engineering,In Progress,2024-09-21,,200000,190294,EMP0248,High,Dubai
+PRJ0114,AI Forecasting Engine - Q4 #114,Marketing,Completed,2024-02-23,2024-05-14,80000,76336,EMP0939,High,Abu Dhabi
+PRJ0115,AI Forecasting Engine Phase 2 #115,HR,Completed,2024-05-13,2025-09-02,800000,824778,EMP0051,Medium,Dubai
+PRJ0116,Citizen Services Portal - Q1 #116,Sales,Completed,2024-06-03,2025-07-10,50000,36481,EMP0201,Low,Sharjah
+PRJ0117,AI Forecasting Engine - Q3 #117,Engineering,Completed,2023-06-04,2024-02-02,500000,405713,EMP0277,Medium,Dubai
+PRJ0118,Identity Management Upgrade Phase 3 #118,IT,In Progress,2025-01-25,,500000,522211,EMP0890,Medium,Dubai
+PRJ0119,Document Management System Phase 3 #119,HR,Completed,2023-04-12,2023-11-20,350000,231272,EMP0851,Low,Abu Dhabi
+PRJ0120,Master Data Management Phase 2 #120,Legal,In Progress,2024-09-21,,500000,401100,EMP0496,Critical,Dubai
+PRJ0121,Cloud Migration Phase 1 #121,Data Science,In Progress,2023-09-28,,2000000,2040273,EMP0646,Medium,Dubai
+PRJ0122,Employee Wellness App #122,Operations,In Progress,2024-04-08,,350000,240610,EMP0391,Medium,Abu Dhabi
+PRJ0123,Vendor Portal Phase 3 #123,Marketing,Completed,2022-06-18,2023-01-29,200000,173104,EMP0051,Medium,Abu Dhabi
+PRJ0124,Carbon Footprint Tracker - Q1 #124,Operations,Not Started,,,100000,,EMP0250,Medium,Dubai
+PRJ0125,Executive Dashboard Phase 3 #125,Operations,On Hold,2024-05-09,,600000,134614,EMP0640,Critical,Abu Dhabi
+PRJ0126,Employee Wellness App - Q4 #126,Procurement,In Progress,2024-01-16,,350000,300576,EMP0409,Critical,Sharjah
+PRJ0127,Identity Management Upgrade #127,Procurement,In Progress,2023-05-21,,2000000,1894750,EMP0109,Critical,Dubai
+PRJ0128,Real-time Analytics Engine Phase 3 #128,Data Science,Not Started,,,500000,,EMP0395,High,Dubai
+PRJ0129,MLOps Platform - Q2 #129,Finance,Completed,2022-04-19,2023-02-08,1200000,1077935,EMP0495,Low,Ajman
+PRJ0130,Data Platform Modernisation #130,HR,Completed,2022-10-30,2023-01-30,500000,319623,EMP0850,Medium,Abu Dhabi
+PRJ0131,Recommendation System - Q1 #131,Legal,Completed,2022-10-01,2023-06-20,200000,199416,EMP0353,Medium,Dubai
+PRJ0132,Mobile Workforce App - Q2 #132,IT,Completed,2023-10-07,2025-02-19,50000,59126,EMP0063,High,Abu Dhabi
+PRJ0133,Network Security Overhaul #133,Sustainability,Completed,2022-11-27,2024-02-05,200000,149855,EMP0705,High,Ajman
+PRJ0134,Employee Wellness App - Q1 #134,Procurement,In Progress,2022-07-02,,80000,93415,EMP0662,High,Dubai
+PRJ0135,Contract Lifecycle Management - Q4 #135,IT,Not Started,,,,,EMP0358,Medium,Dubai
+PRJ0136,Knowledge Management Portal #136,IT,In Progress,2023-02-15,,200000,162144,EMP0776,High,Abu Dhabi
+PRJ0137,Geo-spatial Intelligence Phase 3 #137,Engineering,Not Started,,,,,EMP0643,Low,Abu Dhabi
+PRJ0138,Cloud Migration Phase 1 #138,Engineering,In Progress,2023-09-20,,50000,54001,EMP0656,High,Sharjah
+PRJ0139,Employee Wellness App - Q2 #139,IT,Completed,2023-12-09,2024-03-27,120000,115179,EMP0662,Medium,Abu Dhabi
+PRJ0140,IoT Sensor Network Phase 2 #140,Digital,In Progress,2022-03-21,,2000000,2265880,EMP0939,Critical,Dubai
+PRJ0141,Customer Feedback Platform #141,HR,Completed,2024-11-27,2025-04-21,80000,71887,EMP0707,Medium,Dubai
+PRJ0142,Mobile Workforce App - Q4 #142,Digital,On Hold,2023-03-09,,300000,52159,EMP0152,Medium,Dubai
+PRJ0143,Regulatory Compliance Tool #143,HR,In Progress,2024-09-10,,80000,88693,EMP0101,High,Abu Dhabi
+PRJ0144,Compliance Monitoring Phase 2 #144,Finance,In Progress,2024-07-06,,200000,155155,EMP0737,Medium,Abu Dhabi
+PRJ0145,Internal Audit Digitisation #145,Digital,In Progress,2025-02-23,,1200000,1158957,EMP0348,Medium,Dubai
+PRJ0146,Legacy System Decommission #146,Operations,On Hold,2024-08-24,,150000,43841,EMP0873,Low,Abu Dhabi
+PRJ0147,Customer Feedback Platform Phase 2 #147,HR,On Hold,,,600000,192937,EMP0608,High,Dubai
+PRJ0148,Resource Scheduling Tool Phase 2 #148,Data Science,Completed,2023-01-16,2024-06-15,200000,205489,EMP0083,High,Dubai
+PRJ0149,Workflow Automation #149,Legal,In Progress,2022-08-27,,350000,210995,EMP0268,High,Sharjah
+PRJ0150,Mobile Workforce App - Q2 #150,Operations,Completed,2024-04-03,2024-06-24,120000,82200,EMP0273,High,Abu Dhabi
+PRJ0151,Performance Analytics Phase 2 #151,Sales,Completed,2023-07-13,2024-04-07,50000,42476,EMP0462,Medium,Dubai
+PRJ0152,Regulatory Compliance Tool Phase 3 #152,Marketing,In Progress,2024-03-20,,50000,50880,EMP0513,Low,Dubai
+PRJ0153,Customer Portal Redesign #153,IT,On Hold,2023-07-07,,300000,45063,EMP0873,Medium,Dubai
+PRJ0154,Quality Assurance Automation Phase 3 #154,Sustainability,In Progress,2023-06-20,,80000,84527,EMP0444,High,Sharjah
+PRJ0155,Internal Audit Digitisation Phase 2 #155,IT,Completed,2022-03-15,2023-01-09,1200000,798727,EMP0252,Low,Abu Dhabi
+PRJ0156,Internal Audit Digitisation Phase 2 #156,Legal,Completed,2024-06-16,2025-08-28,120000,103825,EMP0916,Low,Sharjah
+PRJ0157,IoT Sensor Network Phase 2 #157,Procurement,In Progress,2022-01-30,,120000,96577,EMP0283,Critical,Abu Dhabi
+PRJ0158,Regulatory Compliance Tool - Q1 #158,Legal,In Progress,2023-08-21,,2000000,1276379,EMP0206,High,Abu Dhabi
+PRJ0159,Recommendation System #159,Digital,In Progress,2023-05-19,,2000000,1545367,EMP0184,Low,Ras Al Khaimah
+PRJ0160,Supply Chain Automation #160,Legal,Completed,2022-02-05,2023-02-16,120000,124133,EMP0370,Medium,Abu Dhabi
+PRJ0161,AI Forecasting Engine #161,Legal,In Progress,2022-04-30,,800000,848973,EMP0132,Critical,Dubai
+PRJ0162,HR System Upgrade #162,Sales,Not Started,,,500000,,EMP0771,Medium,Dubai
+PRJ0163,Vendor Portal Phase 2 #163,Sales,Completed,2023-05-28,2024-01-19,1200000,1064972,EMP0174,Medium,Sharjah
+PRJ0164,Predictive Maintenance Phase 3 #164,Sales,Completed,2024-03-06,2024-09-13,120000,98501,EMP0030,Medium,Abu Dhabi
+PRJ0165,HR System Upgrade - Q4 #165,Procurement,Not Started,,,200000,,EMP0135,High,Abu Dhabi
+PRJ0166,Risk Assessment Framework - Q4 #166,Digital,Completed,2024-06-28,2025-03-13,1200000,981763,EMP0375,High,Abu Dhabi
+PRJ0167,Compliance Monitoring Phase 2 #167,Operations,Completed,2023-02-03,2024-06-24,500000,570106,EMP0637,Critical,Dubai
+PRJ0168,Asset Tracking System Phase 2 #168,Legal,In Progress,2022-08-11,,2000000,1982684,EMP0338,Critical,Ras Al Khaimah
+PRJ0169,Master Data Management #169,Operations,In Progress,2025-02-03,,120000,119494,EMP0600,Medium,Sharjah
+PRJ0170,Data Platform Modernisation - Q2 #170,Marketing,Completed,2023-07-14,2024-09-27,120000,118169,EMP0663,High,Abu Dhabi
+PRJ0171,Contract Lifecycle Management - Q3 #171,Operations,Not Started,,,,,EMP0568,Medium,Sharjah
+PRJ0172,Master Data Management #172,Data Science,In Progress,2022-01-18,,50000,39945,EMP0101,Medium,Sharjah
+PRJ0173,Regulatory Compliance Tool Phase 2 #173,Finance,Not Started,,,,,EMP0361,High,Dubai
+PRJ0174,Tax Automation Platform Phase 2 #174,Finance,In Progress,2025-02-24,,120000,136858,EMP0170,Medium,Abu Dhabi
+PRJ0175,Master Data Management Phase 2 #175,Sustainability,Completed,2024-08-19,2025-10-11,350000,354892,EMP0277,Critical,Dubai
+PRJ0176,Executive Dashboard #176,Engineering,In Progress,2024-02-20,,1200000,993146,EMP0192,High,Dubai
+PRJ0177,Asset Tracking System Phase 2 #177,Digital,Not Started,,,500000,,EMP0656,Medium,Abu Dhabi
+PRJ0178,Internal Audit Digitisation #178,IT,In Progress,2023-09-07,,800000,920046,EMP0120,Critical,Dubai
+PRJ0179,Energy Optimisation Platform Phase 3 #179,Finance,Completed,2022-06-20,2023-02-16,1200000,731487,EMP0688,Medium,Abu Dhabi
+PRJ0180,Knowledge Management Portal Phase 3 #180,Sustainability,On Hold,,,300000,111523,EMP0062,High,Dubai
+PRJ0181,Knowledge Management Portal - Q4 #181,HR,In Progress,2024-07-27,,80000,63980,EMP0044,Low,Ras Al Khaimah
+PRJ0182,Master Data Management #182,Finance,Completed,2024-08-20,2025-05-01,800000,497271,EMP0806,Medium,Abu Dhabi
+PRJ0183,Asset Tracking System - Q4 #183,Procurement,In Progress,2023-12-11,,350000,326000,EMP0569,Medium,Abu Dhabi
+PRJ0184,Crisis Response System Phase 3 #184,Sustainability,Not Started,,,,,EMP0136,High,Abu Dhabi
+PRJ0185,Customer Portal Redesign Phase 3 #185,Data Science,In Progress,2023-05-01,,80000,89457,EMP0016,High,Dubai
+PRJ0186,Mobile Workforce App Phase 2 #186,Marketing,Completed,2024-08-01,2025-08-19,500000,535839,EMP0118,High,Abu Dhabi
+PRJ0187,Procurement Digitalisation #187,IT,In Progress,2022-07-07,,50000,42989,EMP0816,Medium,Abu Dhabi
+PRJ0188,Internal Audit Digitisation Phase 3 #188,Sales,Completed,2024-09-01,2025-12-23,200000,204988,EMP0580,High,Abu Dhabi
+PRJ0189,Legacy System Decommission - Q1 #189,IT,Completed,2022-06-12,2022-11-09,200000,151591,EMP0632,High,Abu Dhabi
+PRJ0190,Network Security Overhaul Phase 2 #190,IT,Not Started,,,100000,,EMP0185,Medium,Dubai
+PRJ0191,Legacy System Decommission Phase 3 #191,Operations,Completed,2023-12-08,2025-02-16,200000,183666,EMP0785,Critical,Dubai
+PRJ0192,Legacy System Decommission #192,Engineering,In Progress,2023-12-06,,50000,48595,EMP0974,Medium,Dubai
+PRJ0193,Sentiment Analysis Engine #193,Procurement,Completed,2023-10-15,2024-10-10,500000,509422,EMP0718,High,Abu Dhabi
+PRJ0194,Knowledge Management Portal - Q3 #194,HR,Completed,2024-09-10,2025-05-17,1200000,936177,EMP0569,Medium,Ajman
+PRJ0195,Regulatory Compliance Tool Phase 2 #195,Engineering,Completed,2024-04-19,2025-02-11,1200000,953544,EMP0942,High,Ras Al Khaimah
+PRJ0196,Citizen Services Portal - Q4 #196,IT,In Progress,2024-02-29,,800000,935824,EMP0149,High,Abu Dhabi
+PRJ0197,Smart Building System - Q2 #197,HR,In Progress,2022-12-20,,120000,114691,EMP0206,Medium,Abu Dhabi
+PRJ0198,Tax Automation Platform Phase 3 #198,HR,In Progress,2024-10-15,,800000,555991,EMP0988,Critical,Dubai
+PRJ0199,Predictive Maintenance - Q2 #199,Marketing,Completed,2024-06-05,2025-03-14,120000,107088,EMP0799,Low,Ras Al Khaimah
+PRJ0200,Customer Portal Redesign - Q3 #200,Marketing,In Progress,2023-04-27,,2000000,2332005,EMP0950,Medium,Dubai
+PRJ0201,Customer Feedback Platform Phase 3 #201,Sales,In Progress,2024-05-28,,80000,76757,EMP0614,Medium,Dubai
+PRJ0202,Quality Assurance Automation Phase 3 #202,Marketing,On Hold,,,600000,126601,EMP0273,Medium,Abu Dhabi
+PRJ0203,Predictive Maintenance - Q3 #203,Finance,Completed,2023-11-10,2024-12-31,200000,228222,EMP0370,High,Dubai
+PRJ0204,Predictive Maintenance Phase 2 #204,Digital,Completed,2022-02-09,2022-09-17,2000000,2256873,EMP0433,High,Dubai
+PRJ0205,Internal Audit Digitisation - Q4 #205,Marketing,On Hold,2023-09-30,,,,EMP0514,Medium,Abu Dhabi
+PRJ0206,IoT Sensor Network Phase 2 #206,HR,Not Started,,,,,EMP0273,Medium,Abu Dhabi
+PRJ0207,ERP Consolidation Phase 2 #207,Finance,On Hold,2023-11-18,,150000,52086,EMP0771,Medium,Sharjah
+PRJ0208,Disaster Recovery Setup Phase 3 #208,Procurement,In Progress,2023-02-04,,2000000,2158618,EMP0318,Medium,Abu Dhabi
+PRJ0209,Quality Assurance Automation Phase 3 #209,Finance,In Progress,2023-08-30,,50000,30864,EMP0768,High,Abu Dhabi
+PRJ0210,Citizen Services Portal - Q2 #210,Sales,Completed,2022-11-18,2023-11-17,1200000,1266092,EMP0119,Critical,Dubai
+PRJ0211,Regulatory Compliance Tool Phase 3 #211,IT,Completed,2023-10-24,2023-12-31,80000,50516,EMP0377,High,Abu Dhabi
+PRJ0212,Identity Management Upgrade #212,Sales,Completed,2023-10-26,2024-07-14,120000,95515,EMP0994,High,Dubai
+PRJ0213,Identity Management Upgrade #213,Procurement,Completed,2022-09-28,2023-08-08,80000,92493,EMP0149,Medium,Dubai
+PRJ0214,Sentiment Analysis Engine #214,HR,On Hold,2024-02-27,,300000,97576,EMP0578,Medium,Abu Dhabi
+PRJ0215,Contract Lifecycle Management Phase 2 #215,Sustainability,Not Started,,,200000,,EMP0181,Low,Sharjah
+PRJ0216,Knowledge Management Portal Phase 2 #216,Engineering,Completed,2025-02-16,2025-04-29,50000,49287,EMP0828,Medium,Abu Dhabi
+PRJ0217,Predictive Maintenance Phase 2 #217,IT,Completed,2023-10-24,2024-07-08,800000,489242,EMP0914,Medium,Abu Dhabi
+PRJ0218,Sentiment Analysis Engine #218,Engineering,In Progress,2022-03-15,,200000,147540,EMP0570,Low,Dubai
+PRJ0219,API Gateway Modernisation Phase 2 #219,Legal,In Progress,2025-01-03,,50000,57456,EMP0883,High,Abu Dhabi
+PRJ0220,Asset Tracking System Phase 2 #220,Operations,Completed,2023-06-09,2024-01-26,200000,159246,EMP0290,Medium,Dubai
+PRJ0221,Crisis Response System - Q1 #221,Marketing,On Hold,2024-02-20,,150000,23317,EMP0052,Medium,Abu Dhabi
+PRJ0222,Fleet Management System Phase 3 #222,Procurement,Completed,2023-09-14,2024-05-15,1200000,759144,EMP0737,Medium,Sharjah
+PRJ0223,Knowledge Management Portal #223,Finance,In Progress,2023-01-06,,500000,361905,EMP0850,Medium,Abu Dhabi
+PRJ0224,Risk Assessment Framework - Q2 #224,Digital,Completed,2023-08-08,2024-11-17,200000,129320,EMP0118,Critical,Sharjah
+PRJ0225,Master Data Management #225,Finance,On Hold,2024-01-26,,150000,19375,EMP0416,Medium,Abu Dhabi
+PRJ0226,Performance Analytics #226,Finance,Completed,2022-02-15,2022-09-15,50000,56955,EMP0345,Low,Dubai
+PRJ0227,Fleet Management System #227,Digital,In Progress,2022-08-19,,80000,82790,EMP0526,Critical,Dubai
+PRJ0228,MLOps Platform Phase 3 #228,Engineering,Completed,2024-09-09,2024-12-10,120000,87514,EMP0445,High,Abu Dhabi
+PRJ0229,Document Management System - Q4 #229,Legal,In Progress,2022-01-28,,50000,49698,EMP0919,Critical,Dubai
+PRJ0230,Recommendation System Phase 2 #230,Finance,In Progress,2023-07-11,,200000,148178,EMP0513,High,Ajman
+PRJ0231,HR System Upgrade - Q4 #231,Operations,Completed,2022-04-07,2022-10-30,500000,326524,EMP0416,Medium,Dubai
+PRJ0232,Cloud Migration Phase 1 Phase 3 #232,Procurement,Completed,2022-10-26,2023-06-07,500000,422100,EMP0676,Medium,Dubai
+PRJ0233,ERP Consolidation Phase 2 #233,Sales,Completed,2024-10-09,2025-11-18,2000000,1689390,EMP0488,Low,Abu Dhabi
+PRJ0234,Procurement Digitalisation Phase 3 #234,Sales,Completed,2025-01-09,2026-05-25,120000,136061,EMP0392,Medium,Sharjah
+PRJ0235,Smart Building System Phase 3 #235,Sustainability,Completed,2022-11-23,2024-04-01,120000,142360,EMP0936,Medium,Dubai
+PRJ0236,Internal Audit Digitisation #236,Sustainability,Completed,2024-11-30,2025-03-23,50000,37641,EMP0638,High,Abu Dhabi
+PRJ0237,Predictive Maintenance - Q3 #237,Data Science,In Progress,2024-02-04,,2000000,2324313,EMP0605,High,Abu Dhabi
+PRJ0238,Workflow Automation - Q3 #238,Procurement,Completed,2022-08-06,2023-01-28,1200000,832104,EMP0823,Critical,Abu Dhabi
+PRJ0239,Smart City Infrastructure - Q1 #239,IT,On Hold,2023-11-10,,150000,49011,EMP0346,High,Dubai
+PRJ0240,AI Forecasting Engine #240,Engineering,In Progress,2022-09-05,,200000,142285,EMP0925,High,Abu Dhabi
+PRJ0241,Crisis Response System - Q1 #241,HR,Completed,2022-01-22,2023-03-15,350000,282065,EMP0421,Medium,Abu Dhabi
+PRJ0242,API Gateway Modernisation #242,Sales,Completed,2022-03-06,2023-01-15,500000,405449,EMP0285,High,Sharjah
+PRJ0243,Vendor Portal - Q1 #243,Procurement,Completed,2023-12-20,2025-02-02,1200000,1436139,EMP0428,Low,Dubai
+PRJ0244,Internal Audit Digitisation Phase 3 #244,Sustainability,In Progress,2023-05-18,,80000,69824,EMP0888,Medium,Dubai
+PRJ0245,Tax Automation Platform Phase 3 #245,Finance,Completed,2024-07-13,2024-12-30,800000,525577,EMP0815,Low,Sharjah
+PRJ0246,IoT Sensor Network - Q1 #246,Data Science,Completed,2024-08-06,2025-02-22,800000,864627,EMP0625,High,Abu Dhabi
+PRJ0247,API Gateway Modernisation - Q1 #247,IT,On Hold,,,150000,16791,EMP0705,Medium,Abu Dhabi
+PRJ0248,Executive Dashboard Phase 2 #248,Digital,Completed,2022-01-12,2022-09-27,120000,127617,EMP0053,Medium,Abu Dhabi
+PRJ0249,Resource Scheduling Tool Phase 2 #249,Procurement,Completed,2022-08-26,2022-12-15,120000,82022,EMP0877,Critical,Dubai
+PRJ0250,Data Platform Modernisation - Q4 #250,HR,Completed,2024-05-30,2024-08-08,2000000,2277227,EMP0416,High,Abu Dhabi
+PRJ0251,Tax Automation Platform Phase 3 #251,Legal,Completed,2024-05-14,2024-08-16,80000,52187,EMP0799,Medium,Abu Dhabi
+PRJ0252,Digital Payments Integration #252,Engineering,In Progress,2023-01-18,,200000,173532,EMP0635,Medium,Abu Dhabi
+PRJ0253,Customer Portal Redesign - Q2 #253,Data Science,Completed,2023-04-21,2023-10-01,120000,93624,EMP0884,High,Abu Dhabi
+PRJ0254,Supply Chain Automation #254,Sustainability,Completed,2024-12-22,2025-02-24,350000,394880,EMP0148,Medium,Abu Dhabi
+PRJ0255,Tax Automation Platform Phase 2 #255,Sales,Completed,2024-09-07,2025-02-23,80000,56276,EMP0641,High,Dubai
+PRJ0256,Customer Portal Redesign Phase 2 #256,Sustainability,In Progress,2022-05-20,,1200000,1089636,EMP0083,High,Abu Dhabi
+PRJ0257,Geo-spatial Intelligence Phase 3 #257,Operations,Not Started,,,200000,,EMP0052,Critical,Dubai
+PRJ0258,Data Platform Modernisation Phase 3 #258,Legal,Completed,2023-04-06,2024-06-22,120000,106514,EMP0935,Medium,Abu Dhabi
+PRJ0259,Geo-spatial Intelligence Phase 2 #259,Marketing,Completed,2024-10-15,2026-01-13,80000,68771,EMP0042,Medium,Dubai
+PRJ0260,Sentiment Analysis Engine #260,HR,In Progress,2023-07-30,,1200000,1188120,EMP0391,Medium,Dubai
+PRJ0261,Identity Management Upgrade - Q3 #261,Sustainability,Completed,2025-02-21,2026-08-07,120000,105791,EMP0101,High,Ras Al Khaimah
+PRJ0262,Data Lake Implementation Phase 3 #262,Sales,In Progress,2023-07-10,,350000,334831,EMP0251,Medium,Sharjah
+PRJ0263,Digital Payments Integration Phase 3 #263,Finance,In Progress,2023-11-18,,2000000,2011320,EMP0312,Medium,Abu Dhabi
+PRJ0264,Energy Optimisation Platform Phase 2 #264,Procurement,In Progress,2024-01-11,,2000000,1863483,EMP0226,High,Dubai
+PRJ0265,Employee Wellness App Phase 3 #265,Sales,In Progress,2023-11-22,,120000,135883,EMP0962,Medium,Abu Dhabi
+PRJ0266,Tax Automation Platform - Q3 #266,Sustainability,In Progress,2023-06-06,,80000,60121,EMP0424,High,Ajman
+PRJ0267,Smart City Infrastructure Phase 2 #267,Finance,On Hold,2024-07-17,,300000,76000,EMP0468,Medium,Abu Dhabi
+PRJ0268,Performance Analytics #268,Digital,Completed,2023-10-04,2024-02-02,120000,85039,EMP0408,High,Ajman
+PRJ0269,HR System Upgrade Phase 3 #269,Data Science,Completed,2023-07-04,2023-11-06,80000,92435,EMP0816,Medium,Abu Dhabi
+PRJ0270,Energy Optimisation Platform #270,Data Science,In Progress,2023-07-22,,350000,300258,EMP0256,Medium,Dubai
+PRJ0271,Geo-spatial Intelligence Phase 3 #271,Operations,In Progress,2025-02-07,,500000,528705,EMP0192,High,Dubai
+PRJ0272,Fleet Management System Phase 2 #272,Data Science,Completed,2023-07-07,2024-10-23,1200000,809685,EMP0273,High,Abu Dhabi
+PRJ0273,Citizen Services Portal Phase 2 #273,Operations,In Progress,2022-01-07,,200000,200539,EMP0494,High,Dubai
+PRJ0274,Vendor Portal Phase 2 #274,Operations,In Progress,2022-06-17,,800000,821964,EMP0502,Medium,Sharjah
+PRJ0275,Master Data Management #275,Sustainability,Completed,2023-02-25,2024-07-20,1200000,1034388,EMP0608,Medium,Abu Dhabi
+PRJ0276,Real-time Analytics Engine - Q4 #276,Marketing,In Progress,2022-10-23,,80000,76845,EMP0828,High,Abu Dhabi
+PRJ0277,Risk Assessment Framework Phase 2 #277,HR,Completed,2023-07-16,2024-01-19,350000,398675,EMP0428,High,Dubai
+PRJ0278,Data Platform Modernisation #278,Digital,Completed,2022-02-14,2022-10-31,500000,407856,EMP0030,Medium,Dubai
+PRJ0279,Performance Analytics - Q1 #279,Finance,In Progress,2023-07-06,,500000,573479,EMP0290,Medium,Abu Dhabi
+PRJ0280,API Gateway Modernisation #280,Legal,Completed,2023-04-14,2023-07-29,120000,78651,EMP0827,High,Abu Dhabi
+PRJ0281,Compliance Monitoring - Q3 #281,IT,In Progress,2024-06-11,,350000,392911,EMP0207,Medium,Abu Dhabi
+PRJ0282,Compliance Monitoring Phase 2 #282,Data Science,Completed,2022-12-27,2023-07-22,2000000,1764298,EMP0474,Critical,Abu Dhabi
+PRJ0283,Regulatory Compliance Tool #283,Data Science,In Progress,2023-01-02,,2000000,1348964,EMP0536,High,Abu Dhabi
+PRJ0284,Employee Wellness App Phase 2 #284,Operations,Completed,2023-10-29,2025-03-09,120000,127177,EMP0596,High,Dubai
+PRJ0285,Supply Chain Automation Phase 2 #285,IT,In Progress,2022-11-16,,120000,89418,EMP0719,High,Dubai
+PRJ0286,Carbon Footprint Tracker Phase 2 #286,Digital,In Progress,2022-08-14,,200000,139450,EMP0718,High,Abu Dhabi
+PRJ0287,Vendor Portal #287,Finance,Completed,2024-09-30,2025-11-10,800000,744151,EMP0853,Medium,Dubai
+PRJ0288,Predictive Healthcare - Q3 #288,Finance,Completed,2024-04-14,2024-09-06,2000000,2229512,EMP0135,High,Abu Dhabi
+PRJ0289,Disaster Recovery Setup Phase 3 #289,Data Science,Completed,2024-04-24,2025-01-04,800000,623768,EMP0038,Medium,Abu Dhabi
+PRJ0290,Data Platform Modernisation - Q2 #290,Sales,Completed,2024-07-10,2025-11-24,120000,118733,EMP0345,Medium,Abu Dhabi
+PRJ0291,Predictive Maintenance Phase 3 #291,Digital,Completed,2024-08-10,2025-04-17,200000,175595,EMP0464,Critical,Abu Dhabi
+PRJ0292,Executive Dashboard Phase 3 #292,HR,In Progress,2024-08-10,,800000,905782,EMP0488,Low,Abu Dhabi
+PRJ0293,Real-time Analytics Engine #293,Digital,In Progress,2023-11-10,,200000,157241,EMP0591,Medium,Ajman
+PRJ0294,Executive Dashboard #294,Engineering,Completed,2024-12-03,2025-08-10,50000,43450,EMP0382,High,Dubai
+PRJ0295,Master Data Management Phase 3 #295,HR,In Progress,2024-11-24,,80000,90409,EMP0896,Medium,Dubai
+PRJ0296,HR System Upgrade Phase 2 #296,Legal,In Progress,2024-06-19,,350000,240229,EMP0909,Critical,Abu Dhabi
+PRJ0297,Vendor Portal - Q3 #297,Operations,In Progress,2023-09-13,,50000,58606,EMP0215,Medium,Abu Dhabi
+PRJ0298,Executive Dashboard Phase 3 #298,Operations,In Progress,2022-05-16,,120000,133836,EMP0294,High,Dubai
+PRJ0299,Predictive Maintenance Phase 2 #299,Sales,Completed,2022-06-13,2023-07-20,1200000,1304416,EMP0392,High,Ras Al Khaimah
+PRJ0300,Tax Automation Platform Phase 3 #300,Sales,Completed,2024-12-14,2025-05-02,2000000,2019121,EMP0951,High,Sharjah
+PRJ0301,Predictive Maintenance - Q1 #301,Digital,In Progress,2024-11-08,,350000,314763,EMP0852,Critical,Abu Dhabi
+PRJ0302,API Gateway Modernisation Phase 3 #302,Data Science,Not Started,,,100000,,EMP0277,Medium,Abu Dhabi
+PRJ0303,AI Forecasting Engine - Q3 #303,Procurement,Completed,2023-11-10,2024-06-10,80000,59639,EMP0736,Medium,Sharjah
+PRJ0304,Customer Portal Redesign #304,Legal,Completed,2024-06-04,2024-10-20,800000,707123,EMP0042,Medium,Abu Dhabi
+PRJ0305,Customer Feedback Platform - Q2 #305,Digital,On Hold,2023-08-08,,600000,137419,EMP0259,Medium,Dubai
+PRJ0306,Cloud Migration Phase 1 Phase 2 #306,Marketing,In Progress,2024-02-11,,80000,52831,EMP0092,High,Abu Dhabi
+PRJ0307,Data Lake Implementation - Q4 #307,Data Science,On Hold,2024-12-15,,150000,59632,EMP0007,Medium,Abu Dhabi
+PRJ0308,Legacy System Decommission Phase 3 #308,Sales,Completed,2022-03-24,2022-08-15,350000,279329,EMP0050,Critical,Abu Dhabi
+PRJ0309,HR System Upgrade Phase 2 #309,IT,Not Started,,,200000,,EMP0119,Medium,Abu Dhabi
+PRJ0310,Compliance Monitoring Phase 3 #310,IT,In Progress,2023-06-17,,120000,118329,EMP0830,Medium,Dubai
+PRJ0311,Predictive Maintenance #311,Legal,Not Started,,,500000,,EMP0551,High,Abu Dhabi
+PRJ0312,Real-time Analytics Engine Phase 3 #312,Sales,Completed,2024-04-01,2024-12-31,200000,215310,EMP0353,High,Abu Dhabi
+PRJ0313,Citizen Services Portal Phase 2 #313,Engineering,In Progress,2022-08-30,,120000,79752,EMP0513,Low,Dubai
+PRJ0314,Legacy System Decommission Phase 3 #314,Marketing,In Progress,2024-09-13,,800000,676742,EMP0768,High,Dubai
+PRJ0315,Recommendation System Phase 2 #315,Digital,Completed,2024-01-16,2024-06-04,800000,571914,EMP0073,Low,Dubai
+PRJ0316,Knowledge Management Portal Phase 2 #316,Digital,Completed,2024-03-25,2025-06-29,500000,434883,EMP0969,Medium,Ras Al Khaimah
+PRJ0317,Performance Analytics Phase 2 #317,Engineering,Not Started,,,,,EMP0283,Medium,Dubai
+PRJ0318,Mobile Workforce App #318,IT,In Progress,2024-10-11,,350000,400534,EMP0851,Medium,Abu Dhabi
+PRJ0319,Smart City Infrastructure Phase 3 #319,Marketing,Completed,2022-01-06,2022-04-29,1200000,1275528,EMP0588,Medium,Abu Dhabi
+PRJ0320,Resource Scheduling Tool - Q3 #320,Sustainability,On Hold,2024-09-18,,150000,34572,EMP0860,High,Dubai
+PRJ0321,Recommendation System - Q3 #321,Engineering,In Progress,2022-02-06,,800000,762873,EMP0936,Low,Dubai
+PRJ0322,Contract Lifecycle Management Phase 2 #322,HR,Not Started,,,,,EMP0294,Medium,Dubai
+PRJ0323,HR System Upgrade Phase 3 #323,Legal,In Progress,2024-12-22,,200000,124865,EMP0977,Medium,Abu Dhabi
+PRJ0324,Performance Analytics #324,Finance,Completed,2025-01-24,2025-10-24,50000,45052,EMP0861,High,Dubai
+PRJ0325,Customer Feedback Platform - Q1 #325,Marketing,In Progress,2025-02-05,,350000,373731,EMP0259,Critical,Abu Dhabi
+PRJ0326,Recommendation System Phase 2 #326,Sustainability,Completed,2022-01-30,2023-03-16,800000,518244,EMP0776,Medium,Dubai
+PRJ0327,AI Forecasting Engine Phase 3 #327,IT,Completed,2023-06-11,2024-03-09,120000,137228,EMP0226,High,Abu Dhabi
+PRJ0328,Geo-spatial Intelligence Phase 3 #328,Sustainability,Completed,2022-05-21,2022-08-28,120000,134871,EMP0007,Critical,Abu Dhabi
+PRJ0329,IoT Sensor Network Phase 2 #329,Data Science,Completed,2023-11-23,2024-03-24,2000000,2119199,EMP0927,Medium,Dubai
+PRJ0330,Tax Automation Platform #330,HR,Completed,2023-12-25,2024-05-23,800000,867168,EMP0635,Critical,Dubai
+PRJ0331,Master Data Management #331,IT,In Progress,2022-11-25,,2000000,2178261,EMP0619,Medium,Ajman
+PRJ0332,Geo-spatial Intelligence #332,HR,Not Started,,,200000,,EMP0117,High,Dubai
+PRJ0333,Risk Assessment Framework Phase 2 #333,Operations,Completed,2024-09-17,2025-12-17,80000,94854,EMP0883,Medium,Dubai
+PRJ0334,IoT Sensor Network - Q4 #334,Legal,In Progress,2024-01-26,,200000,227996,EMP0046,Medium,Abu Dhabi
+PRJ0335,ERP Consolidation Phase 3 #335,Sales,In Progress,2022-01-16,,500000,558602,EMP0096,Low,Abu Dhabi
+PRJ0336,Compliance Monitoring Phase 2 #336,Digital,Completed,2025-02-03,2026-04-10,500000,335925,EMP0965,Low,Dubai
+PRJ0337,Identity Management Upgrade Phase 3 #337,Sustainability,Not Started,,,,,EMP0118,Low,Abu Dhabi
+PRJ0338,Procurement Digitalisation - Q3 #338,IT,In Progress,2024-04-23,,80000,94806,EMP0409,Low,Abu Dhabi
+PRJ0339,Customer Feedback Platform #339,Engineering,On Hold,2024-12-29,,,,EMP0148,Critical,Dubai
+PRJ0340,AI Forecasting Engine #340,Data Science,On Hold,2023-11-22,,,,EMP0203,High,Dubai
+PRJ0341,Internal Audit Digitisation #341,Finance,In Progress,2025-01-31,,2000000,2295567,EMP0089,High,Dubai
+PRJ0342,Workflow Automation Phase 3 #342,Data Science,Not Started,,,100000,,EMP0358,Critical,Abu Dhabi
+PRJ0343,Energy Optimisation Platform Phase 3 #343,Procurement,In Progress,2022-05-21,,80000,93551,EMP0686,Low,Sharjah
+PRJ0344,HR System Upgrade Phase 3 #344,Legal,Completed,2023-06-26,2023-11-14,2000000,2274029,EMP0273,Low,Abu Dhabi
+PRJ0345,Predictive Healthcare #345,Digital,In Progress,2022-09-17,,120000,125126,EMP0977,Critical,Dubai
+PRJ0346,Contract Lifecycle Management Phase 3 #346,Marketing,Completed,2023-01-20,2023-11-28,2000000,1485494,EMP0486,Medium,Dubai
+PRJ0347,Regulatory Compliance Tool Phase 3 #347,IT,Completed,2024-04-22,2025-09-30,350000,266565,EMP0728,Critical,Abu Dhabi
+PRJ0348,Contract Lifecycle Management - Q3 #348,Engineering,On Hold,2023-07-15,,300000,92216,EMP0674,Medium,Dubai
+PRJ0349,Network Security Overhaul Phase 2 #349,Procurement,In Progress,2023-05-27,,50000,51937,EMP0815,Medium,Ras Al Khaimah
+PRJ0350,Carbon Footprint Tracker #350,Sales,In Progress,2022-08-15,,50000,42400,EMP0391,Medium,Abu Dhabi
+PRJ0351,Recommendation System Phase 3 #351,HR,On Hold,2024-06-15,,300000,69907,EMP0224,Critical,Abu Dhabi
+PRJ0352,Vendor Portal Phase 2 #352,Sales,Not Started,,,200000,,EMP0569,Critical,Abu Dhabi
+PRJ0353,Knowledge Management Portal - Q1 #353,Digital,In Progress,2022-05-03,,1200000,1097483,EMP0226,Medium,Sharjah
+PRJ0354,Executive Dashboard Phase 3 #354,IT,Completed,2022-01-29,2022-11-27,2000000,1278354,EMP0517,Medium,Dubai
+PRJ0355,Crisis Response System Phase 3 #355,Digital,On Hold,,,600000,99701,EMP0143,Low,Abu Dhabi
+PRJ0356,Document Management System Phase 2 #356,Sustainability,Completed,2022-10-24,2023-02-17,350000,361460,EMP0605,Medium,Abu Dhabi
+PRJ0357,Energy Optimisation Platform - Q3 #357,Engineering,In Progress,2022-08-08,,200000,227853,EMP0284,High,Dubai
+PRJ0358,Energy Optimisation Platform - Q2 #358,Sustainability,In Progress,2022-02-10,,500000,530547,EMP0919,High,Dubai
+PRJ0359,Smart City Infrastructure Phase 2 #359,IT,In Progress,2023-09-20,,800000,600560,EMP0950,Medium,Abu Dhabi
+PRJ0360,Risk Assessment Framework #360,Legal,Completed,2023-02-06,2024-07-05,200000,158965,EMP0387,Medium,Dubai
+PRJ0361,Data Lake Implementation - Q3 #361,Operations,Completed,2025-02-25,2025-05-04,80000,52953,EMP0148,Medium,Sharjah
+PRJ0362,Fleet Management System - Q4 #362,Sustainability,On Hold,,,600000,189317,EMP0248,High,Abu Dhabi
+PRJ0363,AI Forecasting Engine Phase 3 #363,Engineering,On Hold,2023-10-15,,600000,220758,EMP0102,Medium,Abu Dhabi
+PRJ0364,Network Security Overhaul Phase 3 #364,Marketing,Completed,2023-05-09,2023-07-30,1200000,1216077,EMP0632,Medium,Dubai
+PRJ0365,Recommendation System - Q1 #365,Operations,Completed,2023-11-09,2024-02-28,80000,72177,EMP0252,Critical,Abu Dhabi
+PRJ0366,Performance Analytics Phase 3 #366,Digital,Completed,2022-12-03,2023-02-14,80000,95073,EMP0661,Low,Abu Dhabi
+PRJ0367,Employee Wellness App Phase 2 #367,Procurement,In Progress,2023-01-03,,200000,219273,EMP0220,Low,Dubai
+PRJ0368,Energy Optimisation Platform Phase 2 #368,Marketing,In Progress,2022-08-30,,200000,163997,EMP0894,Critical,Abu Dhabi
+PRJ0369,Resource Scheduling Tool Phase 2 #369,Procurement,In Progress,2022-11-22,,1200000,992222,EMP0192,Medium,Dubai
+PRJ0370,Resource Scheduling Tool #370,Data Science,Completed,2023-03-10,2023-06-15,120000,101883,EMP0494,Medium,Dubai
+PRJ0371,Carbon Footprint Tracker - Q3 #371,IT,Not Started,,,500000,,EMP0656,Medium,Abu Dhabi
+PRJ0372,Employee Wellness App Phase 3 #372,HR,In Progress,2023-03-15,,50000,35888,EMP0333,Medium,Dubai
+PRJ0373,Internal Audit Digitisation Phase 2 #373,Engineering,In Progress,2024-12-28,,80000,74883,EMP0444,Critical,Dubai
+PRJ0374,Visual Analytics Suite #374,Sustainability,In Progress,2023-04-20,,120000,89314,EMP0060,Medium,Dubai
+PRJ0375,Customer Portal Redesign #375,HR,Completed,2022-07-11,2023-01-19,350000,279735,EMP0147,High,Abu Dhabi
+PRJ0376,Document Management System Phase 2 #376,Operations,Completed,2022-07-03,2023-05-24,120000,116988,EMP0079,Medium,Dubai
+PRJ0377,Internal Audit Digitisation - Q3 #377,IT,Completed,2023-11-23,2024-02-06,50000,52964,EMP0927,Low,Dubai
+PRJ0378,Data Platform Modernisation #378,HR,In Progress,2022-06-16,,80000,81021,EMP0563,Critical,Abu Dhabi
+PRJ0379,Data Lake Implementation #379,Sales,Completed,2022-02-22,2023-04-26,120000,143165,EMP0360,Medium,Abu Dhabi
+PRJ0380,Real-time Analytics Engine Phase 3 #380,Finance,In Progress,2025-01-22,,120000,115225,EMP0674,Medium,Abu Dhabi
+PRJ0381,Compliance Monitoring Phase 2 #381,IT,Not Started,,,,,EMP0733,High,Abu Dhabi
+PRJ0382,Tax Automation Platform - Q1 #382,Digital,In Progress,2022-04-11,,50000,49861,EMP0272,Medium,Dubai
+PRJ0383,Internal Audit Digitisation Phase 3 #383,Sustainability,In Progress,2024-02-13,,80000,59318,EMP0169,High,Dubai
+PRJ0384,Identity Management Upgrade #384,HR,In Progress,2022-12-15,,800000,830207,EMP0640,High,Dubai
+PRJ0385,Supply Chain Automation Phase 2 #385,Operations,Completed,2025-02-17,2025-12-09,500000,535956,EMP0028,High,Dubai
+PRJ0386,Compliance Monitoring Phase 2 #386,Data Science,In Progress,2022-04-07,,80000,89532,EMP0284,High,Abu Dhabi
+PRJ0387,MLOps Platform Phase 3 #387,Sales,Completed,2022-12-30,2023-12-05,1200000,1078882,EMP0277,Medium,Abu Dhabi
+PRJ0388,Geo-spatial Intelligence #388,Legal,In Progress,2022-11-14,,80000,54792,EMP0447,High,Abu Dhabi
+PRJ0389,Cloud Migration Phase 1 - Q3 #389,Finance,In Progress,2023-05-13,,800000,843110,EMP0138,Medium,Dubai
+PRJ0390,Compliance Monitoring Phase 2 #390,Data Science,In Progress,2023-05-31,,80000,70174,EMP0051,High,Abu Dhabi
+PRJ0391,Smart Building System Phase 2 #391,HR,On Hold,2023-10-25,,,,EMP0207,Medium,Abu Dhabi
+PRJ0392,Resource Scheduling Tool Phase 3 #392,Sustainability,Completed,2023-08-25,2024-01-30,50000,50059,EMP0545,Medium,Abu Dhabi
+PRJ0393,Carbon Footprint Tracker #393,Operations,Completed,2024-01-25,2024-07-26,2000000,2036887,EMP0601,Medium,Ajman
+PRJ0394,Mobile Workforce App - Q2 #394,Marketing,Not Started,,,,,EMP0817,Medium,Abu Dhabi
+PRJ0395,Smart Building System Phase 3 #395,Operations,In Progress,2023-03-19,,200000,236367,EMP0980,Medium,Dubai
+PRJ0396,Knowledge Management Portal #396,Legal,Completed,2022-10-17,2024-02-01,80000,52322,EMP0841,High,Dubai
+PRJ0397,Recommendation System #397,Marketing,On Hold,,,,,EMP0748,High,Dubai
+PRJ0398,Procurement Digitalisation Phase 3 #398,Operations,In Progress,2024-04-12,,50000,51700,EMP0092,Critical,Dubai
+PRJ0399,Real-time Analytics Engine Phase 3 #399,Legal,In Progress,2024-10-22,,800000,853878,EMP0850,Critical,Sharjah
+PRJ0400,Smart City Infrastructure Phase 2 #400,Engineering,On Hold,,,,,EMP0382,High,Abu Dhabi
+PRJ0401,Procurement Digitalisation Phase 2 #401,Procurement,Completed,2024-08-25,2025-09-15,1200000,909998,EMP0320,High,Dubai
+PRJ0402,Recommendation System #402,Marketing,Completed,2024-03-13,2024-11-16,500000,340177,EMP0065,Low,Dubai
+PRJ0403,Network Security Overhaul #403,Sustainability,In Progress,2023-04-19,,800000,734346,EMP0392,High,Dubai
+PRJ0404,Geo-spatial Intelligence Phase 2 #404,IT,Not Started,,,,,EMP0239,High,Dubai
+PRJ0405,Customer Portal Redesign - Q2 #405,Finance,In Progress,2024-05-06,,80000,52426,EMP0046,High,Sharjah
+PRJ0406,Legacy System Decommission - Q2 #406,Procurement,In Progress,2024-01-22,,50000,53340,EMP0387,Medium,Sharjah
+PRJ0407,Performance Analytics #407,Sustainability,Completed,2022-08-27,2023-11-12,120000,102709,EMP0029,Critical,Sharjah
+PRJ0408,Supply Chain Automation Phase 3 #408,Legal,Completed,2022-07-01,2023-10-22,50000,41588,EMP0815,Medium,Abu Dhabi
+PRJ0409,Visual Analytics Suite #409,IT,Completed,2023-06-05,2024-11-05,500000,406738,EMP0974,Medium,Dubai
+PRJ0410,Performance Analytics - Q1 #410,Sales,Not Started,,,500000,,EMP0768,Critical,Dubai
+PRJ0411,Compliance Monitoring Phase 3 #411,Procurement,On Hold,,,300000,110672,EMP0008,High,Ajman
+PRJ0412,IoT Sensor Network Phase 3 #412,Finance,In Progress,2025-01-31,,2000000,1363794,EMP0058,Medium,Dubai
+PRJ0413,Master Data Management #413,Data Science,Completed,2024-07-13,2025-08-30,50000,48170,EMP0059,Medium,Ajman
+PRJ0414,API Gateway Modernisation Phase 3 #414,Finance,Completed,2022-02-02,2023-04-03,1200000,1434163,EMP0679,High,Abu Dhabi
+PRJ0415,Disaster Recovery Setup - Q4 #415,Sales,In Progress,2025-02-05,,1200000,784551,EMP0605,Medium,Dubai
+PRJ0416,Asset Tracking System Phase 2 #416,IT,In Progress,2022-07-30,,350000,214467,EMP0588,Critical,Dubai
+PRJ0417,Regulatory Compliance Tool Phase 2 #417,Data Science,In Progress,2023-04-02,,350000,373910,EMP0925,Critical,Abu Dhabi
+PRJ0418,MLOps Platform - Q1 #418,Marketing,Completed,2025-02-16,2025-12-15,120000,100655,EMP0128,Medium,Abu Dhabi
+PRJ0419,Data Platform Modernisation Phase 2 #419,Procurement,In Progress,2025-02-24,,200000,182399,EMP0247,Medium,Dubai
+PRJ0420,Asset Tracking System Phase 2 #420,Sales,Not Started,,,200000,,EMP0985,Low,Abu Dhabi
+PRJ0421,Contract Lifecycle Management Phase 2 #421,Procurement,Completed,2024-06-08,2025-01-28,50000,46477,EMP0931,Low,Dubai
+PRJ0422,ERP Consolidation - Q2 #422,Sales,In Progress,2025-02-01,,800000,754998,EMP0393,Medium,Abu Dhabi
+PRJ0423,Fleet Management System - Q1 #423,Legal,In Progress,2022-10-26,,200000,216867,EMP0360,High,Ajman
+PRJ0424,Geo-spatial Intelligence Phase 3 #424,Operations,Completed,2024-03-27,2025-02-27,120000,89323,EMP0942,High,Dubai
+PRJ0425,Carbon Footprint Tracker #425,IT,Completed,2023-04-04,2023-06-03,50000,50031,EMP0599,Medium,Abu Dhabi
+PRJ0426,Vendor Portal #426,Data Science,Not Started,,,500000,,EMP0224,Low,Dubai
+PRJ0427,Master Data Management #427,Engineering,On Hold,2023-02-27,,300000,37209,EMP0746,High,Sharjah
+PRJ0428,Identity Management Upgrade - Q1 #428,Legal,Completed,2024-12-04,2025-05-13,1200000,1182292,EMP0742,Low,Dubai
+PRJ0429,Predictive Maintenance Phase 3 #429,Engineering,Not Started,,,500000,,EMP0318,Medium,Abu Dhabi
+PRJ0430,Crisis Response System - Q2 #430,Legal,Completed,2022-10-08,2023-06-01,50000,46663,EMP0102,High,Dubai
+PRJ0431,Smart Building System - Q4 #431,Engineering,On Hold,2024-09-08,,,,EMP0916,High,Abu Dhabi
+PRJ0432,Compliance Monitoring #432,Operations,In Progress,2024-07-18,,200000,130702,EMP0142,Critical,Abu Dhabi
+PRJ0433,Sentiment Analysis Engine Phase 2 #433,HR,On Hold,2024-04-23,,,,EMP0538,Low,Dubai
+PRJ0434,Cloud Migration Phase 1 #434,Marketing,In Progress,2024-02-17,,80000,58505,EMP0474,Medium,Dubai
+PRJ0435,Energy Optimisation Platform Phase 2 #435,Digital,Completed,2023-12-08,2024-08-16,80000,57138,EMP0513,Low,Dubai
+PRJ0436,Legacy System Decommission Phase 3 #436,Marketing,In Progress,2022-12-12,,500000,314335,EMP0444,Medium,Abu Dhabi
+PRJ0437,AI Forecasting Engine Phase 3 #437,Finance,On Hold,,,150000,45692,EMP0989,Low,Dubai
+PRJ0438,AI Forecasting Engine - Q2 #438,Procurement,Completed,2024-11-17,2025-04-13,120000,77412,EMP0990,Medium,Abu Dhabi
+PRJ0439,Document Management System #439,Sales,In Progress,2024-11-29,,800000,562377,EMP0635,Medium,Dubai
+PRJ0440,Recommendation System Phase 2 #440,Legal,Not Started,,,,,EMP0980,Medium,Sharjah
+PRJ0441,Real-time Analytics Engine Phase 3 #441,Legal,In Progress,2023-04-14,,1200000,1411032,EMP0034,Medium,Dubai
+PRJ0442,Data Lake Implementation - Q4 #442,Sales,On Hold,,,600000,186020,EMP0451,Critical,Dubai
+PRJ0443,Risk Assessment Framework #443,HR,Completed,2024-02-10,2025-01-11,120000,78073,EMP0997,Medium,Abu Dhabi
+PRJ0444,ERP Consolidation Phase 2 #444,Data Science,On Hold,2024-11-06,,300000,31334,EMP0382,Medium,Abu Dhabi
+PRJ0445,AI Forecasting Engine - Q3 #445,Marketing,In Progress,2022-05-30,,2000000,1981562,EMP0195,Low,Dubai
+PRJ0446,Identity Management Upgrade - Q4 #446,Marketing,On Hold,2024-07-01,,300000,51169,EMP0736,High,Abu Dhabi
+PRJ0447,Data Lake Implementation Phase 2 #447,IT,Not Started,,,,,EMP0379,High,Ras Al Khaimah
+PRJ0448,Quality Assurance Automation - Q2 #448,Procurement,Completed,2023-05-29,2024-04-12,350000,346157,EMP0337,Critical,Abu Dhabi
+PRJ0449,Visual Analytics Suite #449,Finance,In Progress,2025-01-22,,2000000,1749462,EMP0962,High,Abu Dhabi
+PRJ0450,Predictive Healthcare #450,HR,On Hold,,,600000,140564,EMP0557,Medium,Dubai
+PRJ0451,Energy Optimisation Platform #451,Marketing,Completed,2024-02-19,2025-05-23,80000,94249,EMP0070,High,Dubai
+PRJ0452,Citizen Services Portal - Q4 #452,Legal,Completed,2024-06-12,2025-04-26,1200000,1237348,EMP0174,High,Abu Dhabi
+PRJ0453,Compliance Monitoring - Q2 #453,Procurement,In Progress,2024-12-25,,500000,504468,EMP0002,Medium,Abu Dhabi
+PRJ0454,Smart Building System Phase 3 #454,Engineering,Completed,2022-03-03,2023-04-06,500000,526670,EMP0440,Medium,Dubai
+PRJ0455,Resource Scheduling Tool #455,Engineering,Completed,2022-12-10,2023-07-01,2000000,1411088,EMP0884,Medium,Abu Dhabi
+PRJ0456,Knowledge Management Portal - Q2 #456,Digital,Completed,2023-02-06,2023-06-17,500000,547940,EMP0725,Medium,Dubai
+PRJ0457,Smart Building System Phase 3 #457,Legal,Not Started,,,,,EMP0215,Medium,Sharjah
+PRJ0458,Workflow Automation Phase 3 #458,Legal,In Progress,2022-06-13,,500000,355980,EMP0899,Medium,Ajman
+PRJ0459,Tax Automation Platform Phase 3 #459,Legal,In Progress,2022-12-18,,800000,934111,EMP0248,Critical,Abu Dhabi
+PRJ0460,Compliance Monitoring #460,Operations,Not Started,,,100000,,EMP0646,High,Abu Dhabi
+PRJ0461,Data Platform Modernisation Phase 3 #461,Legal,On Hold,2023-01-17,,300000,98038,EMP0921,High,Dubai
+PRJ0462,Predictive Maintenance Phase 2 #462,Finance,Completed,2022-09-03,2024-01-25,2000000,2189194,EMP0085,Critical,Abu Dhabi
+PRJ0463,Tax Automation Platform Phase 2 #463,Engineering,In Progress,2023-11-15,,200000,152296,EMP0050,Low,Abu Dhabi
+PRJ0464,Risk Assessment Framework #464,HR,In Progress,2022-08-09,,500000,548279,EMP0224,Low,Dubai
+PRJ0465,Asset Tracking System - Q2 #465,Digital,Completed,2024-12-10,2025-03-29,200000,215856,EMP0513,Critical,Abu Dhabi
+PRJ0466,Master Data Management Phase 2 #466,Procurement,Not Started,,,200000,,EMP0919,High,Abu Dhabi
+PRJ0467,ERP Consolidation - Q2 #467,Legal,Completed,2022-09-07,2023-10-28,2000000,1767465,EMP0066,High,Dubai
+PRJ0468,Geo-spatial Intelligence #468,Finance,Completed,2023-04-27,2024-08-31,2000000,1832139,EMP0915,Medium,Abu Dhabi
+PRJ0469,Procurement Digitalisation - Q3 #469,Legal,In Progress,2023-10-27,,2000000,1698615,EMP0891,Medium,Abu Dhabi
+PRJ0470,Customer Feedback Platform Phase 2 #470,Digital,Completed,2024-11-10,2025-06-30,350000,323683,EMP0390,High,Abu Dhabi
+PRJ0471,Asset Tracking System Phase 3 #471,IT,Completed,2023-09-16,2024-09-24,80000,94446,EMP0965,High,Ajman
+PRJ0472,Data Platform Modernisation #472,Engineering,In Progress,2023-09-21,,500000,491749,EMP0682,High,Abu Dhabi
+PRJ0473,Digital Payments Integration #473,HR,Not Started,,,,,EMP0008,Medium,Dubai
+PRJ0474,Compliance Monitoring - Q2 #474,Sustainability,Completed,2022-07-25,2023-02-15,350000,269716,EMP0603,Medium,Abu Dhabi
+PRJ0475,API Gateway Modernisation Phase 2 #475,Digital,On Hold,2023-08-16,,600000,140820,EMP0759,High,Dubai
+PRJ0476,Legacy System Decommission Phase 2 #476,Procurement,In Progress,2024-01-21,,2000000,2381747,EMP0832,Medium,Abu Dhabi
+PRJ0477,Fleet Management System Phase 2 #477,IT,Completed,2022-08-05,2023-10-16,120000,85710,EMP0070,Low,Dubai
+PRJ0478,Predictive Healthcare Phase 3 #478,Marketing,In Progress,2024-02-12,,50000,56564,EMP0603,Medium,Abu Dhabi
+PRJ0479,Cloud Migration Phase 1 - Q2 #479,HR,In Progress,2022-12-05,,1200000,1010898,EMP0833,Low,Dubai
+PRJ0480,Employee Wellness App - Q3 #480,Digital,In Progress,2024-01-14,,2000000,1953281,EMP0564,Low,Abu Dhabi
+PRJ0481,Workflow Automation Phase 3 #481,IT,Completed,2024-11-12,2026-03-05,1200000,995337,EMP0787,High,Dubai
+PRJ0482,Risk Assessment Framework Phase 2 #482,Procurement,Completed,2022-09-05,2023-09-30,1200000,846395,EMP0529,High,Abu Dhabi
+PRJ0483,Sentiment Analysis Engine Phase 2 #483,Engineering,In Progress,2022-12-20,,120000,113518,EMP0656,Critical,Abu Dhabi
+PRJ0484,Contract Lifecycle Management #484,Procurement,Completed,2023-11-01,2024-12-01,80000,78737,EMP0259,High,Abu Dhabi
+PRJ0485,Cloud Migration Phase 1 Phase 3 #485,Procurement,On Hold,2024-07-07,,150000,29409,EMP0349,Medium,Abu Dhabi
+PRJ0486,Recommendation System - Q4 #486,Operations,In Progress,2024-03-16,,350000,261898,EMP0030,High,Abu Dhabi
+PRJ0487,Knowledge Management Portal #487,IT,Not Started,,,500000,,EMP0496,Low,Dubai
+PRJ0488,Crisis Response System Phase 2 #488,Engineering,In Progress,2024-08-17,,2000000,2292796,EMP0850,Low,Dubai
+PRJ0489,Identity Management Upgrade Phase 2 #489,IT,In Progress,2022-07-21,,120000,129112,EMP0445,High,Dubai
+PRJ0490,Supply Chain Automation Phase 2 #490,Engineering,Not Started,,,,,EMP0641,Medium,Dubai
+PRJ0491,Resource Scheduling Tool - Q4 #491,HR,Completed,2024-02-02,2025-03-09,2000000,1628837,EMP0261,High,Abu Dhabi
+PRJ0492,Supply Chain Automation Phase 2 #492,Engineering,In Progress,2023-09-11,,200000,230705,EMP0771,Low,Dubai
+PRJ0493,Workflow Automation #493,Digital,In Progress,2022-11-30,,200000,224640,EMP0661,Critical,Sharjah
+PRJ0494,Data Platform Modernisation Phase 2 #494,Procurement,On Hold,2024-11-10,,,,EMP0102,Medium,Dubai
+PRJ0495,Predictive Healthcare #495,Marketing,Not Started,,,500000,,EMP0464,Critical,Abu Dhabi
+PRJ0496,Resource Scheduling Tool #496,Marketing,On Hold,,,,,EMP0749,Medium,Abu Dhabi
+PRJ0497,Fleet Management System #497,Sales,On Hold,2024-02-24,,600000,195478,EMP0149,Low,Dubai
+PRJ0498,Visual Analytics Suite #498,Data Science,Completed,2022-08-03,2022-12-07,120000,75013,EMP0731,High,Abu Dhabi
+PRJ0499,Recommendation System - Q3 #499,Operations,In Progress,2023-03-15,,50000,38808,EMP0212,Medium,Abu Dhabi
+PRJ0500,Data Lake Implementation Phase 2 #500,Digital,Completed,2023-09-10,2024-12-10,2000000,1324355,EMP0914,High,Abu Dhabi

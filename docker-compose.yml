@@ -1,0 +1,182 @@
+version: "3.8"
+
+# StackUp Engineering Academy — Data Engineering Assessment
+# Local development environment
+#
+# Services included:
+#   - Zookeeper + Kafka       → Task 3.2 (streaming pipeline)
+#   - Kafka UI                → Browse topics and messages at http://localhost:8080
+#   - Airflow (webserver +    → Task 3.3 (pipeline scheduling) at http://localhost:8081
+#             scheduler)
+#   - PostgreSQL              → Airflow metadata DB + optional SQL practice DB
+#
+# Start all services:
+#   docker-compose up -d
+#
+# Stop all services:
+#   docker-compose down
+#
+# View logs:
+#   docker-compose logs -f <service_name>
+
+networks:
+  presight-net:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  airflow_logs:
+
+services:
+
+  # ── Zookeeper ────────────────────────────────────────────────────────────────
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    container_name: presight-zookeeper
+    networks:
+      - presight-net
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    healthcheck:
+      test: ["CMD", "bash", "-c", "echo ruok | nc localhost 2181"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Kafka ────────────────────────────────────────────────────────────────────
+  kafka:
+    image: confluentinc/cp-kafka:7.4.0
+    container_name: presight-kafka
+    networks:
+      - presight-net
+    ports:
+      - "9092:9092"
+    depends_on:
+      zookeeper:
+        condition: service_healthy
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://kafka:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT_INTERNAL
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+    healthcheck:
+      test: ["CMD", "kafka-broker-api-versions", "--bootstrap-server", "localhost:9092"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  # ── Kafka UI ─────────────────────────────────────────────────────────────────
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: presight-kafka-ui
+    networks:
+      - presight-net
+    ports:
+      - "8080:8080"
+    depends_on:
+      - kafka
+    environment:
+      KAFKA_CLUSTERS_0_NAME: presight-local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
+
+  # ── PostgreSQL ───────────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:15
+    container_name: presight-postgres
+    networks:
+      - presight-net
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: presight
+      POSTGRES_PASSWORD: presight123
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U presight"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Airflow init (one-time setup) ────────────────────────────────────────────
+  airflow-init:
+    image: apache/airflow:2.7.3
+    container_name: presight-airflow-init
+    networks:
+      - presight-net
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://presight:presight123@postgres/airflow
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    command:
+      - bash
+      - -c
+      - |
+        airflow db init && \
+        airflow users create \
+          --username admin \
+          --password admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@presight.ai
+    restart: on-failure
+
+  # ── Airflow webserver ────────────────────────────────────────────────────────
+  airflow-webserver:
+    image: apache/airflow:2.7.3
+    container_name: presight-airflow-webserver
+    networks:
+      - presight-net
+    ports:
+      - "8081:8080"
+    depends_on:
+      - airflow-init
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://presight:presight123@postgres/airflow
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__WEBSERVER__SECRET_KEY: "presight-assessment-secret"
+    volumes:
+      - ./starter_files:/opt/airflow/dags
+      - airflow_logs:/opt/airflow/logs
+      - ./datasets:/opt/airflow/datasets
+      - ./outputs:/opt/airflow/outputs
+    command: webserver
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: always
+
+  # ── Airflow scheduler ────────────────────────────────────────────────────────
+  airflow-scheduler:
+    image: apache/airflow:2.7.3
+    container_name: presight-airflow-scheduler
+    networks:
+      - presight-net
+    depends_on:
+      - airflow-webserver
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://presight:presight123@postgres/airflow
+      AIRFLOW__CORE__FERNET_KEY: ""
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+    volumes:
+      - ./starter_files:/opt/airflow/dags
+      - airflow_logs:/opt/airflow/logs
+      - ./datasets:/opt/airflow/datasets
+      - ./outputs:/opt/airflow/outputs
+    command: scheduler
+    restart: always

@@ -1,0 +1,12 @@
+﻿services:
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: presight-etl:latest
+    container_name: presight-etl-runner
+    environment:
+      - DATA_DIR=/app/datasets
+      - OUTPUT_DIR=/app/outputs
+    volumes:
+      - ./outputs:/app/outputs
