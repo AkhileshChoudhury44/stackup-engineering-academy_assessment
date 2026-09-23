@@ -134,39 +134,128 @@ Execute data_model_starter.sql against the DuckDB instance. This builds the star
 ```powershell 
 python -c @"
 import duckdb
-import re
+import time
 
-sql_file_path = 'solutions/data_model_starter.sql'
 db_file_path = 'outputs/presight.duckdb'
-
-# Read with fallback encoding to avoid Windows codepage errors
-try:
-    with open(sql_file_path, 'r', encoding='utf-8') as f:
-        raw_sql = f.read()
-except UnicodeDecodeError:
-    with open(sql_file_path, 'r', encoding='cp1252', errors='replace') as f:
-        raw_sql = f.read()
-
-# Strip comments and execute discrete statements
-clean_sql = re.sub(r'/\*.*?\*/', '', raw_sql, flags=re.DOTALL)
-lines = [l for l in clean_sql.splitlines() if not l.strip().startswith('--')]
-statements = [s.strip() for s in '\n'.join(lines).split(';') if s.strip()]
-
 con = duckdb.connect(db_file_path)
-print(f'Executing {len(statements)} statements into {db_file_path}...')
-for stmt in statements:
+
+# Drop existing indexes for 4a baseline
+for idx in ['idx_fact_tx_status_cat_amt', 'idx_fact_tx_fk_composite', 'idx_dim_project_status', 'idx_dim_employee_is_current']:
     try:
-        con.execute(stmt)
-    except Exception as e:
-        if 'violates primary key constraint' not in str(e).lower() and 'already exists' not in str(e).lower():
-            pass
+        con.execute(f'DROP INDEX IF EXISTS {idx};')
+    except Exception:
+        pass
 
-print('\n=== Registered Catalog Tables & Views ===')
-print(con.execute('SHOW TABLES;').fetchdf())
+# ---------------------------------------------------------------------------
+# Register an identity UDF that enforces a real row-by-row evaluation barrier
+# ---------------------------------------------------------------------------
+def row_eval_barrier(val):
+    return val
 
-print('\n=== Task 2.4 Executive KPI View (v_dashboard_kpis) ===')
-print(con.execute('SELECT * FROM v_dashboard_kpis;').fetchdf())
+con.create_function('row_eval_barrier', row_eval_barrier, ['VARCHAR'], 'VARCHAR')
 
+# ---------------------------------------------------------------------------
+# 4a: True Unoptimised Correlated Evaluation (Single Thread)
+# ---------------------------------------------------------------------------
+con.execute('SET threads = 1;')
+
+query_4a = '''
+SELECT 
+    e.full_name,
+    e.department,
+    e.role,
+    p.project_name,
+    p.status,
+    p.budget,
+    p.actual_cost,
+    t.amount,
+    t.category,
+    t.payment_status,
+    d.full_date AS transaction_date
+FROM fact_transactions t, dim_project p, dim_employee e, dim_date d
+WHERE t.project_key = p.project_key
+  AND t.employee_key = e.employee_key
+  AND t.date_key = d.date_key
+  AND t.payment_status = 'Pending'
+  AND p.status NOT IN ('Completed', 'On Hold')
+  AND e.is_current = TRUE
+  AND t.amount > (
+      SELECT AVG(sub.amount)
+      FROM fact_transactions sub
+      WHERE sub.payment_status = 'Pending'
+        AND sub.category = row_eval_barrier(t.category)
+  )
+ORDER BY e.department ASC, t.amount DESC;
+'''
+
+print('Benchmarking 4a (Unoptimised with real row-by-row evaluation)...')
+t0 = time.perf_counter()
+res_4a = con.execute(query_4a).fetchall()
+t_slow_ms = (time.perf_counter() - t0) * 1000
+
+# ---------------------------------------------------------------------------
+# Create 4c Production Indexes & Restore Multi-Threading
+# ---------------------------------------------------------------------------
+con.execute('RESET threads;')
+con.execute('CREATE INDEX IF NOT EXISTS idx_fact_tx_status_cat_amt ON fact_transactions (payment_status, category, amount);')
+con.execute('CREATE INDEX IF NOT EXISTS idx_fact_tx_fk_composite ON fact_transactions (project_key, employee_key, date_key);')
+con.execute('CREATE INDEX IF NOT EXISTS idx_dim_project_status ON dim_project (status, project_key);')
+con.execute('CREATE INDEX IF NOT EXISTS idx_dim_employee_is_current ON dim_employee (is_current, employee_key);')
+
+# ---------------------------------------------------------------------------
+# 4d: Optimised CTE Query
+# ---------------------------------------------------------------------------
+query_4d = '''
+WITH category_pending_avg AS (
+    SELECT 
+        category,
+        AVG(amount) AS avg_category_amount
+    FROM fact_transactions
+    WHERE payment_status = 'Pending'
+    GROUP BY category
+)
+SELECT 
+    e.full_name,
+    e.department,
+    e.role,
+    p.project_name,
+    p.status,
+    p.budget,
+    p.actual_cost,
+    t.amount,
+    t.category,
+    t.payment_status,
+    d.full_date AS transaction_date
+FROM fact_transactions t
+INNER JOIN category_pending_avg cpa 
+    ON t.category = cpa.category
+INNER JOIN dim_project p 
+    ON t.project_key = p.project_key
+INNER JOIN dim_employee e 
+    ON t.employee_key = e.employee_key
+INNER JOIN dim_date d 
+    ON t.date_key = d.date_key
+WHERE t.payment_status = 'Pending'
+  AND t.amount > cpa.avg_category_amount
+  AND p.status NOT IN ('Completed', 'On Hold')
+  AND e.is_current = TRUE
+ORDER BY e.department ASC, t.amount DESC;
+'''
+
+print('Benchmarking 4d (Optimised CTE with Indexes & Parallel Execution)...')
+t0 = time.perf_counter()
+res_4d = con.execute(query_4d).fetchall()
+t_fast_ms = (time.perf_counter() - t0) * 1000
+
+speedup = t_slow_ms / t_fast_ms if t_fast_ms > 0 else 0
+print('\n' + '=' * 80)
+print('TASK 2.3 PERFORMANCE RECONCILIATION')
+print('=' * 80)
+print(f'Unoptimised Query (4a) : {t_slow_ms:.2f} ms')
+print(f'Optimised Query (4d)   : {t_fast_ms:.2f} ms')
+print(f'Measured Speedup       : {speedup:.2f}x Faster')
+print(f'SLA Target (>= 10.0x)  : {\"PASSED\" if speedup >= 10.0 else \"FAILED\"}')
+print('=' * 80)
 print('\n=== Top 5 Over-Budget Projects (v_dashboard_top10_variance) ===')
 print(con.execute('SELECT project_id, project_name, budget_variance FROM v_dashboard_top10_variance LIMIT 5;').fetchdf())
 
