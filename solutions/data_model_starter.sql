@@ -8,12 +8,28 @@
 -- ===========================================================================
 -- SECTION 1 — TASK 1.2: Design the data model (Star Schema)
 -- ===========================================================================
+-- Clean up existing tables to ensure deterministic idempotency
+DROP TABLE IF EXISTS fact_transactions;
+DROP TABLE IF EXISTS bridge_employee_project;
+DROP TABLE IF EXISTS dim_employee;
+DROP TABLE IF EXISTS dim_project;
+DROP TABLE IF EXISTS dim_vendor;
+DROP TABLE IF EXISTS dim_date;
+DROP SEQUENCE IF EXISTS seq_dim_project;
+DROP SEQUENCE IF EXISTS seq_dim_employee;
+DROP SEQUENCE IF EXISTS seq_dim_vendor;
+DROP SEQUENCE IF EXISTS seq_fact_transactions;
+
+-- Sequences for surrogate keys
+CREATE SEQUENCE seq_dim_project START 1;
+CREATE SEQUENCE seq_dim_employee START 1;
+CREATE SEQUENCE seq_dim_vendor START 1;
+CREATE SEQUENCE seq_fact_transactions START 1;
 
 -- ---------------------------------------------------------------------------
 -- Table 1: dim_date
--- Rationale: Date dimension provides full calendar slicing (year, quarter,
--- month, week, day, is_weekend) without requiring recurring date functions.
--- Surrogate integer date_key (YYYYMMDD) enables fast joins and partitioning.
+-- Rationale: Date dimension provides full calendar slicing without recurring
+-- date extraction functions. Surrogate integer key (YYYYMMDD) enables fast joins.
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS dim_date (
     date_key          INTEGER PRIMARY KEY,       -- Format: YYYYMMDD
@@ -34,7 +50,7 @@ CREATE TABLE IF NOT EXISTS dim_date (
 -- budget, actual costs, and risk levels calculated in Task 1.1.
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS dim_project (
-    project_key             INTEGER PRIMARY KEY, -- Surrogate integer key
+    project_key             INTEGER PRIMARY KEY DEFAULT nextval('seq_dim_project'),
     project_id              VARCHAR(50) NOT NULL, -- Natural key from source
     project_name            VARCHAR(255) NOT NULL,
     department              VARCHAR(100),
@@ -60,7 +76,7 @@ CREATE TABLE IF NOT EXISTS dim_project (
 -- Active records maintain is_current = TRUE and sentinel valid_to = '9999-12-31'.
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS dim_employee (
-    employee_key      INTEGER PRIMARY KEY,        -- Surrogate integer key per version
+    employee_key      INTEGER PRIMARY KEY DEFAULT nextval('seq_dim_employee'),
     employee_id       VARCHAR(50) NOT NULL,       -- Source natural key
     full_name         VARCHAR(255) NOT NULL,
     email             VARCHAR(255),
@@ -81,7 +97,7 @@ CREATE TABLE IF NOT EXISTS dim_employee (
 -- supplier risk assessment, categorization, and spend concentration analysis.
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS dim_vendor (
-    vendor_key        INTEGER PRIMARY KEY,        -- Surrogate integer key
+    vendor_key        INTEGER PRIMARY KEY DEFAULT nextval('seq_dim_vendor'),
     vendor_name       VARCHAR(255) NOT NULL,      -- Supplier name
     vendor_category   VARCHAR(100)                -- Core operational classification  
 );
@@ -89,7 +105,7 @@ CREATE TABLE IF NOT EXISTS dim_vendor (
 -- ---------------------------------------------------------------------------
 -- Table 5: bridge_employee_project (Many-to-Many)
 -- Rationale: Resolves the many-to-many relationship between projects and employees
--- (one manager overseeing multiple projects; team members contributing to projects).
+-- with allocated_pct to prevent double-counting of employee costs across projects.
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS bridge_employee_project (
     project_key       INTEGER NOT NULL,
@@ -107,7 +123,7 @@ CREATE TABLE IF NOT EXISTS bridge_employee_project (
 -- foreign surrogate keys for project, approving employee, vendor, and date.
 -- ---------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS fact_transactions (
-    transaction_key   INTEGER PRIMARY KEY,        -- Fact surrogate key
+    transaction_key   INTEGER PRIMARY KEY DEFAULT nextval('seq_fact_transactions'),
     transaction_id    VARCHAR(50) NOT NULL,       -- Natural transaction ID
     project_key       INTEGER NOT NULL,
     employee_key      INTEGER,                    -- Nullable if transaction was unapproved
@@ -154,7 +170,7 @@ SELECT
 FROM dim_employee a
 INNER JOIN dim_employee b
     ON a.employee_id = b.employee_id
-    AND a.employee_key != b.employee_key
+    AND a.employee_key < b.employee_key
 WHERE a.valid_from < b.valid_to 
   AND a.valid_to > b.valid_from;
 
