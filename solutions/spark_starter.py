@@ -1,12 +1,13 @@
 """
 =============================================================
 StackUp Engineering Academy — Data Engineering Assessment
-Starter File: spark_starter.py
+File: starter_files/spark_starter.py
 Pillar: Big Data Processing — Task 3.1
 =============================================================
 """
 
 import os
+import sys
 import time
 from pyspark.sql import SparkSession, Window
 from pyspark.sql import functions as F
@@ -21,15 +22,15 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "outputs", "spark")
 
 
 # ==============================================================================
-# STEP 1 — Initialise Spark
+# STEP 1 — Initialise Spark Session
 # ==============================================================================
 
 def get_spark_session() -> SparkSession:
     """
-    Create and return a local SparkSession.
-    # TUNING EXPLANATION: 'spark.sql.shuffle.partitions' is explicitly tuned down to 8 
-    # to optimize resource utilization on local single-node development host hardware.
-    # Scale this up dynamically (e.g., 200+) when deploying to distributed enterprise cloud cluster instances.
+    Create and return an optimized local SparkSession.
+    - Sets shuffle partitions to 8 to avoid hundreds of empty local shuffle tasks.
+    - Binds local driver memory to 4GB.
+    - Configures UTC timezone to prevent timestamp drift during JSON date parsing.
     """
     spark = (
         SparkSession.builder
@@ -37,54 +38,58 @@ def get_spark_session() -> SparkSession:
         .master("local[*]")
         .config("spark.driver.memory", "4g")
         .config("spark.sql.shuffle.partitions", "8")
+        .config("spark.sql.session.timeZone", "UTC")
+        .config("spark.ui.showConsoleProgress", "false")
         .getOrCreate()
     )
-    spark.sparkContext.setLogLevel("WARN")
+    spark.sparkContext.setLogLevel("ERROR")
     return spark
 
 
 # ==============================================================================
-# STEP 2 — Load events
+# STEP 2 — 3.1a: Load and Parse Events
 # ==============================================================================
 
 def load_events(spark: SparkSession, events_dir: str):
     """
-    Load all JSONL files from the events_stream directory with an explicit schema.
+    Load all JSONL files from events_stream using an explicit schema.
+    Uses MapType(StringType, StringType) for flexible JSON payload parsing.
     """
     event_schema = StructType([
-        StructField("event_id", StringType(), True),
+        StructField("event_id", StringType(), False),
         StructField("event_type", StringType(), True),
         StructField("project_id", StringType(), True),
-        StructField("user_id", StringType(), True),
+        StructField("user_id", StringType(), False),
         StructField("timestamp", TimestampType(), True),
         StructField("payload", MapType(StringType(), StringType()), True)
     ])
 
     wildcard_path = os.path.join(events_dir, "events_*.jsonl")
     df = spark.read.schema(event_schema).json(wildcard_path)
-    print(f"Loaded raw events count: {df.count():,}")
     return df
 
 
 # ==============================================================================
-# STEP 3 — Validate and clean
+# STEP 3 — 3.1b: Validate and Clean
 # ==============================================================================
 
 def validate_events(df):
     """
-    Validate and clean the raw events DataFrame.
-    # DATA METRIC CACHING: Caching the clean DataFrame breaks the lineage chain 
-    # and optimizes the downstream read throughput across all 5 separate aggregation jobs.
-    # Note: For long-running clusters, make sure to add clean.unpersist() before spark.stop().
+    Validate, deduplicate, and enrich raw events.
+    - Drops records where event_id or user_id is null.
+    - Deduplicates by event_id keeping the earliest occurrence by timestamp.
+    - Derives event_date, event_hour, and event_month.
+    - Caches the clean dataset in memory to accelerate downstream aggregation jobs.
     """
     raw_count = df.count()
+    print(f"Total raw events loaded: {raw_count:,}")
 
-    # Drop rows where event_id or user_id is null
+    # 1. Drop rows where event_id or user_id is null
     df_valid = df.filter(F.col("event_id").isNotNull() & F.col("user_id").isNotNull())
-    null_dropped = raw_count - df_valid.count()
-    print(f"Rows dropped due to null event_id/user_id: {null_dropped:,}")
+    valid_count = df_valid.count()
+    print(f"Rows dropped due to null event_id/user_id: {raw_count - valid_count:,}")
 
-    # Drop duplicate event_ids (keep first occurrence by timestamp)
+    # 2. Deduplicate event_ids (keep earliest occurrence by timestamp)
     dedup_window = Window.partitionBy("event_id").orderBy(F.col("timestamp").asc())
     df_dedup = (
         df_valid
@@ -92,10 +97,8 @@ def validate_events(df):
         .filter(F.col("_rn") == 1)
         .drop("_rn")
     )
-    dup_dropped = df_valid.count() - df_dedup.count()
-    print(f"Rows dropped due to duplicate event_id: {dup_dropped:,}")
 
-    # Add temporal columns
+    # 3. Add temporal partition and analytical columns
     df_clean = (
         df_dedup
         .withColumn("event_date", F.to_date(F.col("timestamp")))
@@ -103,21 +106,26 @@ def validate_events(df):
         .withColumn("event_month", F.date_format(F.col("timestamp"), "yyyy-MM"))
     ).cache()
 
-    print(f"Clean events count: {df_clean.count():,}")
-    return df_clean
+    # Materialize cache once
+    clean_count = df_clean.count()
+    print(f"Rows dropped due to duplicate event_id: {valid_count - clean_count:,}")
+    print(f"Total clean events retained: {clean_count:,}")
+
+    return df_clean, clean_count
 
 
 # ==============================================================================
-# STEP 4 — Aggregations
+# STEP 4 — 3.1c: Five Aggregated Output Tables
 # ==============================================================================
 
 def project_activity_summary(df):
     """
-    Produce a per-project activity summary.
+    Table 1: Project Activity Summary.
+    Aggregates operational activity per project (excludes null project_ids/logins).
     """
     return (
         df
-        .filter(F.col("project_id").isNotNull() & (F.col("project_id") != ""))
+        .filter(F.col("project_id").isNotNull() & (F.trim(F.col("project_id")) != ""))
         .groupBy("project_id")
         .agg(
             F.count("*").alias("total_events"),
@@ -134,7 +142,8 @@ def project_activity_summary(df):
 
 def user_activity_summary(df):
     """
-    Produce a per-user activity summary.
+    Table 2: User Activity Summary.
+    Measures individual user engagement, active window, and unique projects touched.
     """
     return (
         df
@@ -143,7 +152,9 @@ def user_activity_summary(df):
             F.count(F.when(F.col("event_type") == "login", 1)).alias("login_count"),
             F.count(F.when(F.col("event_type") == "logout", 1)).alias("logout_count"),
             F.count(F.when(~F.col("event_type").isin("login", "logout"), 1)).alias("actions_taken"),
-            F.countDistinct(F.when(F.col("project_id").isNotNull() & (F.col("project_id") != ""), F.col("project_id"))).alias("projects_touched"),
+            F.countDistinct(
+                F.when(F.col("project_id").isNotNull() & (F.trim(F.col("project_id")) != ""), F.col("project_id"))
+            ).alias("projects_touched"),
             F.min("timestamp").alias("first_active"),
             F.max("timestamp").alias("last_active"),
             F.countDistinct("event_date").alias("active_days")
@@ -154,11 +165,9 @@ def user_activity_summary(df):
 
 def escalation_log(df):
     """
-    Build a resolved escalation log by joining escalation_raised
-    and escalation_resolved events.
-    # PERFORMANCE WARNING: This join relies on chronological inequalities to match resolutions.
-    # For large datasets, look into applying a broadcast join configuration if the resolved 
-    # dimension volume remains small, preventing costly cross-node dataset shuffling.
+    Table 3: Escalation Resolution Log.
+    Left-joins escalation_raised with subsequent escalation_resolved events on project_id.
+    Calculates resolution_time_hours and extracts nested payload attributes.
     """
     raised = (
         df
@@ -168,7 +177,7 @@ def escalation_log(df):
             F.col("project_id"),
             F.col("user_id").alias("raised_by"),
             F.col("timestamp").alias("raised_at"),
-            F.col("payload")["severity"].alias("severity")
+            F.coalesce(F.element_at(F.col("payload"), "severity"), F.lit("Medium")).alias("severity")
         )
     )
 
@@ -178,11 +187,11 @@ def escalation_log(df):
         .select(
             F.col("project_id").alias("res_project_id"),
             F.col("timestamp").alias("resolved_at"),
-            F.col("payload")["resolved_by"].alias("resolved_by")
+            F.element_at(F.col("payload"), "resolved_by").alias("resolved_by")
         )
     )
 
-    # Left join on project_id matching subsequent resolution
+    # Left join to pair each raised escalation with the earliest resolution after it
     joined = (
         raised
         .join(
@@ -201,17 +210,22 @@ def escalation_log(df):
             "resolution_time_hours",
             F.when(
                 F.col("resolved"),
-                (F.unix_timestamp("resolved_at") - F.unix_timestamp("raised_at")) / 3600.0
+                F.round((F.unix_timestamp("resolved_at") - F.unix_timestamp("raised_at")) / 3600.0, 2)
             ).otherwise(F.lit(None))
         )
-        .withColumn("severity", F.coalesce(F.col("severity"), F.lit("Medium")))
+        .select(
+            "event_id", "project_id", "raised_by", "raised_at",
+            "severity", "resolved", "resolved_at", "resolved_by",
+            "resolution_time_hours"
+        )
     )
     return joined
 
 
 def daily_event_volume(df):
     """
-    Produce a daily event volume breakdown by event type with cumulative counts.
+    Table 4: Daily Event Volume & Running Cumulative Totals.
+    Calculates cumulative event counts partitioned by event_type ordered by date.
     """
     daily = (
         df
@@ -235,7 +249,8 @@ def daily_event_volume(df):
 
 def peak_usage_analysis(df):
     """
-    Table 5: Top 20 operational hours by event volume.
+    Table 5: Peak Operational Usage Windows.
+    Top 20 operational hours ranked by total throughput.
     """
     return (
         df
@@ -251,15 +266,15 @@ def peak_usage_analysis(df):
 
 
 # ==============================================================================
-# STEP 5 — Write outputs
+# STEP 5 — 3.1d: Write Outputs to Parquet
 # ==============================================================================
 
 def write_parquet(df, name: str, output_dir: str):
     """
-    Write a DataFrame to Parquet.
-    # ARCHITECTURAL DESIGN NOTE: coalesce(1) forces the output into a single clean CSV/Parquet 
-    # file rather than generating hundreds of tiny partition snippets.
-    # CRITICAL: Discard or modify this condition if aggregation rows exceed 10 million tracks.
+    Write DataFrame to Parquet format in overwrite mode.
+    - Partitions daily_event_volume by event_date.
+    - Partitions escalation_log by severity.
+    - Coalesces small tables to 1 file to prevent partition file sprawl.
     """
     path = os.path.join(output_dir, name)
     writer = df.write.mode("overwrite")
@@ -273,76 +288,77 @@ def write_parquet(df, name: str, output_dir: str):
         writer = df.write.mode("overwrite")
 
     writer.parquet(path)
-    written_count = df.count()
-    print(f"Written {written_count:,} rows to {path}")
-    return written_count
+    count = df.count()
+    print(f"Successfully written {count:,} rows to: {path}")
+    return count
 
 
 # ==============================================================================
-# PIPELINE ENTRY POINT
+# PIPELINE ENTRY POINT & PERFORMANCE BENCHMARK (3.1e)
 # ==============================================================================
 
 def run_pipeline():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    start_time = time.time()
+    start_total = time.time()
+
+    print("\n" + "=" * 70)
+    print("TASK 3.1: APACHE SPARK BIG DATA EVENTS PROCESSING PIPELINE")
+    print("=" * 70)
 
     spark = get_spark_session()
 
+    # 1. Ingestion
     t0 = time.time()
     raw = load_events(spark, EVENTS_DIR)
     t_load = time.time() - t0
 
+    # 2. Validation & Deduplication
     t0 = time.time()
-    clean = validate_events(raw)
-    total_clean_rows = clean.count()
+    clean, total_clean_rows = validate_events(raw)
     t_clean = time.time() - t0
 
-    # Execute aggregations with per-task timing
+    # 3. Aggregations & Outputs
     timings = {}
+    row_counts = {}
 
-    t0 = time.time()
-    proj_summary = project_activity_summary(clean)
-    write_parquet(proj_summary, "project_activity_summary", OUTPUT_DIR)
-    timings["project_activity_summary"] = time.time() - t0
+    stages = [
+        ("project_activity_summary", project_activity_summary),
+        ("user_activity_summary", user_activity_summary),
+        ("escalation_log", escalation_log),
+        ("daily_event_volume", daily_event_volume),
+        ("peak_usage_analysis", peak_usage_analysis),
+    ]
 
-    t0 = time.time()
-    user_summary = user_activity_summary(clean)
-    write_parquet(user_summary, "user_activity_summary", OUTPUT_DIR)
-    timings["user_activity_summary"] = time.time() - t0
+    for name, func in stages:
+        t0 = time.time()
+        res_df = func(clean)
+        row_counts[name] = write_parquet(res_df, name, OUTPUT_DIR)
+        timings[name] = time.time() - t0
 
-    t0 = time.time()
-    esc_log = escalation_log(clean)
-    write_parquet(esc_log, "escalation_log", OUTPUT_DIR)
-    timings["escalation_log"] = time.time() - t0
+    # Clean cached memory
+    clean.unpersist()
 
-    t0 = time.time()
-    daily_vol = daily_event_volume(clean)
-    write_parquet(daily_vol, "daily_event_volume", OUTPUT_DIR)
-    timings["daily_event_volume"] = time.time() - t0
+    total_time = time.time() - start_total
+    events_per_sec = total_clean_rows / total_time if total_time > 0 else 0
 
-    t0 = time.time()
-    peak_usage = peak_usage_analysis(clean)
-    write_parquet(peak_usage, "peak_usage_analysis", OUTPUT_DIR)
-    timings["peak_usage_analysis"] = time.time() - t0
-
-    total_time = time.time() - start_time
-    throughput = total_clean_rows / total_time if total_time > 0 else 0
-
-    print("\n" + "=" * 60)
-    print("SPARK EXECUTION PERFORMANCE REPORT")
-    print("=" * 60)
-    print(f"Total Rows Processed:        {total_clean_rows:,}")
-    print(f"Total Execution Time:        {total_time:.2f} seconds")
-    print(f"Throughput:                  {throughput:,.1f} events/second")
-    print("Per-stage timings:")
-    print(f"  - Ingestion:               {t_load:.2f}s")
-    print(f"  - Cleaning/Deduplication:  {t_clean:.2f}s")
-    for name, dur in timings.items():
-        print(f"  - {name:<26} {dur:.2f}s")
-    print("=" * 60)
+    # 4. Step 3.1e Performance Baseline Output
+    print("\n" + "=" * 70)
+    print("SPARK EXECUTION PERFORMANCE REPORT (TASK 3.1e)")
+    print("=" * 70)
+    print(f"Total Events Ingested & Cleaned : {total_clean_rows:,}")
+    print(f"Total Execution Time            : {total_time:.2f} seconds")
+    print(f"Processing Throughput           : {events_per_sec:,.1f} events/second")
+    print("-" * 70)
+    print(f"{'Pipeline Stage':<30} {'Runtime (s)':<15} {'Output Rows':<15}")
+    print("-" * 70)
+    print(f"{'Ingestion (JSON parsing)':<30} {t_load:<15.2f} {'--':<15}")
+    print(f"{'Cleaning & Deduplication':<30} {t_clean:<15.2f} {total_clean_rows:<15,}")
+    for name in timings:
+        print(f"{name:<30} {timings[name]:<15.2f} {row_counts[name]:<15,}")
+    print("=" * 70)
 
     spark.stop()
-    print("Spark pipeline complete.")
+    print("Pipeline completed successfully.\n")
 
 
 if __name__ == "__main__":
