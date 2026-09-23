@@ -273,6 +273,9 @@ INNER JOIN dim_vendor v
 
 -- ---------------------------------------------------------------------------
 -- Q1 — Department Budget Performance
+-- Identifies departments spending >90% of their total allocated budget.
+-- Required: department, total_budget, total_actual_cost, spend_percentage, over_budget
+-- Order by: spend_percentage descending
 -- ---------------------------------------------------------------------------
 SELECT 
     department,
@@ -300,23 +303,38 @@ ORDER BY spend_percentage DESC;
 -- ---------------------------------------------------------------------------
 -- Q2 — Project Manager Workload (Current Employee Data)
 -- ---------------------------------------------------------------------------
+SQL
+-- ---------------------------------------------------------------------------
+-- Q2 — Project Manager Workload
+-- Managers currently overseeing > 3 active projects using is_current = TRUE.
+-- Required: full_name, email, active_project_count, combined_budget_responsibility, combined_actual_spend
+-- Order by: active_project_count descending
+-- ---------------------------------------------------------------------------
 SELECT 
     e.full_name,
     e.email,
-    COUNT(p.project_key) AS active_project_count,
+    COUNT(DISTINCT p.project_key) AS active_project_count,
     ROUND(SUM(p.budget), 2) AS combined_budget_responsibility,
     ROUND(SUM(p.actual_cost), 2) AS combined_actual_spend
 FROM dim_employee e
-INNER JOIN bridge_employee_project b ON e.employee_key = b.employee_key
-INNER JOIN dim_project p ON b.project_key = p.project_key
+INNER JOIN bridge_employee_project b 
+    ON e.employee_key = b.employee_key
+INNER JOIN dim_project p 
+    ON b.project_key = p.project_key
 WHERE e.is_current = TRUE
   AND (p.status_category = 'Active' OR LOWER(p.status) IN ('active', 'in progress'))
-GROUP BY e.full_name, e.email
-HAVING COUNT(p.project_key) > 3
+GROUP BY 
+    e.employee_key,
+    e.full_name, 
+    e.email
+HAVING COUNT(DISTINCT p.project_key) > 3
 ORDER BY active_project_count DESC;
 
 -- ---------------------------------------------------------------------------
--- Q3 — Vendor Concentration Risk (Standardized on amount_aed)
+-- Q3 — Vendor Concentration Risk
+-- Vendors accounting for > 5% of total spend with risk classification tiers.
+-- Required: vendor_name, total_spend, transaction_count, percentage_of_total_spend, risk_flag
+-- Order by: percentage_of_total_spend descending
 -- ---------------------------------------------------------------------------
 WITH total_spend_cte AS (
     SELECT SUM(amount_aed) AS grand_total FROM fact_transactions
@@ -332,14 +350,18 @@ SELECT
         ELSE 'NORMAL'
     END AS risk_flag
 FROM fact_transactions f
-INNER JOIN dim_vendor v ON f.vendor_key = v.vendor_key
+INNER JOIN dim_vendor v 
+    ON f.vendor_key = v.vendor_key
 CROSS JOIN total_spend_cte t
 GROUP BY v.vendor_name, t.grand_total
-HAVING (SUM(f.amount_aed) / t.grand_total) >= 0.05
+HAVING (SUM(f.amount_aed) / t.grand_total) > 0.05
 ORDER BY percentage_of_total_spend DESC;
 
 -- ---------------------------------------------------------------------------
 -- Q4 — Projects with Open Financial Issues
+-- Projects with pending/disputed transactions totalling > 50,000 AED.
+-- Required: project_id, project_name, department, project_status, open_transaction_count, open_transaction_value
+-- Order by: open_transaction_value descending
 -- ---------------------------------------------------------------------------
 SELECT 
     p.project_id,
@@ -349,37 +371,54 @@ SELECT
     COUNT(f.transaction_key) AS open_transaction_count,
     ROUND(SUM(f.amount_aed), 2) AS open_transaction_value
 FROM fact_transactions f
-INNER JOIN dim_project p ON f.project_key = p.project_key
+INNER JOIN dim_project p 
+    ON f.project_key = p.project_key
 WHERE LOWER(f.payment_status) IN ('pending', 'disputed')
-GROUP BY p.project_id, p.project_name, p.department, p.status
+GROUP BY 
+    p.project_id, 
+    p.project_name, 
+    p.department, 
+    p.status
 HAVING SUM(f.amount_aed) > 50000.00
 ORDER BY open_transaction_value DESC;
 
 -- ---------------------------------------------------------------------------
 -- Q5 — Monthly Spend Trend with Running Total
 -- ---------------------------------------------------------------------------
+-- ---------------------------------------------------------------------------
+-- Q5 — Monthly Spend Trend with Running Total
+-- Monthly spend, category running totals, and MoM % changes.
+-- Required: year_month (YYYY-MM), category, monthly_spend, running_total, month_over_month_pct_change
+-- Order by: category, year_month ascending
+-- ---------------------------------------------------------------------------
 WITH monthly_base AS (
     SELECT 
-        strftime(d.full_date, '%Y-%m') AS year_month,
+        STRFTIME(d.full_date, '%Y-%m') AS year_month,
         f.category,
         SUM(f.amount_aed) AS monthly_spend
     FROM fact_transactions f
-    INNER JOIN dim_date d ON f.date_key = d.date_key
-    GROUP BY strftime(d.full_date, '%Y-%m'), f.category
+    INNER JOIN dim_date d 
+        ON f.date_key = d.date_key
+    WHERE f.category IS NOT NULL
+    GROUP BY 
+        STRFTIME(d.full_date, '%Y-%m'), 
+        f.category
 ),
 monthly_metrics AS (
     SELECT 
         year_month,
         category,
         ROUND(monthly_spend, 2) AS monthly_spend,
-        ROUND(SUM(monthly_spend) OVER (
-            PARTITION BY category 
-            ORDER BY year_month 
-            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-        ), 2) AS running_total,
+        ROUND(
+            SUM(monthly_spend) OVER (
+                PARTITION BY category 
+                ORDER BY year_month ASC
+                ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+            ), 2
+        ) AS running_total,
         LAG(monthly_spend) OVER (
             PARTITION BY category 
-            ORDER BY year_month
+            ORDER BY year_month ASC
         ) AS prev_month_spend
     FROM monthly_base
 )
@@ -396,10 +435,13 @@ SELECT
         END, 2
     ) AS month_over_month_pct_change
 FROM monthly_metrics
-ORDER BY category, year_month ASC;
+ORDER BY category ASC, year_month ASC;
 
 -- ---------------------------------------------------------------------------
--- Q6 — Employee Compensation History Analysis (Robust Boundary Handling)
+-- Q6 — Employee Compensation History Analysis
+-- Top 20 single largest salary increases in absolute AED using SCD2 self-join.
+-- Required: employee_id, full_name, change_date, previous_salary, new_salary, increase_amount, increase_pct
+-- Order by: increase_amount descending, top 20
 -- ---------------------------------------------------------------------------
 SELECT 
     curr.employee_id,
@@ -417,7 +459,12 @@ SELECT
 FROM dim_employee curr
 INNER JOIN dim_employee prev 
     ON curr.employee_id = prev.employee_id 
-   AND (curr.valid_from = prev.valid_to OR curr.valid_from = prev.valid_to + INTERVAL '1 day')
+   AND (
+       -- Matches adjacent closed intervals (valid_to = valid_from - 1 day)
+       -- or continuous boundary intervals (valid_to = valid_from)
+       curr.valid_from = prev.valid_to + INTERVAL '1 day'
+       OR curr.valid_from = prev.valid_to
+   )
 WHERE curr.salary > prev.salary
 ORDER BY increase_amount DESC
 LIMIT 20;
