@@ -179,7 +179,7 @@ WHERE a.valid_from < b.valid_to
 -- SECTION 2 — Load Staging Data
 -- ===========================================================================
 
--- 1. Dim Date Population (2020 to 2030)
+-- 1. Dim Date
 INSERT INTO dim_date
 SELECT 
     CAST(strftime(d, '%Y%m%d') AS INTEGER) AS date_key,
@@ -194,57 +194,43 @@ SELECT
     CASE WHEN EXTRACT(ISODOW FROM d) IN (6, 7) THEN TRUE ELSE FALSE END AS is_weekend
 FROM generate_series(DATE '2020-01-01', DATE '2030-12-31', INTERVAL '1 DAY') AS t(d);
 
--- 2. Dim Project Population
-INSERT INTO dim_project
+-- 2. Dim Project
+INSERT INTO dim_project (
+    project_key, project_id, project_name, department, status, status_category,
+    priority, risk_level, budget, actual_cost, budget_variance,
+    budget_utilisation_pct, is_over_budget, start_date, end_date, duration_days
+)
 SELECT 
     row_number() OVER () AS project_key,
-    project_id,
-    project_name,
-    department,
-    status,
-    status_category,
-    priority,
-    risk_level,
-    budget,
-    actual_cost,
-    budget_variance,
-    budget_utilisation_pct,
-    is_over_budget,
-    CAST(start_date AS DATE),
-    CAST(end_date AS DATE),
-    duration_days
+    project_id, project_name, department, status, status_category,
+    priority, risk_level, budget, actual_cost, budget_variance,
+    budget_utilisation_pct, is_over_budget,
+    CAST(start_date AS DATE), CAST(end_date AS DATE), duration_days
 FROM read_csv_auto('outputs/projects_clean.csv');
 
--- 3. Dim Employee Population (Built by etl_starter.py Task 1.2 SCD2)
-INSERT INTO dim_employee
+-- 3. Dim Employee (SCD Type 2)
+INSERT INTO dim_employee (
+    employee_key, employee_id, full_name, email, department, role,
+    salary, years_experience, status, change_reason, valid_from, valid_to, is_current
+)
 SELECT 
-    employee_key,
-    employee_id,
-    full_name,
-    email,
-    department,
-    role,
-    salary,
-    years_experience,
-    status,
-    change_reason,
-    CAST(valid_from AS DATE),
-    CAST(valid_to AS DATE),
-    is_current
+    employee_key, employee_id, full_name, email, department, role,
+    salary, years_experience, status, change_reason,
+    CAST(valid_from AS DATE), CAST(valid_to AS DATE), is_current
 FROM read_csv_auto('outputs/dim_employee_scd2.csv');
 
--- 4. Dim Vendor Population (1 row per vendor_name)
-INSERT INTO dim_vendor
+-- 4. Dim Vendor
+INSERT INTO dim_vendor (vendor_key, vendor_name, vendor_category)
 SELECT 
     row_number() OVER () AS vendor_key,
     vendor_name,
     MAX(category) AS vendor_category
 FROM read_csv_auto('outputs/transactions_clean.csv')
-WHERE vendor_name IS NOT NULL AND vendor_name != ''
+WHERE vendor_name IS NOT NULL AND TRIM(vendor_name) != ''
 GROUP BY vendor_name;
 
--- 5. Bridge Employee Project Population
-INSERT INTO bridge_employee_project
+-- 5. Bridge Employee Project
+INSERT INTO bridge_employee_project (project_key, employee_key, assignment_role, allocated_pct)
 SELECT DISTINCT
     p.project_key,
     e.employee_key,
@@ -254,8 +240,11 @@ FROM read_csv_auto('datasets/projects.csv') raw_p
 INNER JOIN dim_project p ON raw_p.project_id = p.project_id
 INNER JOIN dim_employee e ON raw_p.project_manager_id = e.employee_id AND e.is_current = TRUE;
 
--- 6. Fact Transactions Population
-INSERT INTO fact_transactions
+-- 6. Fact Transactions (Fixed project_id natural join & point-in-time employee join)
+INSERT INTO fact_transactions (
+    transaction_key, transaction_id, project_key, employee_key, vendor_key,
+    date_key, amount, amount_aed, category, payment_status, is_approved
+)
 SELECT 
     row_number() OVER () AS transaction_key,
     t.transaction_id,
@@ -269,13 +258,17 @@ SELECT
     t.payment_status,
     t.is_approved
 FROM read_csv_auto('outputs/transactions_clean.csv') t
-INNER JOIN dim_project p ON t.project_key = p.project_key
-LEFT JOIN dim_employee e ON t.approved_by = e.employee_id AND e.is_current = TRUE
-INNER JOIN dim_vendor v ON t.vendor_name = v.vendor_name;
+INNER JOIN dim_project p 
+    ON t.project_id = p.project_id
+LEFT JOIN dim_employee e 
+    ON t.approved_by = e.employee_id 
+   AND CAST(t.transaction_date AS DATE) BETWEEN e.valid_from AND e.valid_to
+INNER JOIN dim_vendor v 
+    ON t.vendor_name = v.vendor_name;
 
 
 -- ===========================================================================
--- SECTION 3 — TASK 2.1: Answer Six Business Questions
+-- SECTION 3 — TASK 2.1: Six Business Queries (Optimized & Hardened)
 -- ===========================================================================
 
 -- ---------------------------------------------------------------------------
@@ -317,32 +310,32 @@ FROM dim_employee e
 INNER JOIN bridge_employee_project b ON e.employee_key = b.employee_key
 INNER JOIN dim_project p ON b.project_key = p.project_key
 WHERE e.is_current = TRUE
-  AND p.status = 'In Progress'
+  AND (p.status_category = 'Active' OR LOWER(p.status) IN ('active', 'in progress'))
 GROUP BY e.full_name, e.email
 HAVING COUNT(p.project_key) > 3
 ORDER BY active_project_count DESC;
 
 -- ---------------------------------------------------------------------------
--- Q3 — Vendor Concentration Risk
+-- Q3 — Vendor Concentration Risk (Standardized on amount_aed)
 -- ---------------------------------------------------------------------------
 WITH total_spend_cte AS (
-    SELECT SUM(amount) AS grand_total FROM fact_transactions
+    SELECT SUM(amount_aed) AS grand_total FROM fact_transactions
 )
 SELECT 
     v.vendor_name,
-    ROUND(SUM(f.amount), 2) AS total_spend,
+    ROUND(SUM(f.amount_aed), 2) AS total_spend,
     COUNT(f.transaction_key) AS transaction_count,
-    ROUND((SUM(f.amount) / t.grand_total) * 100.0, 2) AS percentage_of_total_spend,
+    ROUND((SUM(f.amount_aed) / t.grand_total) * 100.0, 2) AS percentage_of_total_spend,
     CASE 
-        WHEN (SUM(f.amount) / t.grand_total) > 0.10 THEN 'HIGH'
-        WHEN (SUM(f.amount) / t.grand_total) >= 0.05 THEN 'MEDIUM'
+        WHEN (SUM(f.amount_aed) / t.grand_total) > 0.10 THEN 'HIGH'
+        WHEN (SUM(f.amount_aed) / t.grand_total) >= 0.05 THEN 'MEDIUM'
         ELSE 'NORMAL'
     END AS risk_flag
 FROM fact_transactions f
 INNER JOIN dim_vendor v ON f.vendor_key = v.vendor_key
 CROSS JOIN total_spend_cte t
 GROUP BY v.vendor_name, t.grand_total
-HAVING (SUM(f.amount) / t.grand_total) >= 0.05
+HAVING (SUM(f.amount_aed) / t.grand_total) >= 0.05
 ORDER BY percentage_of_total_spend DESC;
 
 -- ---------------------------------------------------------------------------
@@ -357,7 +350,7 @@ SELECT
     ROUND(SUM(f.amount_aed), 2) AS open_transaction_value
 FROM fact_transactions f
 INNER JOIN dim_project p ON f.project_key = p.project_key
-WHERE f.payment_status IN ('Pending', 'Disputed')
+WHERE LOWER(f.payment_status) IN ('pending', 'disputed')
 GROUP BY p.project_id, p.project_name, p.department, p.status
 HAVING SUM(f.amount_aed) > 50000.00
 ORDER BY open_transaction_value DESC;
@@ -369,7 +362,7 @@ WITH monthly_base AS (
     SELECT 
         strftime(d.full_date, '%Y-%m') AS year_month,
         f.category,
-        SUM(f.amount) AS monthly_spend
+        SUM(f.amount_aed) AS monthly_spend
     FROM fact_transactions f
     INNER JOIN dim_date d ON f.date_key = d.date_key
     GROUP BY strftime(d.full_date, '%Y-%m'), f.category
@@ -406,7 +399,7 @@ FROM monthly_metrics
 ORDER BY category, year_month ASC;
 
 -- ---------------------------------------------------------------------------
--- Q6 — Employee Compensation History Analysis
+-- Q6 — Employee Compensation History Analysis (Robust Boundary Handling)
 -- ---------------------------------------------------------------------------
 SELECT 
     curr.employee_id,
@@ -424,11 +417,10 @@ SELECT
 FROM dim_employee curr
 INNER JOIN dim_employee prev 
     ON curr.employee_id = prev.employee_id 
-    AND curr.valid_from = prev.valid_to
+   AND (curr.valid_from = prev.valid_to OR curr.valid_from = prev.valid_to + INTERVAL '1 day')
 WHERE curr.salary > prev.salary
 ORDER BY increase_amount DESC
 LIMIT 20;
-
 
 -- ===========================================================================
 -- SECTION 4 — TASK 2.3: Query Optimisation (10x+ Speedup on 50k Rows)
