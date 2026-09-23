@@ -405,6 +405,43 @@ def load_transactions(filepath: str) -> pd.DataFrame:
     return df
 
 
+# ==============================================================================
+# TASK 2.2 — Full Transactions ETL Pipeline (Hardened)
+# ==============================================================================
+
+# ==============================================================================
+# TASK 2.2 — Full Transactions ETL Pipeline (Hardened)
+# ==============================================================================
+
+def load_transactions(filepath: str) -> pd.DataFrame:
+    logger.info("Loading transactions data from %s...", filepath)
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    if isinstance(data, dict) and "transactions" in data:
+        df = pd.json_normalize(data["transactions"])
+    else:
+        df = pd.json_normalize(data)
+
+    QUALITY_METRICS["transactions"]["raw_count"] = len(df)
+
+    # 1. Parse date
+    df['transaction_date'] = pd.to_datetime(df['transaction_date'], errors='coerce')
+
+    # 2. Impute missing amounts to 0.0
+    null_amounts = df['amount'].isna().sum()
+    QUALITY_METRICS["transactions"]["null_amounts_imputed_zero"] = int(null_amounts)
+    df['amount'] = pd.to_numeric(df['amount'], errors='coerce').fillna(0.0)
+
+    # 3. Clean string columns without creating literal 'nan' strings
+    for str_col in ['category', 'payment_status', 'vendor_name']:
+        if str_col in df.columns:
+            df[str_col] = df[str_col].fillna('').astype(str).str.strip()
+            df[str_col] = df[str_col].replace('', np.nan)
+
+    return df
+
+
 def enrich_transactions(
     transactions: pd.DataFrame,
     projects: pd.DataFrame,
@@ -412,21 +449,38 @@ def enrich_transactions(
 ) -> pd.DataFrame:
     logger.info("Enriching transactions without row duplication...")
     txn = transactions.copy()
+    initial_tx_count = len(txn)
 
+    # --------------------------------------------------------------------------
+    # 1. Project Enrichment (1:1 / N:1)
+    # --------------------------------------------------------------------------
     proj_cols = ['project_id', 'project_name']
     if 'department' in projects.columns:
         proj_cols.append('department')
     proj_lookup = projects[proj_cols].drop_duplicates(subset=['project_id'])
-    enriched = txn.merge(proj_lookup, on='project_id', how='left')
+    
+    enriched = txn.merge(
+        proj_lookup, 
+        on='project_id', 
+        how='left',
+        validate='many_to_one'
+    )
 
-    emp_subset = employees.copy()
-    if 'full_name' not in emp_subset.columns:
-        emp_subset['full_name'] = (
-            emp_subset.get('first_name', '').astype(str) + " " +
-            emp_subset.get('last_name', '').astype(str)
+    # --------------------------------------------------------------------------
+    # 2. Approver Enrichment (SCD2 CURRENT Employees Only)
+    # --------------------------------------------------------------------------
+    if 'is_current' in employees.columns:
+        emp_current = employees[employees['is_current'] == True].copy()
+    else:
+        emp_current = employees.copy()
+
+    if 'full_name' not in emp_current.columns:
+        emp_current['full_name'] = (
+            emp_current.get('first_name', '').fillna('').astype(str) + " " +
+            emp_current.get('last_name', '').fillna('').astype(str)
         ).str.strip()
 
-    emp_lookup = emp_subset[['employee_id', 'full_name']].drop_duplicates(subset=['employee_id'])
+    emp_lookup = emp_current[['employee_id', 'full_name']].drop_duplicates(subset=['employee_id'])
     emp_lookup = emp_lookup.rename(columns={'full_name': 'approver_name'})
 
     if 'approved_by' in enriched.columns:
@@ -434,18 +488,28 @@ def enrich_transactions(
             emp_lookup,
             left_on='approved_by',
             right_on='employee_id',
-            how='left'
+            how='left',
+            validate='many_to_one'
         )
         if 'employee_id' in enriched.columns:
             enriched.drop(columns=['employee_id'], inplace=True)
 
-        enriched['is_approved'] = enriched['approved_by'].notna() & (enriched['approved_by'].astype(str).str.strip() != '')
+        enriched['is_approved'] = enriched['approved_by'].notna() & (
+            enriched['approved_by'].astype(str).str.strip().replace({'nan': '', 'None': ''}) != ''
+        )
     else:
         enriched['is_approved'] = False
         enriched['approver_name'] = np.nan
 
-    enriched['amount_aed'] = enriched['amount'].astype(float).fillna(0.0)
+    # --------------------------------------------------------------------------
+    # 3. Required Fields & Audit Verification
+    # --------------------------------------------------------------------------
+    enriched['amount_aed'] = pd.to_numeric(enriched['amount'], errors='coerce').fillna(0.0).astype(float)
     enriched['transaction_year_month'] = enriched['transaction_date'].dt.strftime('%Y-%m')
+
+    # Guard: Fail-fast if join multiplied rows
+    if len(enriched) != initial_tx_count:
+        raise ValueError(f"Integrity check failed: Expected {initial_tx_count} rows, got {len(enriched)}.")
 
     QUALITY_METRICS["transactions"]["clean_count"] = len(enriched)
     return enriched
