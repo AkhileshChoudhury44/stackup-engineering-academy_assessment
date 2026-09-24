@@ -301,7 +301,7 @@ Access the Airflow Web UI:
 
 * URL: http://localhost:8081
 
-* Username / Password: airflow / airflow
+* Username / Password: admin / admin
 
 ## Step 7: Docker Containerization & SLA Benchmark (Task 4.1)
 Build the production multi-stage image and benchmark execution against the < 30s SLA:
