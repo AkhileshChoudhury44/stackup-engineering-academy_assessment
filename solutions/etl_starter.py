@@ -472,8 +472,8 @@ def materialize_duckdb(projects_df: pd.DataFrame, employees_df: pd.DataFrame, tr
     con.register("df_employees", employees_df)
     con.register("df_transactions", transactions_df)
 
-    con.execute("CREATE OR REPLACE TABLE dim_projects AS SELECT * FROM df_projects")
-    con.execute("CREATE OR REPLACE TABLE dim_employee_scd2 AS SELECT * FROM df_employees")
+    con.execute("CREATE OR REPLACE TABLE dim_project AS SELECT * FROM df_projects")
+    con.execute("CREATE OR REPLACE TABLE dim_employee AS SELECT * FROM df_employees")
     con.execute("CREATE OR REPLACE TABLE fact_transactions AS SELECT * FROM df_transactions")
     con.close()
     logger.info("DuckDB tables successfully materialized: dim_projects, dim_employee_scd2, fact_transactions.")
