@@ -1,6 +1,6 @@
 # Data Governance Document & Compliance Framework
 **Document Version:** 1.0.0  
-**Effective Date:** 2026-09-24  
+**Effective Date:** 2026-08-24  
 **Entity:** Presight AI Engineering Platform  
 **Compliance Regimes:** UAE PDPL (Federal Decree-Law No. 45/2021), EU GDPR, UAE Labour Law  
 
