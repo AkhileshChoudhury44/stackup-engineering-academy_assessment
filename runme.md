@@ -1,7 +1,7 @@
 # Presight AI Data Engineering Assessment — Execution & Evaluation Guide
 
 **Specialist - Data Analysis :** Akhilesh Choudhury  
-**Submission Date:** September 2026  
+**Submission Date:** August 2026  
 **Platform:** Presight AI — Enterprise Big Data & Analytics Engineering  
 **Scope:** End-to-End Batch ETL, SCD Type 2, Analytical Modeling (DuckDB), Query Optimisation, Power BI / Executive Dashboard, PySpark, Kafka Streaming, Airflow Orchestration, and Data Governance.
 
@@ -130,6 +130,10 @@ python solutions/etl_starter.py
 
 ### Step 3: Run the Star Schema, Query Optimisation & Views (Tasks 2.1, 2.3, 2.4)
 Execute data_model_starter.sql against the DuckDB instance. This builds the star schema, evaluates query performance gains (>10x), and registers semantic views for Power BI / reporting:
+```powershell
+python -c "import duckdb; con = duckdb.connect('outputs/presight.duckdb'); con.execute(open('solutions/data_model_starter.sql', encoding='utf-8').read()); con.close(); print('data_model_starter.sql executed successfully!')"
+```
+
 
 ```powershell 
 python -c @"
